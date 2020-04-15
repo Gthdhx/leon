@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/a3-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/a3-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/a3-entity" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/a3-generator" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/a3-mybatis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/a3-pay" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/a3-redis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/a3-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/a3-web" charset="UTF-8" />
+  </component>
+</project>

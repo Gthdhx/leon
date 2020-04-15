@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="a3-common" />
+        <module name="a3-service" />
+        <module name="a3-mybatis" />
+        <module name="a3-web" />
+        <module name="a3-api" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="a3-api" target="1.8" />
+      <module name="a3-common" target="1.8" />
+      <module name="a3-druid" target="1.8" />
+      <module name="a3-entity" target="1.8" />
+      <module name="a3-generator" target="1.8" />
+      <module name="a3-manage" target="1.8" />
+      <module name="a3-mybatis" target="1.8" />
+      <module name="a3-pay" target="1.8" />
+      <module name="a3-redis" target="1.8" />
+      <module name="a3-service" target="1.8" />
+      <module name="a3-web" target="1.8" />
+      <module name="domain" target="1.8" />
+      <module name="entity" target="1.8" />
+      <module name="mapper" target="1.8" />
+      <module name="service" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="a3-api" options="-parameters" />
+      <module name="a3-common" options="-parameters" />
+      <module name="a3-druid" options="-parameters" />
+      <module name="a3-entity" options="-parameters" />
+      <module name="a3-generator" options="-parameters" />
+      <module name="a3-manage" options="-parameters" />
+      <module name="a3-mybatis" options="-parameters" />
+      <module name="a3-pay" options="-parameters" />
+      <module name="a3-redis" options="-parameters" />
+      <module name="a3-service" options="-parameters" />
+      <module name="a3-web" options="-parameters" />
+      <module name="domain" options="-parameters" />
+      <module name="entity" options="-parameters" />
+      <module name="mapper" options="-parameters" />
+      <module name="service" options="-parameters" />
+    </option>
+  </component>
+</project>

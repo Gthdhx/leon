@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head th:fragment = "commonHead(title)">
+    <!--相较于base.html,basePage.html更轻量,文件引用更少-->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title th:text="${title}">Title</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="index" />
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="renderer" content="webkit"/>
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <link rel="stylesheet" type="text/css" th:href="@{/static/easyui/1.5.5/themes/ui-cupertino/easyui.css(path=${contextPath})}" />
+    <link rel="stylesheet" type="text/css" th:href="@{/static/easyui/1.5.5/themes/icon.css(path=${contextPath})}" />
+    <link rel="stylesheet" type="text/css" th:href="@{/static/platform/style/common/common.css(path=${contextPath})}" />
+    <link rel="stylesheet" type="text/css" th:href="@{/static/platform/style/base.css(path=${contextPath})}" />
+    <script type="text/javascript" th:src="@{/static/jquery/jquery.min.js(path=${contextPath})}" charset="utf-8"></script>
+    <script type="text/javascript" th:src="@{/static/easyui/1.5.5/jquery.easyui.min.js(path=${contextPath})}" charset="utf-8"></script>
+    <script type="text/javascript" th:src="@{/static/easyui/1.5.5/locale/easyui-lang-zh_CN.js(path=${contextPath})}" charset="utf-8"></script>
+    <script type="text/javascript" th:src="@{/static/easyui/1.5.5/extension/datagrid-detailview.js(path=${contextPath})}" charset="utf-8"></script>
+    <script type="text/javascript" th:src="@{/static/platform/js/jquery.serializejson.js}" charset="utf-8"></script>
+    <script type="text/javascript" th:src="@{/static/platform/js/extJs.js(path=${contextPath})}" charset="utf-8"></script>
+    <script type="text/javascript" th:src="@{/static/platform/js/common.js(path=${contextPath})}" charset="utf-8"></script>
+    <script type="text/javascript" th:src="@{/static/platform/js/controller.js(path=${contextPath})}" charset="utf-8"></script>
+    <script type="text/javascript" th:inline="javascript">
+        //项目根目录
+        var baseUrl = [[${#httpServletRequest.getScheme()+'://'
+        				+#httpServletRequest.getServerName()+ ':'
+        				+ #request.getServerPort()
+        				+ #request.getContextPath() + '/'}]];
+        //接口请求根路径
+        var baseHttpUrl = [[${#httpServletRequest.getScheme()+'://'
+        				+#httpServletRequest.getServerName()+ ':'
+        				+ #request.getServerPort()
+        				+ #request.getContextPath() + '/'}]];
+        
+      	//唯一登入ajax拦截
+		$.ajaxSetup({
+            complete : function(xhr, status) {
+                //拦截器实现超时跳转到登录页面
+                // 通过xhr取得响应头
+                var OUTSESSION = xhr.getResponseHeader("OUTSESSION");
+                //如果响应头中包含 REDIRECT 则说明是拦截器返回的
+                if (OUTSESSION == "OUTSESSION"){
+                    var win = window;
+                    while (win != win.top){
+                        win = win.top;
+                    }
+                    //重新跳转到登入页
+                    win.location.href = xhr.getResponseHeader("OUTSESSION_LOGIN_PAGE");
+                }
+            }
+        });
+    </script>
+    <style>
+        .td_label_right{
+            text-align: right;
+        }
+    </style>
+</head>
+</html>

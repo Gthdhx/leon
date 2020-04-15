@@ -1,0 +1,404 @@
+2020-04-06 20:08:27,369 [restartedMain] INFO  com.leon.WebManageApplication 55 - Starting WebManageApplication on Leon.local with PID 1706 (/Users/leon/Documents/workspace/a3-manage/a3-web/target/classes started by leon in /Users/leon/Documents/workspace/a3-manage)
+2020-04-06 20:08:27,370 [restartedMain] INFO  com.leon.WebManageApplication 655 - The following profiles are active: druid,common
+2020-04-06 20:08:27,691 [restartedMain] INFO  o.a.catalina.core.StandardService 173 - Starting service [Tomcat]
+2020-04-06 20:08:27,691 [restartedMain] INFO  o.a.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-06 20:08:27,699 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext
+2020-04-06 20:08:29,985 [restartedMain] INFO  c.alibaba.druid.pool.DruidDataSource 928 - {dataSource-2} inited
+2020-04-06 20:08:30,474 [restartedMain] INFO  com.leon.WebManageApplication 61 - Started WebManageApplication in 3.96 seconds (JVM running for 1377.491)
+2020-04-06 20:08:37,839 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource 1823 - {dataSource-2} closed
+2020-04-06 20:08:44,936 [restartedMain] INFO  com.leon.WebManageApplication 55 - Starting WebManageApplication on Leon.local with PID 1744 (/Users/leon/Documents/workspace/a3-manage/a3-web/target/classes started by leon in /Users/leon/Documents/workspace/a3-manage)
+2020-04-06 20:08:44,938 [restartedMain] INFO  com.leon.WebManageApplication 655 - The following profiles are active: druid,common
+2020-04-06 20:08:46,006 [restartedMain] INFO  com.leon.redis.RedisConfig 55 - Create JedisConnectionFactory successful
+2020-04-06 20:08:46,477 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8102"]
+2020-04-06 20:08:46,478 [restartedMain] INFO  o.a.catalina.core.StandardService 173 - Starting service [Tomcat]
+2020-04-06 20:08:46,478 [restartedMain] INFO  o.a.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-06 20:08:46,541 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext
+2020-04-06 20:08:49,739 [restartedMain] INFO  c.alibaba.druid.pool.DruidDataSource 928 - {dataSource-1} inited
+2020-04-06 20:08:50,116 [restartedMain] INFO  com.leon.redis.RedisConfig 65 - JedisPool init successful，host -> [59.110.160.100]；port -> [6379]
+2020-04-06 20:08:50,132 [restartedMain] INFO  com.leon.redis.RedisConfiguration 68 - 初始化 -> [CacheManager RedisCacheManager Start]
+2020-04-06 20:08:50,143 [restartedMain] INFO  com.leon.redis.RedisConfiguration 99 - 初始化 -> [Redis CacheErrorHandler]
+2020-04-06 20:08:51,067 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8102"]
+2020-04-06 20:08:51,100 [restartedMain] INFO  com.leon.WebManageApplication 61 - Started WebManageApplication in 6.954 seconds (JVM running for 7.834)
+2020-04-06 20:09:02,815 [http-nio-8102-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-06 20:09:02,852 [http-nio-8102-exec-1] INFO  c.leon.druid.config.DataSourceAspect 24 - 选择数据源---db1
+2020-04-06 20:11:45,410 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource 1823 - {dataSource-1} closed
+2020-04-06 20:11:51,645 [restartedMain] INFO  com.leon.WebManageApplication 55 - Starting WebManageApplication on Leon.local with PID 1749 (/Users/leon/Documents/workspace/a3-manage/a3-web/target/classes started by leon in /Users/leon/Documents/workspace/a3-manage)
+2020-04-06 20:11:51,648 [restartedMain] INFO  com.leon.WebManageApplication 655 - The following profiles are active: druid,common
+2020-04-06 20:12:37,576 [restartedMain] INFO  com.leon.WebManageApplication 55 - Starting WebManageApplication on Leon.local with PID 1752 (/Users/leon/Documents/workspace/a3-manage/a3-web/target/classes started by leon in /Users/leon/Documents/workspace/a3-manage)
+2020-04-06 20:12:37,579 [restartedMain] INFO  com.leon.WebManageApplication 655 - The following profiles are active: druid,common
+2020-04-06 20:12:50,692 [restartedMain] INFO  com.leon.WebManageApplication 55 - Starting WebManageApplication on Leon.local with PID 1754 (/Users/leon/Documents/workspace/a3-manage/a3-web/target/classes started by leon in /Users/leon/Documents/workspace/a3-manage)
+2020-04-06 20:12:50,695 [restartedMain] INFO  com.leon.WebManageApplication 655 - The following profiles are active: druid,common
+2020-04-06 20:12:51,783 [restartedMain] INFO  com.leon.redis.RedisConfig 55 - Create JedisConnectionFactory successful
+2020-04-06 20:12:52,178 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8102"]
+2020-04-06 20:12:52,179 [restartedMain] INFO  o.a.catalina.core.StandardService 173 - Starting service [Tomcat]
+2020-04-06 20:12:52,179 [restartedMain] INFO  o.a.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-06 20:12:52,243 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext
+2020-04-06 20:12:55,053 [restartedMain] INFO  c.alibaba.druid.pool.DruidDataSource 928 - {dataSource-1} inited
+2020-04-06 20:12:55,462 [restartedMain] INFO  com.leon.redis.RedisConfig 65 - JedisPool init successful，host -> [59.110.160.100]；port -> [6379]
+2020-04-06 20:12:55,480 [restartedMain] INFO  com.leon.redis.RedisConfiguration 68 - 初始化 -> [CacheManager RedisCacheManager Start]
+2020-04-06 20:12:55,493 [restartedMain] INFO  com.leon.redis.RedisConfiguration 99 - 初始化 -> [Redis CacheErrorHandler]
+2020-04-06 20:12:56,423 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8102"]
+2020-04-06 20:12:56,456 [restartedMain] INFO  com.leon.WebManageApplication 61 - Started WebManageApplication in 6.395 seconds (JVM running for 7.24)
+2020-04-06 20:13:49,824 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource 1823 - {dataSource-1} closed
+2020-04-06 20:13:56,710 [restartedMain] INFO  com.leon.WebManageApplication 55 - Starting WebManageApplication on Leon.local with PID 1757 (/Users/leon/Documents/workspace/a3-manage/a3-web/target/classes started by leon in /Users/leon/Documents/workspace/a3-manage)
+2020-04-06 20:13:56,714 [restartedMain] INFO  com.leon.WebManageApplication 655 - The following profiles are active: druid,common
+2020-04-06 20:13:57,785 [restartedMain] INFO  com.leon.redis.RedisConfig 55 - Create JedisConnectionFactory successful
+2020-04-06 20:13:58,239 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8102"]
+2020-04-06 20:13:58,239 [restartedMain] INFO  o.a.catalina.core.StandardService 173 - Starting service [Tomcat]
+2020-04-06 20:13:58,240 [restartedMain] INFO  o.a.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-06 20:13:58,303 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext
+2020-04-06 20:14:01,256 [restartedMain] INFO  c.alibaba.druid.pool.DruidDataSource 928 - {dataSource-1} inited
+2020-04-06 20:14:01,631 [restartedMain] INFO  com.leon.redis.RedisConfig 65 - JedisPool init successful，host -> [59.110.160.100]；port -> [6379]
+2020-04-06 20:14:01,646 [restartedMain] INFO  com.leon.redis.RedisConfiguration 68 - 初始化 -> [CacheManager RedisCacheManager Start]
+2020-04-06 20:14:01,656 [restartedMain] INFO  com.leon.redis.RedisConfiguration 99 - 初始化 -> [Redis CacheErrorHandler]
+2020-04-06 20:14:02,688 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8102"]
+2020-04-06 20:14:02,721 [restartedMain] INFO  com.leon.WebManageApplication 61 - Started WebManageApplication in 6.563 seconds (JVM running for 7.495)
+2020-04-06 20:14:09,436 [http-nio-8102-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-06 20:14:09,472 [http-nio-8102-exec-1] INFO  c.leon.druid.config.DataSourceAspect 24 - 选择数据源---db1
+2020-04-06 20:14:09,520 [http-nio-8102-exec-1] INFO  com.leon.filter.LogFilter 45 - ===================== request start =====================
+2020-04-06 20:14:09,523 [http-nio-8102-exec-1] INFO  com.leon.filter.LogFilter 46 - URL:[ http://127.0.0.1:8102/student/list ]
+2020-04-06 20:14:09,524 [http-nio-8102-exec-1] INFO  com.leon.filter.LogFilter 49 - ===================== request end =====================
+
+2020-04-06 20:14:10,657 [http-nio-8102-exec-1] INFO  com.leon.filter.LogFilter 59 - ===================== return start =====================
+2020-04-06 20:14:10,659 [http-nio-8102-exec-1] INFO  com.leon.filter.LogFilter 64 - 计时结束：08:14:10.657  耗时：0:0:1.137  URI: /student/list  最大内存: 3641m  已分配内存: 557m  已分配内存中的剩余空间: 333m  最大可用内存: 3416m
+2020-04-06 20:14:10,659 [http-nio-8102-exec-1] INFO  com.leon.filter.LogFilter 69 - ===================== return end =====================
+
+2020-04-06 20:14:10,666 [http-nio-8102-exec-1] INFO  com.leon.filter.LogFilter 45 - ===================== request start =====================
+2020-04-06 20:14:10,666 [http-nio-8102-exec-1] INFO  com.leon.filter.LogFilter 46 - URL:[ http://127.0.0.1:8102/student/list ]
+2020-04-06 20:14:10,667 [http-nio-8102-exec-1] INFO  com.leon.filter.LogFilter 49 - ===================== request end =====================
+
+2020-04-06 20:14:10,758 [http-nio-8102-exec-1] INFO  com.leon.filter.LogFilter 59 - ===================== return start =====================
+2020-04-06 20:14:10,760 [http-nio-8102-exec-1] INFO  com.leon.filter.LogFilter 64 - 计时结束：08:14:10.758  耗时：0:0:0.92  URI: /student/list  最大内存: 3641m  已分配内存: 557m  已分配内存中的剩余空间: 329m  最大可用内存: 3412m
+2020-04-06 20:14:10,761 [http-nio-8102-exec-1] INFO  com.leon.filter.LogFilter 69 - ===================== return end =====================
+
+2020-04-06 20:14:10,761 [http-nio-8102-exec-1] INFO  com.leon.filter.LogFilter 45 - ===================== request start =====================
+2020-04-06 20:14:10,762 [http-nio-8102-exec-1] INFO  com.leon.filter.LogFilter 46 - URL:[ http://127.0.0.1:8102/student/list ]
+2020-04-06 20:14:10,762 [http-nio-8102-exec-1] INFO  com.leon.filter.LogFilter 49 - ===================== request end =====================
+
+2020-04-06 20:14:10,843 [http-nio-8102-exec-1] INFO  com.leon.filter.LogFilter 59 - ===================== return start =====================
+2020-04-06 20:14:10,844 [http-nio-8102-exec-1] INFO  com.leon.filter.LogFilter 64 - 计时结束：08:14:10.843  耗时：0:0:0.82  URI: /student/list  最大内存: 3641m  已分配内存: 557m  已分配内存中的剩余空间: 329m  最大可用内存: 3412m
+2020-04-06 20:14:10,845 [http-nio-8102-exec-1] INFO  com.leon.filter.LogFilter 69 - ===================== return end =====================
+
+2020-04-06 20:14:10,845 [http-nio-8102-exec-1] INFO  com.leon.filter.LogFilter 45 - ===================== request start =====================
+2020-04-06 20:14:10,845 [http-nio-8102-exec-1] INFO  com.leon.filter.LogFilter 46 - URL:[ http://127.0.0.1:8102/student/list ]
+2020-04-06 20:14:10,846 [http-nio-8102-exec-1] INFO  com.leon.filter.LogFilter 49 - ===================== request end =====================
+
+2020-04-06 20:14:10,909 [http-nio-8102-exec-1] INFO  com.leon.filter.LogFilter 59 - ===================== return start =====================
+2020-04-06 20:14:10,910 [http-nio-8102-exec-1] INFO  com.leon.filter.LogFilter 64 - 计时结束：08:14:10.909  耗时：0:0:0.64  URI: /student/list  最大内存: 3641m  已分配内存: 557m  已分配内存中的剩余空间: 329m  最大可用内存: 3412m
+2020-04-06 20:14:10,911 [http-nio-8102-exec-1] INFO  com.leon.filter.LogFilter 69 - ===================== return end =====================
+
+2020-04-06 20:14:10,911 [http-nio-8102-exec-1] INFO  com.leon.filter.LogFilter 45 - ===================== request start =====================
+2020-04-06 20:14:10,911 [http-nio-8102-exec-1] INFO  com.leon.filter.LogFilter 46 - URL:[ http://127.0.0.1:8102/student/list ]
+2020-04-06 20:14:10,912 [http-nio-8102-exec-1] INFO  com.leon.filter.LogFilter 49 - ===================== request end =====================
+
+2020-04-06 20:14:10,980 [http-nio-8102-exec-1] INFO  com.leon.filter.LogFilter 59 - ===================== return start =====================
+2020-04-06 20:14:10,982 [http-nio-8102-exec-1] INFO  com.leon.filter.LogFilter 64 - 计时结束：08:14:10.980  耗时：0:0:0.69  URI: /student/list  最大内存: 3641m  已分配内存: 557m  已分配内存中的剩余空间: 329m  最大可用内存: 3412m
+2020-04-06 20:14:10,984 [http-nio-8102-exec-1] INFO  com.leon.filter.LogFilter 69 - ===================== return end =====================
+
+2020-04-06 20:14:10,986 [http-nio-8102-exec-1] INFO  com.leon.filter.LogFilter 45 - ===================== request start =====================
+2020-04-06 20:14:10,987 [http-nio-8102-exec-1] INFO  com.leon.filter.LogFilter 46 - URL:[ http://127.0.0.1:8102/student/list ]
+2020-04-06 20:14:10,988 [http-nio-8102-exec-1] INFO  com.leon.filter.LogFilter 49 - ===================== request end =====================
+
+2020-04-06 20:14:11,083 [http-nio-8102-exec-1] INFO  com.leon.filter.LogFilter 59 - ===================== return start =====================
+2020-04-06 20:14:11,085 [http-nio-8102-exec-1] INFO  com.leon.filter.LogFilter 64 - 计时结束：08:14:11.083  耗时：0:0:0.97  URI: /student/list  最大内存: 3641m  已分配内存: 557m  已分配内存中的剩余空间: 326m  最大可用内存: 3410m
+2020-04-06 20:14:11,086 [http-nio-8102-exec-1] INFO  com.leon.filter.LogFilter 69 - ===================== return end =====================
+
+2020-04-06 20:15:28,855 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource 1823 - {dataSource-1} closed
+2020-04-06 20:15:34,579 [restartedMain] INFO  com.leon.WebManageApplication 55 - Starting WebManageApplication on Leon.local with PID 1762 (/Users/leon/Documents/workspace/a3-manage/a3-web/target/classes started by leon in /Users/leon/Documents/workspace/a3-manage)
+2020-04-06 20:15:34,582 [restartedMain] INFO  com.leon.WebManageApplication 655 - The following profiles are active: druid,common
+2020-04-06 20:15:35,661 [restartedMain] INFO  com.leon.redis.RedisConfig 55 - Create JedisConnectionFactory successful
+2020-04-06 20:15:36,058 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8102"]
+2020-04-06 20:15:36,059 [restartedMain] INFO  o.a.catalina.core.StandardService 173 - Starting service [Tomcat]
+2020-04-06 20:15:36,059 [restartedMain] INFO  o.a.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-06 20:15:36,121 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext
+2020-04-06 20:15:38,986 [restartedMain] INFO  c.alibaba.druid.pool.DruidDataSource 928 - {dataSource-1} inited
+2020-04-06 20:15:39,367 [restartedMain] INFO  com.leon.redis.RedisConfig 65 - JedisPool init successful，host -> [59.110.160.100]；port -> [6379]
+2020-04-06 20:15:39,385 [restartedMain] INFO  com.leon.redis.RedisConfiguration 68 - 初始化 -> [CacheManager RedisCacheManager Start]
+2020-04-06 20:15:39,397 [restartedMain] INFO  com.leon.redis.RedisConfiguration 99 - 初始化 -> [Redis CacheErrorHandler]
+2020-04-06 20:15:40,335 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8102"]
+2020-04-06 20:15:40,368 [restartedMain] INFO  com.leon.WebManageApplication 61 - Started WebManageApplication in 6.41 seconds (JVM running for 7.261)
+2020-04-06 20:16:22,552 [http-nio-8102-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-06 20:16:22,587 [http-nio-8102-exec-1] INFO  c.leon.druid.config.DataSourceAspect 24 - 选择数据源---db1
+2020-04-06 20:16:22,628 [http-nio-8102-exec-1] INFO  com.leon.filter.LogFilter 45 - ===================== request start =====================
+2020-04-06 20:16:22,629 [http-nio-8102-exec-1] INFO  com.leon.filter.LogFilter 46 - URL:[ http://127.0.0.1:8102/student/list ]
+2020-04-06 20:16:22,629 [http-nio-8102-exec-1] INFO  com.leon.filter.LogFilter 49 - ===================== request end =====================
+
+2020-04-06 20:16:23,643 [http-nio-8102-exec-1] INFO  com.leon.filter.LogFilter 59 - ===================== return start =====================
+2020-04-06 20:16:23,645 [http-nio-8102-exec-1] INFO  com.leon.filter.LogFilter 64 - 计时结束：08:16:23.643  耗时：0:0:1.15  URI: /student/list  最大内存: 3641m  已分配内存: 537m  已分配内存中的剩余空间: 441m  最大可用内存: 3544m
+2020-04-06 20:16:23,646 [http-nio-8102-exec-1] INFO  com.leon.filter.LogFilter 69 - ===================== return end =====================
+
+2020-04-06 20:16:23,650 [http-nio-8102-exec-1] INFO  com.leon.filter.LogFilter 45 - ===================== request start =====================
+2020-04-06 20:16:23,650 [http-nio-8102-exec-1] INFO  com.leon.filter.LogFilter 46 - URL:[ http://127.0.0.1:8102/student/list ]
+2020-04-06 20:16:23,650 [http-nio-8102-exec-1] INFO  com.leon.filter.LogFilter 49 - ===================== request end =====================
+
+2020-04-06 20:16:23,737 [http-nio-8102-exec-1] INFO  com.leon.filter.LogFilter 59 - ===================== return start =====================
+2020-04-06 20:16:23,738 [http-nio-8102-exec-1] INFO  com.leon.filter.LogFilter 64 - 计时结束：08:16:23.737  耗时：0:0:0.87  URI: /student/list  最大内存: 3641m  已分配内存: 537m  已分配内存中的剩余空间: 437m  最大可用内存: 3540m
+2020-04-06 20:16:23,739 [http-nio-8102-exec-1] INFO  com.leon.filter.LogFilter 69 - ===================== return end =====================
+
+2020-04-06 20:16:23,740 [http-nio-8102-exec-1] INFO  com.leon.filter.LogFilter 45 - ===================== request start =====================
+2020-04-06 20:16:23,740 [http-nio-8102-exec-1] INFO  com.leon.filter.LogFilter 46 - URL:[ http://127.0.0.1:8102/student/list ]
+2020-04-06 20:16:23,741 [http-nio-8102-exec-1] INFO  com.leon.filter.LogFilter 49 - ===================== request end =====================
+
+2020-04-06 20:16:23,821 [http-nio-8102-exec-1] INFO  com.leon.filter.LogFilter 59 - ===================== return start =====================
+2020-04-06 20:16:23,821 [http-nio-8102-exec-1] INFO  com.leon.filter.LogFilter 64 - 计时结束：08:16:23.821  耗时：0:0:0.81  URI: /student/list  最大内存: 3641m  已分配内存: 537m  已分配内存中的剩余空间: 435m  最大可用内存: 3539m
+2020-04-06 20:16:23,822 [http-nio-8102-exec-1] INFO  com.leon.filter.LogFilter 69 - ===================== return end =====================
+
+2020-04-06 20:16:23,822 [http-nio-8102-exec-1] INFO  com.leon.filter.LogFilter 45 - ===================== request start =====================
+2020-04-06 20:16:23,823 [http-nio-8102-exec-1] INFO  com.leon.filter.LogFilter 46 - URL:[ http://127.0.0.1:8102/student/list ]
+2020-04-06 20:16:23,823 [http-nio-8102-exec-1] INFO  com.leon.filter.LogFilter 49 - ===================== request end =====================
+
+2020-04-06 20:16:23,887 [http-nio-8102-exec-1] INFO  com.leon.filter.LogFilter 59 - ===================== return start =====================
+2020-04-06 20:16:23,889 [http-nio-8102-exec-1] INFO  com.leon.filter.LogFilter 64 - 计时结束：08:16:23.887  耗时：0:0:0.65  URI: /student/list  最大内存: 3641m  已分配内存: 537m  已分配内存中的剩余空间: 435m  最大可用内存: 3539m
+2020-04-06 20:16:23,890 [http-nio-8102-exec-1] INFO  com.leon.filter.LogFilter 69 - ===================== return end =====================
+
+2020-04-06 20:16:23,890 [http-nio-8102-exec-1] INFO  com.leon.filter.LogFilter 45 - ===================== request start =====================
+2020-04-06 20:16:23,891 [http-nio-8102-exec-1] INFO  com.leon.filter.LogFilter 46 - URL:[ http://127.0.0.1:8102/student/list ]
+2020-04-06 20:16:23,891 [http-nio-8102-exec-1] INFO  com.leon.filter.LogFilter 49 - ===================== request end =====================
+
+2020-04-06 20:16:23,956 [http-nio-8102-exec-1] INFO  com.leon.filter.LogFilter 59 - ===================== return start =====================
+2020-04-06 20:16:23,958 [http-nio-8102-exec-1] INFO  com.leon.filter.LogFilter 64 - 计时结束：08:16:23.956  耗时：0:0:0.66  URI: /student/list  最大内存: 3641m  已分配内存: 537m  已分配内存中的剩余空间: 435m  最大可用内存: 3539m
+2020-04-06 20:16:23,959 [http-nio-8102-exec-1] INFO  com.leon.filter.LogFilter 69 - ===================== return end =====================
+
+2020-04-06 20:16:23,960 [http-nio-8102-exec-1] INFO  com.leon.filter.LogFilter 45 - ===================== request start =====================
+2020-04-06 20:16:23,961 [http-nio-8102-exec-1] INFO  com.leon.filter.LogFilter 46 - URL:[ http://127.0.0.1:8102/student/list ]
+2020-04-06 20:16:23,961 [http-nio-8102-exec-1] INFO  com.leon.filter.LogFilter 49 - ===================== request end =====================
+
+2020-04-06 20:16:24,027 [http-nio-8102-exec-1] INFO  com.leon.filter.LogFilter 59 - ===================== return start =====================
+2020-04-06 20:16:24,027 [http-nio-8102-exec-1] INFO  com.leon.filter.LogFilter 64 - 计时结束：08:16:24.027  耗时：0:0:0.67  URI: /student/list  最大内存: 3641m  已分配内存: 537m  已分配内存中的剩余空间: 434m  最大可用内存: 3538m
+2020-04-06 20:16:24,028 [http-nio-8102-exec-1] INFO  com.leon.filter.LogFilter 69 - ===================== return end =====================
+
+2020-04-06 23:23:13,853 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource 1823 - {dataSource-1} closed
+2020-04-06 23:23:19,143 [restartedMain] INFO  com.leon.WebManageApplication 55 - Starting WebManageApplication on Leon.local with PID 3789 (/Users/leon/Documents/workspace/a3-manage/a3-web/target/classes started by leon in /Users/leon/Documents/workspace/a3-manage)
+2020-04-06 23:23:19,147 [restartedMain] INFO  com.leon.WebManageApplication 655 - The following profiles are active: druid,common
+2020-04-06 23:23:20,262 [restartedMain] INFO  com.leon.redis.RedisConfig 55 - Create JedisConnectionFactory successful
+2020-04-06 23:23:20,691 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8102"]
+2020-04-06 23:23:20,692 [restartedMain] INFO  o.a.catalina.core.StandardService 173 - Starting service [Tomcat]
+2020-04-06 23:23:20,692 [restartedMain] INFO  o.a.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-06 23:23:20,791 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext
+2020-04-06 23:24:29,035 [restartedMain] INFO  com.leon.WebManageApplication 55 - Starting WebManageApplication on Leon.local with PID 3817 (/Users/leon/Documents/workspace/a3-manage/a3-web/target/classes started by leon in /Users/leon/Documents/workspace/a3-manage)
+2020-04-06 23:24:29,038 [restartedMain] INFO  com.leon.WebManageApplication 655 - The following profiles are active: druid,common
+2020-04-06 23:24:30,155 [restartedMain] INFO  com.leon.redis.RedisConfig 55 - Create JedisConnectionFactory successful
+2020-04-06 23:24:30,614 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8102"]
+2020-04-06 23:24:30,614 [restartedMain] INFO  o.a.catalina.core.StandardService 173 - Starting service [Tomcat]
+2020-04-06 23:24:30,615 [restartedMain] INFO  o.a.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-06 23:24:30,677 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext
+2020-04-06 23:28:54,514 [restartedMain] INFO  com.leon.WebManageApplication 55 - Starting WebManageApplication on Leon.local with PID 3953 (/Users/leon/Documents/workspace/a3-manage/a3-web/target/classes started by leon in /Users/leon/Documents/workspace/a3-manage)
+2020-04-06 23:28:54,518 [restartedMain] INFO  com.leon.WebManageApplication 655 - The following profiles are active: druid,common
+2020-04-06 23:28:55,747 [restartedMain] INFO  com.leon.redis.RedisConfig 55 - Create JedisConnectionFactory successful
+2020-04-06 23:28:56,196 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8102"]
+2020-04-06 23:28:56,197 [restartedMain] INFO  o.a.catalina.core.StandardService 173 - Starting service [Tomcat]
+2020-04-06 23:28:56,197 [restartedMain] INFO  o.a.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-06 23:28:56,271 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext
+2020-04-06 23:31:46,728 [restartedMain] INFO  com.leon.WebManageApplication 55 - Starting WebManageApplication on Leon.local with PID 4056 (/Users/leon/Documents/workspace/a3-manage/a3-web/target/classes started by leon in /Users/leon/Documents/workspace/a3-manage)
+2020-04-06 23:31:46,731 [restartedMain] INFO  com.leon.WebManageApplication 655 - The following profiles are active: druid,common
+2020-04-06 23:31:47,841 [restartedMain] INFO  com.leon.redis.RedisConfig 55 - Create JedisConnectionFactory successful
+2020-04-06 23:31:48,249 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8102"]
+2020-04-06 23:31:48,250 [restartedMain] INFO  o.a.catalina.core.StandardService 173 - Starting service [Tomcat]
+2020-04-06 23:31:48,250 [restartedMain] INFO  o.a.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-06 23:31:48,314 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext
+2020-04-06 23:36:33,218 [restartedMain] INFO  com.leon.WebManageApplication 55 - Starting WebManageApplication on Leon.local with PID 4206 (/Users/leon/Documents/workspace/a3-manage/a3-web/target/classes started by leon in /Users/leon/Documents/workspace/a3-manage)
+2020-04-06 23:36:33,220 [restartedMain] INFO  com.leon.WebManageApplication 655 - The following profiles are active: druid,common
+2020-04-06 23:36:34,318 [restartedMain] INFO  com.leon.redis.RedisConfig 55 - Create JedisConnectionFactory successful
+2020-04-06 23:36:34,721 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8102"]
+2020-04-06 23:36:34,722 [restartedMain] INFO  o.a.catalina.core.StandardService 173 - Starting service [Tomcat]
+2020-04-06 23:36:34,722 [restartedMain] INFO  o.a.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-06 23:36:34,785 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext
+2020-04-06 23:37:34,451 [restartedMain] INFO  com.leon.WebManageApplication 55 - Starting WebManageApplication on Leon.local with PID 4242 (/Users/leon/Documents/workspace/a3-manage/a3-web/target/classes started by leon in /Users/leon/Documents/workspace/a3-manage)
+2020-04-06 23:37:34,455 [restartedMain] INFO  com.leon.WebManageApplication 655 - The following profiles are active: druid,common
+2020-04-06 23:37:35,464 [restartedMain] INFO  com.leon.redis.RedisConfig 55 - Create JedisConnectionFactory successful
+2020-04-06 23:37:35,865 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8102"]
+2020-04-06 23:37:35,866 [restartedMain] INFO  o.a.catalina.core.StandardService 173 - Starting service [Tomcat]
+2020-04-06 23:37:35,866 [restartedMain] INFO  o.a.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-06 23:37:35,922 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext
+2020-04-06 23:39:21,973 [restartedMain] INFO  com.leon.WebManageApplication 55 - Starting WebManageApplication on Leon.local with PID 4285 (/Users/leon/Documents/workspace/a3-manage/a3-web/target/classes started by leon in /Users/leon/Documents/workspace/a3-manage)
+2020-04-06 23:39:21,976 [restartedMain] INFO  com.leon.WebManageApplication 655 - The following profiles are active: druid,common
+2020-04-06 23:39:22,906 [restartedMain] INFO  com.leon.redis.RedisConfig 55 - Create JedisConnectionFactory successful
+2020-04-06 23:39:23,301 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8103"]
+2020-04-06 23:39:23,302 [restartedMain] INFO  o.a.catalina.core.StandardService 173 - Starting service [Tomcat]
+2020-04-06 23:39:23,302 [restartedMain] INFO  o.a.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-06 23:39:23,358 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext
+2020-04-06 23:40:39,749 [restartedMain] INFO  c.alibaba.druid.pool.DruidDataSource 928 - {dataSource-1} inited
+2020-04-06 23:40:39,753 [restartedMain] INFO  c.alibaba.druid.pool.DruidDataSource 1823 - {dataSource-1} closed
+2020-04-06 23:40:39,757 [restartedMain] INFO  o.a.catalina.core.StandardService 173 - Stopping service [Tomcat]
+2020-04-06 23:47:36,665 [restartedMain] INFO  com.leon.WebManageApplication 55 - Starting WebManageApplication on Leon.local with PID 4480 (/Users/leon/Documents/workspace/a3-manage/a3-web/target/classes started by leon in /Users/leon/Documents/workspace/a3-manage)
+2020-04-06 23:47:36,669 [restartedMain] INFO  com.leon.WebManageApplication 655 - The following profiles are active: druid,common
+2020-04-06 23:47:38,085 [restartedMain] INFO  com.leon.redis.RedisConfig 55 - Create JedisConnectionFactory successful
+2020-04-06 23:47:38,462 [restartedMain] INFO  org.eclipse.jetty.util.log 169 - Logging initialized @3732ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-04-06 23:47:38,577 [restartedMain] INFO  org.eclipse.jetty.server.Server 359 - jetty-9.4.26.v20200117; built: 2020-01-17T12:35:33.676Z; git: 7b38981d25d14afb4a12ff1f2596756144edf695; jvm 1.8.0_181-b13
+2020-04-06 23:47:38,599 [restartedMain] INFO  o.e.j.s.h.ContextHandler.application 2223 - Initializing Spring embedded WebApplicationContext
+2020-04-06 23:47:38,715 [restartedMain] INFO  org.eclipse.jetty.server.session 333 - DefaultSessionIdManager workerName=node0
+2020-04-06 23:47:38,716 [restartedMain] INFO  org.eclipse.jetty.server.session 338 - No SessionScavenger set, using defaults
+2020-04-06 23:47:38,717 [restartedMain] INFO  org.eclipse.jetty.server.session 140 - node0 Scavenging every 660000ms
+2020-04-06 23:47:38,730 [restartedMain] INFO  o.e.j.server.handler.ContextHandler 825 - Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@44477acf{application,/,[file:///private/var/folders/7h/1dfzdnnx3g5fz51v_lmc0rww0000gn/T/jetty-docbase.1829579006902057967.8103/, jar:file:/Users/leon/Documents/maven/repository-a3/io/springfox/springfox-swagger-ui/2.7.0/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],AVAILABLE}
+2020-04-06 23:47:38,731 [restartedMain] INFO  org.eclipse.jetty.server.Server 399 - Started @4002ms
+2020-04-06 23:47:43,183 [restartedMain] INFO  c.alibaba.druid.pool.DruidDataSource 928 - {dataSource-1} inited
+2020-04-06 23:47:43,711 [restartedMain] INFO  com.leon.redis.RedisConfig 65 - JedisPool init successful，host -> [59.110.160.100]；port -> [6379]
+2020-04-06 23:47:43,730 [restartedMain] INFO  com.leon.redis.RedisConfiguration 68 - 初始化 -> [CacheManager RedisCacheManager Start]
+2020-04-06 23:47:43,743 [restartedMain] INFO  com.leon.redis.RedisConfiguration 99 - 初始化 -> [Redis CacheErrorHandler]
+2020-04-06 23:47:44,878 [restartedMain] INFO  o.e.j.s.h.ContextHandler.application 2223 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-06 23:47:44,926 [restartedMain] INFO  o.e.jetty.server.AbstractConnector 330 - Started ServerConnector@24dd6f98{HTTP/1.1,[http/1.1]}{0.0.0.0:8103}
+2020-04-06 23:47:44,931 [restartedMain] INFO  com.leon.WebManageApplication 61 - Started WebManageApplication in 9.091 seconds (JVM running for 10.203)
+2020-04-06 23:48:22,008 [qtp808973450-67] INFO  c.leon.druid.config.DataSourceAspect 24 - 选择数据源---db1
+2020-04-06 23:48:22,061 [qtp808973450-67] INFO  com.leon.filter.LogFilter 45 - ===================== request start =====================
+2020-04-06 23:48:22,061 [qtp808973450-67] INFO  com.leon.filter.LogFilter 46 - URL:[ http://127.0.0.1:8103/student/list ]
+2020-04-06 23:48:22,062 [qtp808973450-67] INFO  com.leon.filter.LogFilter 49 - ===================== request end =====================
+
+2020-04-06 23:48:26,320 [qtp808973450-67] INFO  com.leon.filter.LogFilter 59 - ===================== return start =====================
+2020-04-06 23:48:26,323 [qtp808973450-67] INFO  com.leon.filter.LogFilter 64 - 计时结束：11:48:26.320  耗时：0:0:4.259  URI: /student/list  最大内存: 3641m  已分配内存: 515m  已分配内存中的剩余空间: 378m  最大可用内存: 3504m
+2020-04-06 23:48:26,324 [qtp808973450-67] INFO  com.leon.filter.LogFilter 69 - ===================== return end =====================
+
+2020-04-06 23:48:26,341 [qtp808973450-67] INFO  com.leon.filter.LogFilter 45 - ===================== request start =====================
+2020-04-06 23:48:26,341 [qtp808973450-67] INFO  com.leon.filter.LogFilter 46 - URL:[ http://127.0.0.1:8103/student/list ]
+2020-04-06 23:48:26,342 [qtp808973450-67] INFO  com.leon.filter.LogFilter 49 - ===================== request end =====================
+
+2020-04-06 23:48:26,528 [qtp808973450-67] INFO  com.leon.filter.LogFilter 59 - ===================== return start =====================
+2020-04-06 23:48:26,529 [qtp808973450-67] INFO  com.leon.filter.LogFilter 64 - 计时结束：11:48:26.528  耗时：0:0:0.187  URI: /student/list  最大内存: 3641m  已分配内存: 515m  已分配内存中的剩余空间: 373m  最大可用内存: 3499m
+2020-04-06 23:48:26,529 [qtp808973450-67] INFO  com.leon.filter.LogFilter 69 - ===================== return end =====================
+
+2020-04-06 23:48:26,530 [qtp808973450-67] INFO  com.leon.filter.LogFilter 45 - ===================== request start =====================
+2020-04-06 23:48:26,531 [qtp808973450-67] INFO  com.leon.filter.LogFilter 46 - URL:[ http://127.0.0.1:8103/student/list ]
+2020-04-06 23:48:26,531 [qtp808973450-67] INFO  com.leon.filter.LogFilter 49 - ===================== request end =====================
+
+2020-04-06 23:48:28,603 [qtp808973450-67] INFO  com.leon.filter.LogFilter 59 - ===================== return start =====================
+2020-04-06 23:48:28,604 [qtp808973450-67] INFO  com.leon.filter.LogFilter 64 - 计时结束：11:48:28.603  耗时：0:0:2.73  URI: /student/list  最大内存: 3641m  已分配内存: 515m  已分配内存中的剩余空间: 371m  最大可用内存: 3497m
+2020-04-06 23:48:28,604 [qtp808973450-67] INFO  com.leon.filter.LogFilter 69 - ===================== return end =====================
+
+2020-04-06 23:48:28,604 [qtp808973450-67] INFO  com.leon.filter.LogFilter 45 - ===================== request start =====================
+2020-04-06 23:48:28,604 [qtp808973450-67] INFO  com.leon.filter.LogFilter 46 - URL:[ http://127.0.0.1:8103/student/list ]
+2020-04-06 23:48:28,605 [qtp808973450-67] INFO  com.leon.filter.LogFilter 49 - ===================== request end =====================
+
+2020-04-06 23:48:28,735 [qtp808973450-67] INFO  com.leon.filter.LogFilter 59 - ===================== return start =====================
+2020-04-06 23:48:28,736 [qtp808973450-67] INFO  com.leon.filter.LogFilter 64 - 计时结束：11:48:28.735  耗时：0:0:0.131  URI: /student/list  最大内存: 3641m  已分配内存: 515m  已分配内存中的剩余空间: 371m  最大可用内存: 3497m
+2020-04-06 23:48:28,737 [qtp808973450-67] INFO  com.leon.filter.LogFilter 69 - ===================== return end =====================
+
+2020-04-06 23:48:28,737 [qtp808973450-67] INFO  com.leon.filter.LogFilter 45 - ===================== request start =====================
+2020-04-06 23:48:28,737 [qtp808973450-67] INFO  com.leon.filter.LogFilter 46 - URL:[ http://127.0.0.1:8103/student/list ]
+2020-04-06 23:48:28,737 [qtp808973450-67] INFO  com.leon.filter.LogFilter 49 - ===================== request end =====================
+
+2020-04-06 23:48:28,847 [qtp808973450-67] INFO  com.leon.filter.LogFilter 59 - ===================== return start =====================
+2020-04-06 23:48:28,848 [qtp808973450-67] INFO  com.leon.filter.LogFilter 64 - 计时结束：11:48:28.847  耗时：0:0:0.110  URI: /student/list  最大内存: 3641m  已分配内存: 515m  已分配内存中的剩余空间: 370m  最大可用内存: 3496m
+2020-04-06 23:48:28,850 [qtp808973450-67] INFO  com.leon.filter.LogFilter 69 - ===================== return end =====================
+
+2020-04-06 23:48:28,851 [qtp808973450-67] INFO  com.leon.filter.LogFilter 45 - ===================== request start =====================
+2020-04-06 23:48:28,851 [qtp808973450-67] INFO  com.leon.filter.LogFilter 46 - URL:[ http://127.0.0.1:8103/student/list ]
+2020-04-06 23:48:28,852 [qtp808973450-67] INFO  com.leon.filter.LogFilter 49 - ===================== request end =====================
+
+2020-04-06 23:48:29,023 [qtp808973450-67] INFO  com.leon.filter.LogFilter 59 - ===================== return start =====================
+2020-04-06 23:48:29,025 [qtp808973450-67] INFO  com.leon.filter.LogFilter 64 - 计时结束：11:48:29.023  耗时：0:0:0.172  URI: /student/list  最大内存: 3641m  已分配内存: 515m  已分配内存中的剩余空间: 370m  最大可用内存: 3496m
+2020-04-06 23:48:29,026 [qtp808973450-67] INFO  com.leon.filter.LogFilter 69 - ===================== return end =====================
+
+2020-04-06 23:51:01,089 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource 1823 - {dataSource-1} closed
+2020-04-06 23:51:01,099 [SpringContextShutdownHook] INFO  o.e.jetty.server.AbstractConnector 380 - Stopped ServerConnector@24dd6f98{HTTP/1.1,[http/1.1]}{0.0.0.0:8103}
+2020-04-06 23:51:01,100 [SpringContextShutdownHook] INFO  org.eclipse.jetty.server.session 158 - node0 Stopped scavenging
+2020-04-06 23:51:01,103 [SpringContextShutdownHook] INFO  o.e.j.s.h.ContextHandler.application 2223 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2020-04-06 23:51:01,103 [SpringContextShutdownHook] INFO  o.e.j.server.handler.ContextHandler 1016 - Stopped o.s.b.w.e.j.JettyEmbeddedWebAppContext@44477acf{application,/,[file:///private/var/folders/7h/1dfzdnnx3g5fz51v_lmc0rww0000gn/T/jetty-docbase.1829579006902057967.8103/, jar:file:/Users/leon/Documents/maven/repository-a3/io/springfox/springfox-swagger-ui/2.7.0/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],UNAVAILABLE}
+2020-04-06 23:51:08,222 [restartedMain] INFO  com.leon.WebManageApplication 55 - Starting WebManageApplication on Leon.local with PID 4564 (/Users/leon/Documents/workspace/a3-manage/a3-web/target/classes started by leon in /Users/leon/Documents/workspace/a3-manage)
+2020-04-06 23:51:08,226 [restartedMain] INFO  com.leon.WebManageApplication 655 - The following profiles are active: druid,common
+2020-04-06 23:51:10,058 [restartedMain] INFO  com.leon.redis.RedisConfig 55 - Create JedisConnectionFactory successful
+2020-04-06 23:51:10,474 [restartedMain] INFO  org.eclipse.jetty.util.log 169 - Logging initialized @4571ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-04-06 23:51:10,566 [restartedMain] INFO  org.eclipse.jetty.server.Server 359 - jetty-9.4.26.v20200117; built: 2020-01-17T12:35:33.676Z; git: 7b38981d25d14afb4a12ff1f2596756144edf695; jvm 1.8.0_181-b13
+2020-04-06 23:51:10,644 [restartedMain] INFO  o.e.j.s.h.ContextHandler.application 2223 - Initializing Spring embedded WebApplicationContext
+2020-04-06 23:51:10,782 [restartedMain] INFO  org.eclipse.jetty.server.session 333 - DefaultSessionIdManager workerName=node0
+2020-04-06 23:51:10,782 [restartedMain] INFO  org.eclipse.jetty.server.session 338 - No SessionScavenger set, using defaults
+2020-04-06 23:51:10,783 [restartedMain] INFO  org.eclipse.jetty.server.session 140 - node0 Scavenging every 600000ms
+2020-04-06 23:51:10,797 [restartedMain] INFO  o.e.j.server.handler.ContextHandler 825 - Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@2e15e432{application,/,[file:///private/var/folders/7h/1dfzdnnx3g5fz51v_lmc0rww0000gn/T/jetty-docbase.9030813872243763289.8103/, jar:file:/Users/leon/Documents/maven/repository-a3/io/springfox/springfox-swagger-ui/2.7.0/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],AVAILABLE}
+2020-04-06 23:51:10,797 [restartedMain] INFO  org.eclipse.jetty.server.Server 399 - Started @4894ms
+2020-04-06 23:51:19,435 [restartedMain] INFO  c.alibaba.druid.pool.DruidDataSource 928 - {dataSource-1} inited
+2020-04-06 23:51:19,891 [restartedMain] INFO  com.leon.redis.RedisConfig 65 - JedisPool init successful，host -> [59.110.160.100]；port -> [6379]
+2020-04-06 23:51:19,910 [restartedMain] INFO  com.leon.redis.RedisConfiguration 68 - 初始化 -> [CacheManager RedisCacheManager Start]
+2020-04-06 23:51:19,923 [restartedMain] INFO  com.leon.redis.RedisConfiguration 99 - 初始化 -> [Redis CacheErrorHandler]
+2020-04-06 23:51:20,929 [restartedMain] INFO  o.e.j.s.h.ContextHandler.application 2223 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-06 23:51:20,981 [restartedMain] INFO  o.e.jetty.server.AbstractConnector 330 - Started ServerConnector@37a2dcaa{HTTP/1.1,[http/1.1]}{0.0.0.0:8103}
+2020-04-06 23:51:20,987 [restartedMain] INFO  com.leon.WebManageApplication 61 - Started WebManageApplication in 13.598 seconds (JVM running for 15.084)
+2020-04-06 23:53:01,286 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource 1823 - {dataSource-1} closed
+2020-04-06 23:53:01,296 [SpringContextShutdownHook] INFO  o.e.jetty.server.AbstractConnector 380 - Stopped ServerConnector@37a2dcaa{HTTP/1.1,[http/1.1]}{0.0.0.0:8103}
+2020-04-06 23:53:01,298 [SpringContextShutdownHook] INFO  org.eclipse.jetty.server.session 158 - node0 Stopped scavenging
+2020-04-06 23:53:01,302 [SpringContextShutdownHook] INFO  o.e.j.s.h.ContextHandler.application 2223 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2020-04-06 23:53:01,304 [SpringContextShutdownHook] INFO  o.e.j.server.handler.ContextHandler 1016 - Stopped o.s.b.w.e.j.JettyEmbeddedWebAppContext@2e15e432{application,/,[file:///private/var/folders/7h/1dfzdnnx3g5fz51v_lmc0rww0000gn/T/jetty-docbase.9030813872243763289.8103/, jar:file:/Users/leon/Documents/maven/repository-a3/io/springfox/springfox-swagger-ui/2.7.0/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],UNAVAILABLE}
+2020-04-06 23:53:07,004 [restartedMain] INFO  com.leon.WebManageApplication 55 - Starting WebManageApplication on Leon.local with PID 4611 (/Users/leon/Documents/workspace/a3-manage/a3-web/target/classes started by leon in /Users/leon/Documents/workspace/a3-manage)
+2020-04-06 23:53:07,007 [restartedMain] INFO  com.leon.WebManageApplication 655 - The following profiles are active: druid,common
+2020-04-06 23:53:08,172 [restartedMain] INFO  com.leon.redis.RedisConfig 55 - Create JedisConnectionFactory successful
+2020-04-06 23:53:08,533 [restartedMain] INFO  org.eclipse.jetty.util.log 169 - Logging initialized @3621ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-04-06 23:53:08,625 [restartedMain] INFO  org.eclipse.jetty.server.Server 359 - jetty-9.4.26.v20200117; built: 2020-01-17T12:35:33.676Z; git: 7b38981d25d14afb4a12ff1f2596756144edf695; jvm 1.8.0_181-b13
+2020-04-06 23:53:08,647 [restartedMain] INFO  o.e.j.s.h.ContextHandler.application 2223 - Initializing Spring embedded WebApplicationContext
+2020-04-06 23:53:08,755 [restartedMain] INFO  org.eclipse.jetty.server.session 333 - DefaultSessionIdManager workerName=node0
+2020-04-06 23:53:08,755 [restartedMain] INFO  org.eclipse.jetty.server.session 338 - No SessionScavenger set, using defaults
+2020-04-06 23:53:08,756 [restartedMain] INFO  org.eclipse.jetty.server.session 140 - node0 Scavenging every 660000ms
+2020-04-06 23:53:08,770 [restartedMain] INFO  o.e.j.server.handler.ContextHandler 825 - Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@7dfdce81{application,/,[file:///private/var/folders/7h/1dfzdnnx3g5fz51v_lmc0rww0000gn/T/jetty-docbase.80334308244086165.8103/, jar:file:/Users/leon/Documents/maven/repository-a3/io/springfox/springfox-swagger-ui/2.7.0/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],AVAILABLE}
+2020-04-06 23:53:08,771 [restartedMain] INFO  org.eclipse.jetty.server.Server 399 - Started @3860ms
+2020-04-06 23:53:13,111 [restartedMain] INFO  c.alibaba.druid.pool.DruidDataSource 928 - {dataSource-1} inited
+2020-04-06 23:53:13,637 [restartedMain] INFO  com.leon.redis.RedisConfig 65 - JedisPool init successful，host -> [59.110.160.100]；port -> [6379]
+2020-04-06 23:53:13,652 [restartedMain] INFO  com.leon.redis.RedisConfiguration 68 - 初始化 -> [CacheManager RedisCacheManager Start]
+2020-04-06 23:53:13,663 [restartedMain] INFO  com.leon.redis.RedisConfiguration 99 - 初始化 -> [Redis CacheErrorHandler]
+2020-04-06 23:53:15,015 [restartedMain] INFO  o.e.j.s.h.ContextHandler.application 2223 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-06 23:53:15,074 [restartedMain] INFO  o.e.jetty.server.AbstractConnector 330 - Started ServerConnector@3cfe5401{HTTP/1.1,[http/1.1]}{0.0.0.0:8103}
+2020-04-06 23:53:15,081 [restartedMain] INFO  com.leon.WebManageApplication 61 - Started WebManageApplication in 8.662 seconds (JVM running for 10.165)
+2020-04-06 23:55:13,842 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource 1823 - {dataSource-1} closed
+2020-04-06 23:55:13,850 [SpringContextShutdownHook] INFO  o.e.jetty.server.AbstractConnector 380 - Stopped ServerConnector@3cfe5401{HTTP/1.1,[http/1.1]}{0.0.0.0:8103}
+2020-04-06 23:55:13,850 [SpringContextShutdownHook] INFO  org.eclipse.jetty.server.session 158 - node0 Stopped scavenging
+2020-04-06 23:55:13,852 [SpringContextShutdownHook] INFO  o.e.j.s.h.ContextHandler.application 2223 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2020-04-06 23:55:13,853 [SpringContextShutdownHook] INFO  o.e.j.server.handler.ContextHandler 1016 - Stopped o.s.b.w.e.j.JettyEmbeddedWebAppContext@7dfdce81{application,/,[file:///private/var/folders/7h/1dfzdnnx3g5fz51v_lmc0rww0000gn/T/jetty-docbase.80334308244086165.8103/, jar:file:/Users/leon/Documents/maven/repository-a3/io/springfox/springfox-swagger-ui/2.7.0/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],UNAVAILABLE}
+2020-04-06 23:55:22,724 [restartedMain] INFO  com.leon.WebManageApplication 55 - Starting WebManageApplication on Leon.local with PID 4663 (/Users/leon/Documents/workspace/a3-manage/a3-web/target/classes started by leon in /Users/leon/Documents/workspace/a3-manage)
+2020-04-06 23:55:22,728 [restartedMain] INFO  com.leon.WebManageApplication 655 - The following profiles are active: druid,common
+2020-04-06 23:55:24,012 [restartedMain] INFO  com.leon.redis.RedisConfig 55 - Create JedisConnectionFactory successful
+2020-04-06 23:55:24,313 [restartedMain] INFO  org.eclipse.jetty.util.log 169 - Logging initialized @3214ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-04-06 23:55:24,435 [restartedMain] INFO  org.eclipse.jetty.server.Server 359 - jetty-9.4.26.v20200117; built: 2020-01-17T12:35:33.676Z; git: 7b38981d25d14afb4a12ff1f2596756144edf695; jvm 1.8.0_181-b13
+2020-04-06 23:55:24,476 [restartedMain] INFO  o.e.j.s.h.ContextHandler.application 2223 - Initializing Spring embedded WebApplicationContext
+2020-04-06 23:55:24,598 [restartedMain] INFO  org.eclipse.jetty.server.session 333 - DefaultSessionIdManager workerName=node0
+2020-04-06 23:55:24,599 [restartedMain] INFO  org.eclipse.jetty.server.session 338 - No SessionScavenger set, using defaults
+2020-04-06 23:55:24,600 [restartedMain] INFO  org.eclipse.jetty.server.session 140 - node0 Scavenging every 600000ms
+2020-04-06 23:55:24,612 [restartedMain] INFO  o.e.j.server.handler.ContextHandler 825 - Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@122e137e{application,/,[file:///private/var/folders/7h/1dfzdnnx3g5fz51v_lmc0rww0000gn/T/jetty-docbase.5361913814664873660.8103/, jar:file:/Users/leon/Documents/maven/repository-a3/io/springfox/springfox-swagger-ui/2.7.0/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],AVAILABLE}
+2020-04-06 23:55:24,613 [restartedMain] INFO  org.eclipse.jetty.server.Server 399 - Started @3515ms
+2020-04-06 23:55:31,579 [restartedMain] INFO  c.alibaba.druid.pool.DruidDataSource 928 - {dataSource-1} inited
+2020-04-06 23:55:32,112 [restartedMain] INFO  com.leon.redis.RedisConfig 65 - JedisPool init successful，host -> [59.110.160.100]；port -> [6379]
+2020-04-06 23:55:32,131 [restartedMain] INFO  com.leon.redis.RedisConfiguration 68 - 初始化 -> [CacheManager RedisCacheManager Start]
+2020-04-06 23:55:32,145 [restartedMain] INFO  com.leon.redis.RedisConfiguration 99 - 初始化 -> [Redis CacheErrorHandler]
+2020-04-06 23:55:33,345 [restartedMain] INFO  o.e.j.s.h.ContextHandler.application 2223 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-06 23:55:33,420 [restartedMain] INFO  o.e.jetty.server.AbstractConnector 330 - Started ServerConnector@7dd5c57c{HTTP/1.1,[http/1.1]}{0.0.0.0:8103}
+2020-04-06 23:55:33,432 [restartedMain] INFO  com.leon.WebManageApplication 61 - Started WebManageApplication in 11.384 seconds (JVM running for 12.333)
+2020-04-06 23:57:47,999 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource 1823 - {dataSource-1} closed
+2020-04-06 23:57:48,016 [SpringContextShutdownHook] INFO  o.e.jetty.server.AbstractConnector 380 - Stopped ServerConnector@7dd5c57c{HTTP/1.1,[http/1.1]}{0.0.0.0:8103}
+2020-04-06 23:57:48,016 [SpringContextShutdownHook] INFO  org.eclipse.jetty.server.session 158 - node0 Stopped scavenging
+2020-04-06 23:57:48,020 [SpringContextShutdownHook] INFO  o.e.j.s.h.ContextHandler.application 2223 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2020-04-06 23:57:48,021 [SpringContextShutdownHook] INFO  o.e.j.server.handler.ContextHandler 1016 - Stopped o.s.b.w.e.j.JettyEmbeddedWebAppContext@122e137e{application,/,[file:///private/var/folders/7h/1dfzdnnx3g5fz51v_lmc0rww0000gn/T/jetty-docbase.5361913814664873660.8103/, jar:file:/Users/leon/Documents/maven/repository-a3/io/springfox/springfox-swagger-ui/2.7.0/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],UNAVAILABLE}
+2020-04-06 23:57:53,224 [restartedMain] INFO  com.leon.WebManageApplication 55 - Starting WebManageApplication on Leon.local with PID 4724 (/Users/leon/Documents/workspace/a3-manage/a3-web/target/classes started by leon in /Users/leon/Documents/workspace/a3-manage)
+2020-04-06 23:57:53,228 [restartedMain] INFO  com.leon.WebManageApplication 655 - The following profiles are active: druid,common
+2020-04-06 23:57:54,412 [restartedMain] INFO  com.leon.redis.RedisConfig 55 - Create JedisConnectionFactory successful
+2020-04-06 23:57:54,736 [restartedMain] INFO  org.eclipse.jetty.util.log 169 - Logging initialized @3114ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-04-06 23:57:54,827 [restartedMain] INFO  org.eclipse.jetty.server.Server 359 - jetty-9.4.26.v20200117; built: 2020-01-17T12:35:33.676Z; git: 7b38981d25d14afb4a12ff1f2596756144edf695; jvm 1.8.0_181-b13
+2020-04-06 23:57:54,848 [restartedMain] INFO  o.e.j.s.h.ContextHandler.application 2223 - Initializing Spring embedded WebApplicationContext
+2020-04-06 23:57:54,956 [restartedMain] INFO  org.eclipse.jetty.server.session 333 - DefaultSessionIdManager workerName=node0
+2020-04-06 23:57:54,957 [restartedMain] INFO  org.eclipse.jetty.server.session 338 - No SessionScavenger set, using defaults
+2020-04-06 23:57:54,959 [restartedMain] INFO  org.eclipse.jetty.server.session 140 - node0 Scavenging every 660000ms
+2020-04-06 23:57:54,974 [restartedMain] INFO  o.e.j.server.handler.ContextHandler 825 - Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@1702c396{application,/,[file:///private/var/folders/7h/1dfzdnnx3g5fz51v_lmc0rww0000gn/T/jetty-docbase.131060153345299763.8103/, jar:file:/Users/leon/Documents/maven/repository-a3/io/springfox/springfox-swagger-ui/2.7.0/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],AVAILABLE}
+2020-04-06 23:57:54,975 [restartedMain] INFO  org.eclipse.jetty.server.Server 399 - Started @3353ms
+2020-04-06 23:58:06,187 [restartedMain] INFO  c.alibaba.druid.pool.DruidDataSource 928 - {dataSource-1} inited
+2020-04-06 23:58:06,601 [restartedMain] INFO  com.leon.redis.RedisConfig 65 - JedisPool init successful，host -> [59.110.160.100]；port -> [6379]
+2020-04-06 23:58:06,617 [restartedMain] INFO  com.leon.redis.RedisConfiguration 68 - 初始化 -> [CacheManager RedisCacheManager Start]
+2020-04-06 23:58:06,628 [restartedMain] INFO  com.leon.redis.RedisConfiguration 99 - 初始化 -> [Redis CacheErrorHandler]
+2020-04-06 23:58:07,626 [restartedMain] INFO  o.e.j.s.h.ContextHandler.application 2223 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-06 23:58:07,672 [restartedMain] INFO  o.e.jetty.server.AbstractConnector 330 - Started ServerConnector@5151273{HTTP/1.1,[http/1.1]}{0.0.0.0:8103}
+2020-04-06 23:58:07,677 [restartedMain] INFO  com.leon.WebManageApplication 61 - Started WebManageApplication in 15.164 seconds (JVM running for 16.055)
+2020-04-06 23:58:35,317 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource 1823 - {dataSource-1} closed
+2020-04-06 23:58:35,327 [SpringContextShutdownHook] INFO  o.e.jetty.server.AbstractConnector 380 - Stopped ServerConnector@5151273{HTTP/1.1,[http/1.1]}{0.0.0.0:8103}
+2020-04-06 23:58:35,327 [SpringContextShutdownHook] INFO  org.eclipse.jetty.server.session 158 - node0 Stopped scavenging
+2020-04-06 23:58:35,329 [SpringContextShutdownHook] INFO  o.e.j.s.h.ContextHandler.application 2223 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2020-04-06 23:58:35,329 [SpringContextShutdownHook] INFO  o.e.j.server.handler.ContextHandler 1016 - Stopped o.s.b.w.e.j.JettyEmbeddedWebAppContext@1702c396{application,/,[file:///private/var/folders/7h/1dfzdnnx3g5fz51v_lmc0rww0000gn/T/jetty-docbase.131060153345299763.8103/, jar:file:/Users/leon/Documents/maven/repository-a3/io/springfox/springfox-swagger-ui/2.7.0/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],UNAVAILABLE}
+2020-04-06 23:58:40,386 [restartedMain] INFO  com.leon.WebManageApplication 55 - Starting WebManageApplication on Leon.local with PID 4746 (/Users/leon/Documents/workspace/a3-manage/a3-web/target/classes started by leon in /Users/leon/Documents/workspace/a3-manage)
+2020-04-06 23:58:40,389 [restartedMain] INFO  com.leon.WebManageApplication 655 - The following profiles are active: druid,common
+2020-04-06 23:58:41,596 [restartedMain] INFO  com.leon.redis.RedisConfig 55 - Create JedisConnectionFactory successful
+2020-04-06 23:58:41,903 [restartedMain] INFO  org.eclipse.jetty.util.log 169 - Logging initialized @3133ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-04-06 23:58:41,994 [restartedMain] INFO  org.eclipse.jetty.server.Server 359 - jetty-9.4.26.v20200117; built: 2020-01-17T12:35:33.676Z; git: 7b38981d25d14afb4a12ff1f2596756144edf695; jvm 1.8.0_181-b13
+2020-04-06 23:58:42,016 [restartedMain] INFO  o.e.j.s.h.ContextHandler.application 2223 - Initializing Spring embedded WebApplicationContext
+2020-04-06 23:58:42,125 [restartedMain] INFO  org.eclipse.jetty.server.session 333 - DefaultSessionIdManager workerName=node0
+2020-04-06 23:58:42,126 [restartedMain] INFO  org.eclipse.jetty.server.session 338 - No SessionScavenger set, using defaults
+2020-04-06 23:58:42,127 [restartedMain] INFO  org.eclipse.jetty.server.session 140 - node0 Scavenging every 660000ms
+2020-04-06 23:58:42,141 [restartedMain] INFO  o.e.j.server.handler.ContextHandler 825 - Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@5e41e35e{application,/,[file:///private/var/folders/7h/1dfzdnnx3g5fz51v_lmc0rww0000gn/T/jetty-docbase.6562644629734468595.8103/, jar:file:/Users/leon/Documents/maven/repository-a3/io/springfox/springfox-swagger-ui/2.7.0/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],AVAILABLE}
+2020-04-06 23:58:42,141 [restartedMain] INFO  org.eclipse.jetty.server.Server 399 - Started @3371ms
+2020-04-06 23:58:45,241 [restartedMain] INFO  c.alibaba.druid.pool.DruidDataSource 928 - {dataSource-1} inited
+2020-04-06 23:58:45,623 [restartedMain] INFO  com.leon.redis.RedisConfig 65 - JedisPool init successful，host -> [59.110.160.100]；port -> [6379]
+2020-04-06 23:58:45,642 [restartedMain] INFO  com.leon.redis.RedisConfiguration 68 - 初始化 -> [CacheManager RedisCacheManager Start]
+2020-04-06 23:58:45,655 [restartedMain] INFO  com.leon.redis.RedisConfiguration 99 - 初始化 -> [Redis CacheErrorHandler]
+2020-04-06 23:58:46,685 [restartedMain] INFO  o.e.j.s.h.ContextHandler.application 2223 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-06 23:58:46,732 [restartedMain] INFO  o.e.jetty.server.AbstractConnector 330 - Started ServerConnector@58623b7b{HTTP/1.1,[http/1.1]}{0.0.0.0:8103}
+2020-04-06 23:58:46,737 [restartedMain] INFO  com.leon.WebManageApplication 61 - Started WebManageApplication in 7.067 seconds (JVM running for 7.967)

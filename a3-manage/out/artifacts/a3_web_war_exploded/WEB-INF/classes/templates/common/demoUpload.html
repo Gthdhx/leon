@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <block name="common" th:replace="common/basePage :: commonHead('入库单详情页')"></block>
+    <block name="mediaPage" th:replace="common/mediaPage"></block>
+    <script th:inline="javascript">
+        /**直发现场入库***/
+        var address=[[${resourceAddress}]];
+    </script>
+    <script>
+         var uploadUtil={
+            address:address,
+            server:this.address+"/fileResource/upload",
+            previewServer:this.address+"/show/",
+            parentDirectory:"/file/market/image/uniqueCodeReversePhoto/",//父文件路径例如：/file/market/image/uniqueCodeReversePhoto/
+            continue:true,//是否继续添加
+            preview:true,//是否需要预览
+            multiple:true,//是否为批量
+            accept:{
+                title: '媒体文件详情页',
+                extensions: 'gif,jpg,jpeg,bmp,png',
+                mimeTypes: 'image/*'
+            },
+            afterUpload:function (response) {
+                if(this.continue){
+
+                }else{
+                    //隐藏上传按钮
+                    $('.uploader-container').addClass("webuploader-element-invisible");
+                }
+                    //显示文件列表
+                $('#showFileBox').prepend(
+                    "<div style='display: inline-block;'>" +
+                    "<a data-fancybox=\"default\" href=\""+uploadUtil.previewServer+response.object+"\">\n" +
+                    "<img style='width:5em;height: 5em;display: inline-block' src=\""+uploadUtil.previewServer+response.object+"\">" +
+                    "</a><i class=\"fa fa-close\" onclick='uploadUtil.delFile(event,\""+response.object+"\",this)'></i>" +
+                    "</div>");
+
+            },
+            delFile:function (event,obj,target) {
+                event.stopPropagation();
+                $.getJSON(this.address+"/fileResource/delFile?url="+obj,function(res){
+                    if(res.success){
+                        $(target).parent().remove();
+                    }
+                });
+            }
+        };
+    </script>
+</head>
+<body style="overflow-y: auto;">
+<i class="fa fa-car"></i>
+<i class="fa fa-car" style="font-size:48px;"></i>
+<i class="fa fa-car" style="font-size:60px;color:red;"></i>
+                <table id="actionTable" class="grid">
+                    <tr>
+                        <td>市公司：</td>
+                        <td><input id="companyName" name="companyName" type="text" class="easyui-textbox" data-options="width:140,height:20,panelHeight:'auto'" ></td>
+                        <td>支撑中心：</td>
+                        <td><input id="supportName" name="supportName" type="text" class="easyui-combobox" data-options="required:true,width:140,height:20,panelHeight:'auto'" ></td>
+                        <td>物资来源：</td>
+                        <td><input id="warehouseTypeName" name=warehouseTypeName type="text" class="easyui-combobox" data-options="required:true,width:140,height:20,panelHeight:'auto'" ></td>
+                    </tr>
+                    <tr>
+                        <td>仓库：</td>
+                        <td><input id="warehouseName" name="warehouseName" type="text" class="easyui-combobox" data-options="required:true,width:140,height:20,panelHeight:'auto'" ></td>
+                        <td>入库单号：</td>
+                        <td><input id="inCode" name=status type="text" class="easyui-combobox" data-options="required:true,width:140,height:20,panelHeight:'auto'" ></td>
+                        <td>状态：</td>
+                        <td><input id="statusName" name="statusName" type="text" class="easyui-textbox" data-options="required:true,width:140,height:20,panelHeight:'auto'" ></td>
+                    </tr>
+                    <tr>
+                        <td>入库类型：</td>
+                        <td><input id="inTypeName" name="inTypeName" type="text" class="easyui-textbox" data-options="required:true,width:140,height:20,panelHeight:'auto'" ></td>
+                        <td>关联单号：</td>
+                        <td><input id="refCode" name="refCode" type="text" class="easyui-textbox" data-options="required:true,width:140,height:20,panelHeight:'auto'" ></td>
+                        <td>业务类型：</td>
+                        <td><input id="businessType" name="businessType" type="text" class="easyui-textbox" data-options="required:true,width:140,height:20,panelHeight:'auto'" ></td>
+                    </tr>
+                    <tr>
+                        <td>批复文号：</td>
+                        <td><input id="replyNumber" name="replyNumber" type="text" class="easyui-textbox" data-options="required:true,width:140,height:20,panelHeight:'auto'" ></td>
+                        <td>项目名称：</td>
+                        <td><input id="projectName" name="projectName" type="text" class="easyui-textbox" data-options="required:true,width:140,height:20,panelHeight:'auto'" ></td>
+                        <td>总SKU数：</td>
+                        <td><input id="SKU" name="SKU" type="text" class="easyui-textbox" data-options="required:true,width:140,height:20,panelHeight:'auto'" ></td>
+                    </tr>
+                    <tr>
+                        <td>税价总金额：</td>
+                        <td><input id="taxRateSum" name="taxRateSum" type="text" class="easyui-textbox" data-options="required:true,width:140,height:20,panelHeight:'auto'" ></td>
+                        <td> 收货人 ：</td>
+                        <td><input id="consignee" name="consignee" type="text" class="easyui-textbox" data-options="required:true,width:140,height:20,panelHeight:'auto'" ></td>
+                        <td>供货单位：</td>
+                        <td><input id="archivesUnit" name="archivesUnit" type="text" class="easyui-textbox" data-options="required:true,width:140,height:20,panelHeight:'auto'" ></td>
+                    </tr>
+                    <tr>
+                        <td>联系地址：</td>
+                        <td colspan="3"><input id="address" name="address" type="text" class="easyui-textbox" data-options="required:true,width:280,height:20,panelHeight:'auto'" ></td>
+                        <td> 供货人 ：</td>
+                        <td><input id="archivesPerson" name="archivesPerson" type="text" class="easyui-textbox" data-options="required:true,width:140,height:20,panelHeight:'auto'" ></td>
+                    </tr>
+                    <tr>
+                    <tr>
+                        <td>备注说明：</td>
+                        <td colspan="3"><input id="remark" name="remark" type="text" class="easyui-textbox" data-options="required:true,width:280,height:20,panelHeight:'auto'" ></td>
+                        <td> 联系电话 ：</td>
+                        <td><input id="phone" name="phone" type="text" class="easyui-textbox" data-options="required:true,width:140,height:20,panelHeight:'auto'" ></td>
+                    </tr>
+                    <tr>
+                        <td>制单人:</td>
+                        <td><input id="createName" name="createName" type="text" class="easyui-textbox" data-options="required:true,width:140,height:20,panelHeight:'auto'" ></td>
+                        <td>制单时间：</td>
+                        <td><input id="createTime" name="createTime" type="text" class="easyui-textbox" data-options="required:true,width:140,height:20,panelHeight:'auto'" ></td>
+                        <td>领用单照片：</td>
+
+                        <td rowspan="2">
+                            <!--重要部分!!!!!!!!-->
+                                <!--展示已上传文件的框框-->
+                                <div id="showFileBox" >
+
+                                </div>
+                                <!--依据filePicker 这个ID获得上传的能力-->
+                                <div class="uploader-container">
+                                    <div id="filePicker">选择文件</div>
+                                </div>
+                            <!--重要部分!!!!!!!!-->
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>结单时间:</td>
+                        <td><input id="statementTime" name="createName" type="text" class="easyui-textbox" data-options="required:true,width:140,height:20,panelHeight:'auto'" ></td>
+                        <td>关闭人：</td>
+                        <td><input id="updateName" name="createTime" type="text" class="easyui-textbox" data-options="required:true,width:140,height:20,panelHeight:'auto'" ></td>
+                    </tr>
+                </table>
+
+<div class="easyui-panel" style="width:100%;" title="商品列表" data-options="iconCls:'icon-ok',fit:true,border:true">
+    <table id="itemList"  class="easyui-datagrid" data-options="rownumbers:true" style="width: 100%"  >
+        <thead>
+        <tr>
+            <th style="width: 11%;text-align: center;" data-options="halign:'center'" field="goodsCode">物资编码</th>
+            <th style="width: 11%;text-align: center;" data-options="halign:'center'" field="goodsName" formatter="Page.moreInfoFormatter">物资名称</th>
+            <th style="width: 11%;text-align: center;" data-options="halign:'center'" field="basicSpec">物资类型</th>
+            <th style="width: 11%;text-align: center;" data-options="halign:'center'" field="goodsBarCode">商品条码</th>
+            <th style="width: 11%;text-align: center;" data-options="halign:'center'" field="goodsSpec">规格型号</th>
+            <th style="width: 11%;text-align: center;" data-options="halign:'center'" field="goodsUnit">主计量单位</th>
+            <th style="width: 11%;text-align: center;" data-options="halign:'center'" field="warehousesNumber">入库数量</th>
+            <th style="width: 11%;text-align: center;" data-options="halign:'center'" field="price">金额</th>
+            <th style="width: 11%;text-align: center;" data-options="halign:'center'" field="tax">税额</th>
+            <th style="width: 11%;text-align: center;" data-options="halign:'center'" field="taxPrice">价税合计</th>
+        </tr>
+        </thead>
+    </table>
+</div>
+
+</body>
+</html>

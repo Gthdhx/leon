@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.leon.mapper.MenuMapper">
+
+	<!-- 通用查询结果列-->
+	<sql id="Base_Column_List">
+		id, menu_code AS menuCode, system_code AS systemCode, menu_name AS menuName, parent_code AS parentCode, sort, icon, `path`, menu_level AS menuLevel, create_time AS createTime, create_code AS createCode, update_time AS updateTime, update_code AS updateCode, `status`
+	</sql>
+
+</mapper>

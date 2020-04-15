@@ -1,0 +1,5 @@
+2020-04-11 09:52:46,214 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource 1823 - {dataSource-1} closed
+2020-04-11 09:52:46,237 [SpringContextShutdownHook] INFO  o.e.jetty.server.AbstractConnector 380 - Stopped ServerConnector@17670dd8{HTTP/1.1,[http/1.1]}{0.0.0.0:8103}
+2020-04-11 09:52:46,238 [SpringContextShutdownHook] INFO  org.eclipse.jetty.server.session 158 - node0 Stopped scavenging
+2020-04-11 09:52:46,243 [SpringContextShutdownHook] INFO  o.e.j.s.h.ContextHandler.application 2223 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2020-04-11 09:52:46,245 [SpringContextShutdownHook] INFO  o.e.j.server.handler.ContextHandler 1016 - Stopped o.s.b.w.e.j.JettyEmbeddedWebAppContext@7033cf4c{application,/,[file:///private/var/folders/7h/1dfzdnnx3g5fz51v_lmc0rww0000gn/T/jetty-docbase.938721528576553268.8103/, jar:file:/Users/leon/Documents/maven/repository-a3/io/springfox/springfox-swagger-ui/2.7.0/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],UNAVAILABLE}

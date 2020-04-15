@@ -1,0 +1,644 @@
+2020-04-08 08:30:15,565 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource 1823 - {dataSource-1} closed
+2020-04-08 08:30:15,596 [SpringContextShutdownHook] INFO  o.e.jetty.server.AbstractConnector 380 - Stopped ServerConnector@3570bd7{HTTP/1.1,[http/1.1]}{0.0.0.0:8103}
+2020-04-08 08:30:15,597 [SpringContextShutdownHook] INFO  org.eclipse.jetty.server.session 158 - node0 Stopped scavenging
+2020-04-08 08:30:15,601 [SpringContextShutdownHook] INFO  o.e.j.s.h.ContextHandler.application 2223 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2020-04-08 08:30:15,602 [SpringContextShutdownHook] INFO  o.e.j.server.handler.ContextHandler 1016 - Stopped o.s.b.w.e.j.JettyEmbeddedWebAppContext@171faf38{application,/,[file:///private/var/folders/7h/1dfzdnnx3g5fz51v_lmc0rww0000gn/T/jetty-docbase.5038570547873468264.8103/, jar:file:/Users/leon/Documents/maven/repository-a3/io/springfox/springfox-swagger-ui/2.7.0/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],UNAVAILABLE}
+2020-04-08 14:04:33,101 [restartedMain] INFO  com.leon.WebManageApplication 55 - Starting WebManageApplication on Leon.local with PID 70004 (/Users/leon/Documents/workspace/a3-manage/a3-web/target/classes started by leon in /Users/leon/Documents/workspace/a3-manage)
+2020-04-08 14:04:33,105 [restartedMain] INFO  com.leon.WebManageApplication 655 - The following profiles are active: druid,common
+2020-04-08 14:04:35,415 [restartedMain] INFO  com.leon.redis.RedisConfig 55 - Create JedisConnectionFactory successful
+2020-04-08 14:04:35,837 [restartedMain] INFO  org.eclipse.jetty.util.log 169 - Logging initialized @4473ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-04-08 14:04:35,962 [restartedMain] INFO  org.eclipse.jetty.server.Server 359 - jetty-9.4.26.v20200117; built: 2020-01-17T12:35:33.676Z; git: 7b38981d25d14afb4a12ff1f2596756144edf695; jvm 1.8.0_181-b13
+2020-04-08 14:04:35,987 [restartedMain] INFO  o.e.j.s.h.ContextHandler.application 2223 - Initializing Spring embedded WebApplicationContext
+2020-04-08 14:04:36,129 [restartedMain] INFO  org.eclipse.jetty.server.session 333 - DefaultSessionIdManager workerName=node0
+2020-04-08 14:04:36,130 [restartedMain] INFO  org.eclipse.jetty.server.session 338 - No SessionScavenger set, using defaults
+2020-04-08 14:04:36,131 [restartedMain] INFO  org.eclipse.jetty.server.session 140 - node0 Scavenging every 600000ms
+2020-04-08 14:04:36,146 [restartedMain] INFO  o.e.j.server.handler.ContextHandler 825 - Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@380be872{application,/,[file:///private/var/folders/7h/1dfzdnnx3g5fz51v_lmc0rww0000gn/T/jetty-docbase.3009771117941950320.8103/, jar:file:/Users/leon/Documents/maven/repository-a3/io/springfox/springfox-swagger-ui/2.7.0/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],AVAILABLE}
+2020-04-08 14:04:36,146 [restartedMain] INFO  org.eclipse.jetty.server.Server 399 - Started @4784ms
+2020-04-08 14:04:38,868 [restartedMain] INFO  c.alibaba.druid.pool.DruidDataSource 928 - {dataSource-1} inited
+2020-04-08 14:04:39,345 [restartedMain] INFO  com.leon.redis.RedisConfig 65 - JedisPool init successful，host -> [59.110.160.100]；port -> [6379]
+2020-04-08 14:04:39,363 [restartedMain] INFO  com.leon.redis.RedisConfiguration 68 - 初始化 -> [CacheManager RedisCacheManager Start]
+2020-04-08 14:04:39,378 [restartedMain] INFO  com.leon.redis.RedisConfiguration 99 - 初始化 -> [Redis CacheErrorHandler]
+2020-04-08 14:04:40,615 [restartedMain] INFO  o.e.j.s.h.ContextHandler.application 2223 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-08 14:04:40,740 [restartedMain] INFO  o.e.jetty.server.AbstractConnector 330 - Started ServerConnector@7b3d4a3d{HTTP/1.1,[http/1.1]}{0.0.0.0:8103}
+2020-04-08 14:04:40,754 [restartedMain] INFO  com.leon.WebManageApplication 61 - Started WebManageApplication in 8.356 seconds (JVM running for 9.391)
+2020-04-08 14:22:46,409 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource 1823 - {dataSource-1} closed
+2020-04-08 14:22:46,418 [SpringContextShutdownHook] INFO  o.e.jetty.server.AbstractConnector 380 - Stopped ServerConnector@7b3d4a3d{HTTP/1.1,[http/1.1]}{0.0.0.0:8103}
+2020-04-08 14:22:46,418 [SpringContextShutdownHook] INFO  org.eclipse.jetty.server.session 158 - node0 Stopped scavenging
+2020-04-08 14:22:46,421 [SpringContextShutdownHook] INFO  o.e.j.s.h.ContextHandler.application 2223 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2020-04-08 14:22:46,421 [SpringContextShutdownHook] INFO  o.e.j.server.handler.ContextHandler 1016 - Stopped o.s.b.w.e.j.JettyEmbeddedWebAppContext@380be872{application,/,[file:///private/var/folders/7h/1dfzdnnx3g5fz51v_lmc0rww0000gn/T/jetty-docbase.3009771117941950320.8103/, jar:file:/Users/leon/Documents/maven/repository-a3/io/springfox/springfox-swagger-ui/2.7.0/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],UNAVAILABLE}
+2020-04-08 14:22:51,450 [restartedMain] INFO  com.leon.WebManageApplication 55 - Starting WebManageApplication on Leon.local with PID 70993 (/Users/leon/Documents/workspace/a3-manage/a3-web/target/classes started by leon in /Users/leon/Documents/workspace/a3-manage)
+2020-04-08 14:22:51,453 [restartedMain] INFO  com.leon.WebManageApplication 655 - The following profiles are active: druid,common
+2020-04-08 14:22:52,618 [restartedMain] INFO  com.leon.redis.RedisConfig 55 - Create JedisConnectionFactory successful
+2020-04-08 14:22:52,909 [restartedMain] INFO  org.eclipse.jetty.util.log 169 - Logging initialized @3103ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-04-08 14:22:52,996 [restartedMain] INFO  org.eclipse.jetty.server.Server 359 - jetty-9.4.26.v20200117; built: 2020-01-17T12:35:33.676Z; git: 7b38981d25d14afb4a12ff1f2596756144edf695; jvm 1.8.0_181-b13
+2020-04-08 14:22:53,016 [restartedMain] INFO  o.e.j.s.h.ContextHandler.application 2223 - Initializing Spring embedded WebApplicationContext
+2020-04-08 14:22:53,116 [restartedMain] INFO  org.eclipse.jetty.server.session 333 - DefaultSessionIdManager workerName=node0
+2020-04-08 14:22:53,117 [restartedMain] INFO  org.eclipse.jetty.server.session 338 - No SessionScavenger set, using defaults
+2020-04-08 14:22:53,118 [restartedMain] INFO  org.eclipse.jetty.server.session 140 - node0 Scavenging every 660000ms
+2020-04-08 14:22:53,135 [restartedMain] INFO  o.e.j.server.handler.ContextHandler 825 - Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@6fb9afde{application,/,[file:///private/var/folders/7h/1dfzdnnx3g5fz51v_lmc0rww0000gn/T/jetty-docbase.7842248700510676333.8103/, jar:file:/Users/leon/Documents/maven/repository-a3/io/springfox/springfox-swagger-ui/2.7.0/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],AVAILABLE}
+2020-04-08 14:22:53,135 [restartedMain] INFO  org.eclipse.jetty.server.Server 399 - Started @3330ms
+2020-04-08 14:22:55,920 [restartedMain] INFO  c.alibaba.druid.pool.DruidDataSource 928 - {dataSource-1} inited
+2020-04-08 14:22:56,292 [restartedMain] INFO  com.leon.redis.RedisConfig 65 - JedisPool init successful，host -> [59.110.160.100]；port -> [6379]
+2020-04-08 14:22:56,311 [restartedMain] INFO  com.leon.redis.RedisConfiguration 68 - 初始化 -> [CacheManager RedisCacheManager Start]
+2020-04-08 14:22:56,324 [restartedMain] INFO  com.leon.redis.RedisConfiguration 99 - 初始化 -> [Redis CacheErrorHandler]
+2020-04-08 14:22:57,383 [restartedMain] INFO  o.e.j.s.h.ContextHandler.application 2223 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-08 14:22:57,428 [restartedMain] INFO  o.e.jetty.server.AbstractConnector 330 - Started ServerConnector@46e2282a{HTTP/1.1,[http/1.1]}{0.0.0.0:8103}
+2020-04-08 14:22:57,433 [restartedMain] INFO  com.leon.WebManageApplication 61 - Started WebManageApplication in 6.623 seconds (JVM running for 7.628)
+2020-04-08 14:29:22,767 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource 1823 - {dataSource-1} closed
+2020-04-08 14:29:22,781 [SpringContextShutdownHook] INFO  o.e.jetty.server.AbstractConnector 380 - Stopped ServerConnector@46e2282a{HTTP/1.1,[http/1.1]}{0.0.0.0:8103}
+2020-04-08 14:29:22,781 [SpringContextShutdownHook] INFO  org.eclipse.jetty.server.session 158 - node0 Stopped scavenging
+2020-04-08 14:29:22,785 [SpringContextShutdownHook] INFO  o.e.j.s.h.ContextHandler.application 2223 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2020-04-08 14:29:22,785 [SpringContextShutdownHook] INFO  o.e.j.server.handler.ContextHandler 1016 - Stopped o.s.b.w.e.j.JettyEmbeddedWebAppContext@6fb9afde{application,/,[file:///private/var/folders/7h/1dfzdnnx3g5fz51v_lmc0rww0000gn/T/jetty-docbase.7842248700510676333.8103/, jar:file:/Users/leon/Documents/maven/repository-a3/io/springfox/springfox-swagger-ui/2.7.0/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],UNAVAILABLE}
+2020-04-08 14:29:28,012 [restartedMain] INFO  com.leon.WebManageApplication 55 - Starting WebManageApplication on Leon.local with PID 71140 (/Users/leon/Documents/workspace/a3-manage/a3-web/target/classes started by leon in /Users/leon/Documents/workspace/a3-manage)
+2020-04-08 14:29:28,014 [restartedMain] INFO  com.leon.WebManageApplication 655 - The following profiles are active: druid,common
+2020-04-08 14:29:29,179 [restartedMain] INFO  com.leon.redis.RedisConfig 55 - Create JedisConnectionFactory successful
+2020-04-08 14:29:29,463 [restartedMain] INFO  org.eclipse.jetty.util.log 169 - Logging initialized @3161ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-04-08 14:29:29,554 [restartedMain] INFO  org.eclipse.jetty.server.Server 359 - jetty-9.4.26.v20200117; built: 2020-01-17T12:35:33.676Z; git: 7b38981d25d14afb4a12ff1f2596756144edf695; jvm 1.8.0_181-b13
+2020-04-08 14:29:29,575 [restartedMain] INFO  o.e.j.s.h.ContextHandler.application 2223 - Initializing Spring embedded WebApplicationContext
+2020-04-08 14:29:29,674 [restartedMain] INFO  org.eclipse.jetty.server.session 333 - DefaultSessionIdManager workerName=node0
+2020-04-08 14:29:29,674 [restartedMain] INFO  org.eclipse.jetty.server.session 338 - No SessionScavenger set, using defaults
+2020-04-08 14:29:29,675 [restartedMain] INFO  org.eclipse.jetty.server.session 140 - node0 Scavenging every 600000ms
+2020-04-08 14:29:29,692 [restartedMain] INFO  o.e.j.server.handler.ContextHandler 825 - Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@41df6ad7{application,/,[file:///private/var/folders/7h/1dfzdnnx3g5fz51v_lmc0rww0000gn/T/jetty-docbase.729459244309344927.8103/, jar:file:/Users/leon/Documents/maven/repository-a3/io/springfox/springfox-swagger-ui/2.7.0/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],AVAILABLE}
+2020-04-08 14:29:29,693 [restartedMain] INFO  org.eclipse.jetty.server.Server 399 - Started @3392ms
+2020-04-08 14:29:32,145 [restartedMain] INFO  c.alibaba.druid.pool.DruidDataSource 928 - {dataSource-1} inited
+2020-04-08 14:29:32,504 [restartedMain] INFO  com.leon.redis.RedisConfig 65 - JedisPool init successful，host -> [59.110.160.100]；port -> [6379]
+2020-04-08 14:29:32,520 [restartedMain] INFO  com.leon.redis.RedisConfiguration 68 - 初始化 -> [CacheManager RedisCacheManager Start]
+2020-04-08 14:29:32,535 [restartedMain] INFO  com.leon.redis.RedisConfiguration 99 - 初始化 -> [Redis CacheErrorHandler]
+2020-04-08 14:29:33,593 [restartedMain] INFO  o.e.j.s.h.ContextHandler.application 2223 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-08 14:29:33,637 [restartedMain] INFO  o.e.jetty.server.AbstractConnector 330 - Started ServerConnector@697fde95{HTTP/1.1,[http/1.1]}{0.0.0.0:8103}
+2020-04-08 14:29:33,642 [restartedMain] INFO  com.leon.WebManageApplication 61 - Started WebManageApplication in 6.334 seconds (JVM running for 7.341)
+2020-04-08 15:01:10,444 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource 1823 - {dataSource-1} closed
+2020-04-08 15:01:10,464 [SpringContextShutdownHook] INFO  o.e.jetty.server.AbstractConnector 380 - Stopped ServerConnector@697fde95{HTTP/1.1,[http/1.1]}{0.0.0.0:8103}
+2020-04-08 15:01:10,464 [SpringContextShutdownHook] INFO  org.eclipse.jetty.server.session 158 - node0 Stopped scavenging
+2020-04-08 15:01:10,468 [SpringContextShutdownHook] INFO  o.e.j.s.h.ContextHandler.application 2223 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2020-04-08 15:01:10,469 [SpringContextShutdownHook] INFO  o.e.j.server.handler.ContextHandler 1016 - Stopped o.s.b.w.e.j.JettyEmbeddedWebAppContext@41df6ad7{application,/,[file:///private/var/folders/7h/1dfzdnnx3g5fz51v_lmc0rww0000gn/T/jetty-docbase.729459244309344927.8103/, jar:file:/Users/leon/Documents/maven/repository-a3/io/springfox/springfox-swagger-ui/2.7.0/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],UNAVAILABLE}
+2020-04-08 21:16:20,239 [restartedMain] INFO  com.leon.WebManageApplication 55 - Starting WebManageApplication on Leon.local with PID 80422 (/Users/leon/Documents/workspace/a3-manage/a3-web/target/classes started by leon in /Users/leon/Documents/workspace/a3-manage)
+2020-04-08 21:16:20,245 [restartedMain] INFO  com.leon.WebManageApplication 655 - The following profiles are active: druid,common
+2020-04-08 21:16:22,004 [restartedMain] INFO  com.leon.redis.RedisConfig 55 - Create JedisConnectionFactory successful
+2020-04-08 21:16:22,403 [restartedMain] INFO  org.eclipse.jetty.util.log 169 - Logging initialized @4954ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-04-08 21:16:22,557 [restartedMain] INFO  org.eclipse.jetty.server.Server 359 - jetty-9.4.26.v20200117; built: 2020-01-17T12:35:33.676Z; git: 7b38981d25d14afb4a12ff1f2596756144edf695; jvm 1.8.0_181-b13
+2020-04-08 21:16:22,593 [restartedMain] INFO  o.e.j.s.h.ContextHandler.application 2223 - Initializing Spring embedded WebApplicationContext
+2020-04-08 21:16:22,771 [restartedMain] INFO  org.eclipse.jetty.server.session 333 - DefaultSessionIdManager workerName=node0
+2020-04-08 21:16:22,771 [restartedMain] INFO  org.eclipse.jetty.server.session 338 - No SessionScavenger set, using defaults
+2020-04-08 21:16:22,773 [restartedMain] INFO  org.eclipse.jetty.server.session 140 - node0 Scavenging every 600000ms
+2020-04-08 21:16:22,791 [restartedMain] INFO  o.e.j.server.handler.ContextHandler 825 - Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@63899447{application,/,[file:///private/var/folders/7h/1dfzdnnx3g5fz51v_lmc0rww0000gn/T/jetty-docbase.549489394243449835.8103/, jar:file:/Users/leon/Documents/maven/repository-a3/io/springfox/springfox-swagger-ui/2.7.0/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],AVAILABLE}
+2020-04-08 21:16:22,792 [restartedMain] INFO  org.eclipse.jetty.server.Server 399 - Started @5344ms
+2020-04-08 21:16:30,413 [restartedMain] INFO  c.alibaba.druid.pool.DruidDataSource 928 - {dataSource-1} inited
+2020-04-08 21:16:30,888 [restartedMain] INFO  com.leon.redis.RedisConfig 65 - JedisPool init successful，host -> [59.110.160.100]；port -> [6379]
+2020-04-08 21:16:30,913 [restartedMain] INFO  com.leon.redis.RedisConfiguration 68 - 初始化 -> [CacheManager RedisCacheManager Start]
+2020-04-08 21:16:30,931 [restartedMain] INFO  com.leon.redis.RedisConfiguration 99 - 初始化 -> [Redis CacheErrorHandler]
+2020-04-08 21:16:32,245 [restartedMain] INFO  o.e.j.s.h.ContextHandler.application 2223 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-08 21:16:32,304 [restartedMain] INFO  o.e.jetty.server.AbstractConnector 330 - Started ServerConnector@29aad56{HTTP/1.1,[http/1.1]}{0.0.0.0:8103}
+2020-04-08 21:16:32,312 [restartedMain] INFO  com.leon.WebManageApplication 61 - Started WebManageApplication in 12.813 seconds (JVM running for 14.864)
+2020-04-08 21:19:49,756 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource 1823 - {dataSource-1} closed
+2020-04-08 21:19:49,763 [SpringContextShutdownHook] INFO  o.e.jetty.server.AbstractConnector 380 - Stopped ServerConnector@29aad56{HTTP/1.1,[http/1.1]}{0.0.0.0:8103}
+2020-04-08 21:19:49,764 [SpringContextShutdownHook] INFO  org.eclipse.jetty.server.session 158 - node0 Stopped scavenging
+2020-04-08 21:19:49,765 [SpringContextShutdownHook] INFO  o.e.j.s.h.ContextHandler.application 2223 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2020-04-08 21:19:49,766 [SpringContextShutdownHook] INFO  o.e.j.server.handler.ContextHandler 1016 - Stopped o.s.b.w.e.j.JettyEmbeddedWebAppContext@63899447{application,/,[file:///private/var/folders/7h/1dfzdnnx3g5fz51v_lmc0rww0000gn/T/jetty-docbase.549489394243449835.8103/, jar:file:/Users/leon/Documents/maven/repository-a3/io/springfox/springfox-swagger-ui/2.7.0/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],UNAVAILABLE}
+2020-04-08 21:19:53,670 [restartedMain] INFO  com.leon.WebManageApplication 55 - Starting WebManageApplication on Leon.local with PID 80503 (/Users/leon/Documents/workspace/a3-manage/a3-web/target/classes started by leon in /Users/leon/Documents/workspace/a3-manage)
+2020-04-08 21:19:53,675 [restartedMain] INFO  com.leon.WebManageApplication 655 - The following profiles are active: druid,common
+2020-04-08 21:19:54,928 [restartedMain] INFO  com.leon.redis.RedisConfig 55 - Create JedisConnectionFactory successful
+2020-04-08 21:19:55,213 [restartedMain] INFO  org.eclipse.jetty.util.log 169 - Logging initialized @2935ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-04-08 21:19:55,303 [restartedMain] INFO  org.eclipse.jetty.server.Server 359 - jetty-9.4.26.v20200117; built: 2020-01-17T12:35:33.676Z; git: 7b38981d25d14afb4a12ff1f2596756144edf695; jvm 1.8.0_181-b13
+2020-04-08 21:19:55,324 [restartedMain] INFO  o.e.j.s.h.ContextHandler.application 2223 - Initializing Spring embedded WebApplicationContext
+2020-04-08 21:19:55,430 [restartedMain] INFO  org.eclipse.jetty.server.session 333 - DefaultSessionIdManager workerName=node0
+2020-04-08 21:19:55,430 [restartedMain] INFO  org.eclipse.jetty.server.session 338 - No SessionScavenger set, using defaults
+2020-04-08 21:19:55,431 [restartedMain] INFO  org.eclipse.jetty.server.session 140 - node0 Scavenging every 600000ms
+2020-04-08 21:19:55,444 [restartedMain] INFO  o.e.j.server.handler.ContextHandler 825 - Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@802fc4f{application,/,[file:///private/var/folders/7h/1dfzdnnx3g5fz51v_lmc0rww0000gn/T/jetty-docbase.2325063029925414059.8103/, jar:file:/Users/leon/Documents/maven/repository-a3/io/springfox/springfox-swagger-ui/2.7.0/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],AVAILABLE}
+2020-04-08 21:19:55,445 [restartedMain] INFO  org.eclipse.jetty.server.Server 399 - Started @3167ms
+2020-04-08 21:19:58,032 [restartedMain] INFO  c.alibaba.druid.pool.DruidDataSource 928 - {dataSource-1} inited
+2020-04-08 21:19:58,479 [restartedMain] INFO  com.leon.redis.RedisConfig 65 - JedisPool init successful，host -> [59.110.160.100]；port -> [6379]
+2020-04-08 21:19:58,497 [restartedMain] INFO  com.leon.redis.RedisConfiguration 68 - 初始化 -> [CacheManager RedisCacheManager Start]
+2020-04-08 21:19:58,510 [restartedMain] INFO  com.leon.redis.RedisConfiguration 99 - 初始化 -> [Redis CacheErrorHandler]
+2020-04-08 21:19:59,535 [restartedMain] INFO  o.e.j.s.h.ContextHandler.application 2223 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-08 21:19:59,582 [restartedMain] INFO  o.e.jetty.server.AbstractConnector 330 - Started ServerConnector@7359fdf1{HTTP/1.1,[http/1.1]}{0.0.0.0:8103}
+2020-04-08 21:19:59,587 [restartedMain] INFO  com.leon.WebManageApplication 61 - Started WebManageApplication in 6.601 seconds (JVM running for 7.306)
+2020-04-08 21:28:51,777 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource 1823 - {dataSource-1} closed
+2020-04-08 21:28:51,784 [SpringContextShutdownHook] INFO  o.e.jetty.server.AbstractConnector 380 - Stopped ServerConnector@7359fdf1{HTTP/1.1,[http/1.1]}{0.0.0.0:8103}
+2020-04-08 21:28:51,784 [SpringContextShutdownHook] INFO  org.eclipse.jetty.server.session 158 - node0 Stopped scavenging
+2020-04-08 21:28:51,785 [SpringContextShutdownHook] INFO  o.e.j.s.h.ContextHandler.application 2223 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2020-04-08 21:28:51,786 [SpringContextShutdownHook] INFO  o.e.j.server.handler.ContextHandler 1016 - Stopped o.s.b.w.e.j.JettyEmbeddedWebAppContext@802fc4f{application,/,[file:///private/var/folders/7h/1dfzdnnx3g5fz51v_lmc0rww0000gn/T/jetty-docbase.2325063029925414059.8103/, jar:file:/Users/leon/Documents/maven/repository-a3/io/springfox/springfox-swagger-ui/2.7.0/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],UNAVAILABLE}
+2020-04-08 21:28:55,846 [restartedMain] INFO  com.leon.WebManageApplication 55 - Starting WebManageApplication on Leon.local with PID 80706 (/Users/leon/Documents/workspace/a3-manage/a3-web/target/classes started by leon in /Users/leon/Documents/workspace/a3-manage)
+2020-04-08 21:28:55,850 [restartedMain] INFO  com.leon.WebManageApplication 655 - The following profiles are active: druid,common
+2020-04-08 21:28:57,067 [restartedMain] INFO  com.leon.redis.RedisConfig 55 - Create JedisConnectionFactory successful
+2020-04-08 21:28:57,372 [restartedMain] INFO  org.eclipse.jetty.util.log 169 - Logging initialized @2860ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-04-08 21:28:57,461 [restartedMain] INFO  org.eclipse.jetty.server.Server 359 - jetty-9.4.26.v20200117; built: 2020-01-17T12:35:33.676Z; git: 7b38981d25d14afb4a12ff1f2596756144edf695; jvm 1.8.0_181-b13
+2020-04-08 21:28:57,481 [restartedMain] INFO  o.e.j.s.h.ContextHandler.application 2223 - Initializing Spring embedded WebApplicationContext
+2020-04-08 21:28:57,584 [restartedMain] INFO  org.eclipse.jetty.server.session 333 - DefaultSessionIdManager workerName=node0
+2020-04-08 21:28:57,585 [restartedMain] INFO  org.eclipse.jetty.server.session 338 - No SessionScavenger set, using defaults
+2020-04-08 21:28:57,586 [restartedMain] INFO  org.eclipse.jetty.server.session 140 - node0 Scavenging every 600000ms
+2020-04-08 21:28:57,598 [restartedMain] INFO  o.e.j.server.handler.ContextHandler 825 - Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@2ecabfb9{application,/,[file:///private/var/folders/7h/1dfzdnnx3g5fz51v_lmc0rww0000gn/T/jetty-docbase.3690823468179011152.8103/, jar:file:/Users/leon/Documents/maven/repository-a3/io/springfox/springfox-swagger-ui/2.7.0/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],AVAILABLE}
+2020-04-08 21:28:57,599 [restartedMain] INFO  org.eclipse.jetty.server.Server 399 - Started @3088ms
+2020-04-08 21:29:00,173 [restartedMain] INFO  c.alibaba.druid.pool.DruidDataSource 928 - {dataSource-1} inited
+2020-04-08 21:29:00,527 [restartedMain] INFO  com.leon.redis.RedisConfig 65 - JedisPool init successful，host -> [59.110.160.100]；port -> [6379]
+2020-04-08 21:29:00,543 [restartedMain] INFO  com.leon.redis.RedisConfiguration 68 - 初始化 -> [CacheManager RedisCacheManager Start]
+2020-04-08 21:29:00,554 [restartedMain] INFO  com.leon.redis.RedisConfiguration 99 - 初始化 -> [Redis CacheErrorHandler]
+2020-04-08 21:29:01,548 [restartedMain] INFO  o.e.j.s.h.ContextHandler.application 2223 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-08 21:29:01,594 [restartedMain] INFO  o.e.jetty.server.AbstractConnector 330 - Started ServerConnector@563b22cd{HTTP/1.1,[http/1.1]}{0.0.0.0:8103}
+2020-04-08 21:29:01,599 [restartedMain] INFO  com.leon.WebManageApplication 61 - Started WebManageApplication in 6.399 seconds (JVM running for 7.088)
+2020-04-08 21:29:44,848 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource 1823 - {dataSource-1} closed
+2020-04-08 21:29:44,857 [SpringContextShutdownHook] INFO  o.e.jetty.server.AbstractConnector 380 - Stopped ServerConnector@563b22cd{HTTP/1.1,[http/1.1]}{0.0.0.0:8103}
+2020-04-08 21:29:44,858 [SpringContextShutdownHook] INFO  org.eclipse.jetty.server.session 158 - node0 Stopped scavenging
+2020-04-08 21:29:44,859 [SpringContextShutdownHook] INFO  o.e.j.s.h.ContextHandler.application 2223 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2020-04-08 21:29:44,860 [SpringContextShutdownHook] INFO  o.e.j.server.handler.ContextHandler 1016 - Stopped o.s.b.w.e.j.JettyEmbeddedWebAppContext@2ecabfb9{application,/,[file:///private/var/folders/7h/1dfzdnnx3g5fz51v_lmc0rww0000gn/T/jetty-docbase.3690823468179011152.8103/, jar:file:/Users/leon/Documents/maven/repository-a3/io/springfox/springfox-swagger-ui/2.7.0/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],UNAVAILABLE}
+2020-04-08 21:30:03,449 [restartedMain] INFO  com.leon.WebManageApplication 55 - Starting WebManageApplication on Leon.local with PID 80736 (/Users/leon/Documents/workspace/a3-manage/a3-web/target/classes started by leon in /Users/leon/Documents/workspace/a3-manage)
+2020-04-08 21:30:03,453 [restartedMain] INFO  com.leon.WebManageApplication 655 - The following profiles are active: druid,common
+2020-04-08 21:30:04,647 [restartedMain] INFO  com.leon.redis.RedisConfig 55 - Create JedisConnectionFactory successful
+2020-04-08 21:30:04,934 [restartedMain] INFO  org.eclipse.jetty.util.log 169 - Logging initialized @2824ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-04-08 21:30:05,020 [restartedMain] INFO  org.eclipse.jetty.server.Server 359 - jetty-9.4.26.v20200117; built: 2020-01-17T12:35:33.676Z; git: 7b38981d25d14afb4a12ff1f2596756144edf695; jvm 1.8.0_181-b13
+2020-04-08 21:30:05,041 [restartedMain] INFO  o.e.j.s.h.ContextHandler.application 2223 - Initializing Spring embedded WebApplicationContext
+2020-04-08 21:30:05,141 [restartedMain] INFO  org.eclipse.jetty.server.session 333 - DefaultSessionIdManager workerName=node0
+2020-04-08 21:30:05,141 [restartedMain] INFO  org.eclipse.jetty.server.session 338 - No SessionScavenger set, using defaults
+2020-04-08 21:30:05,142 [restartedMain] INFO  org.eclipse.jetty.server.session 140 - node0 Scavenging every 660000ms
+2020-04-08 21:30:05,155 [restartedMain] INFO  o.e.j.server.handler.ContextHandler 825 - Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@49b9bc69{application,/,[file:///private/var/folders/7h/1dfzdnnx3g5fz51v_lmc0rww0000gn/T/jetty-docbase.7457005320316771986.8103/, jar:file:/Users/leon/Documents/maven/repository-a3/io/springfox/springfox-swagger-ui/2.7.0/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],AVAILABLE}
+2020-04-08 21:30:05,155 [restartedMain] INFO  org.eclipse.jetty.server.Server 399 - Started @3046ms
+2020-04-08 21:30:07,617 [restartedMain] INFO  c.alibaba.druid.pool.DruidDataSource 928 - {dataSource-1} inited
+2020-04-08 21:30:08,029 [restartedMain] INFO  com.leon.redis.RedisConfig 65 - JedisPool init successful，host -> [59.110.160.100]；port -> [6379]
+2020-04-08 21:30:08,047 [restartedMain] INFO  com.leon.redis.RedisConfiguration 68 - 初始化 -> [CacheManager RedisCacheManager Start]
+2020-04-08 21:30:08,060 [restartedMain] INFO  com.leon.redis.RedisConfiguration 99 - 初始化 -> [Redis CacheErrorHandler]
+2020-04-08 21:30:09,083 [restartedMain] INFO  o.e.j.s.h.ContextHandler.application 2223 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-08 21:30:09,129 [restartedMain] INFO  o.e.jetty.server.AbstractConnector 330 - Started ServerConnector@4808d041{HTTP/1.1,[http/1.1]}{0.0.0.0:8103}
+2020-04-08 21:30:09,134 [restartedMain] INFO  com.leon.WebManageApplication 61 - Started WebManageApplication in 6.407 seconds (JVM running for 7.024)
+2020-04-08 21:33:07,512 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource 1823 - {dataSource-1} closed
+2020-04-08 21:33:07,527 [SpringContextShutdownHook] INFO  o.e.jetty.server.AbstractConnector 380 - Stopped ServerConnector@4808d041{HTTP/1.1,[http/1.1]}{0.0.0.0:8103}
+2020-04-08 21:33:07,527 [SpringContextShutdownHook] INFO  org.eclipse.jetty.server.session 158 - node0 Stopped scavenging
+2020-04-08 21:33:07,530 [SpringContextShutdownHook] INFO  o.e.j.s.h.ContextHandler.application 2223 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2020-04-08 21:33:07,530 [SpringContextShutdownHook] INFO  o.e.j.server.handler.ContextHandler 1016 - Stopped o.s.b.w.e.j.JettyEmbeddedWebAppContext@49b9bc69{application,/,[file:///private/var/folders/7h/1dfzdnnx3g5fz51v_lmc0rww0000gn/T/jetty-docbase.7457005320316771986.8103/, jar:file:/Users/leon/Documents/maven/repository-a3/io/springfox/springfox-swagger-ui/2.7.0/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],UNAVAILABLE}
+2020-04-08 21:33:11,529 [restartedMain] INFO  com.leon.WebManageApplication 55 - Starting WebManageApplication on Leon.local with PID 80806 (/Users/leon/Documents/workspace/a3-manage/a3-web/target/classes started by leon in /Users/leon/Documents/workspace/a3-manage)
+2020-04-08 21:33:11,532 [restartedMain] INFO  com.leon.WebManageApplication 655 - The following profiles are active: druid,common
+2020-04-08 21:33:12,679 [restartedMain] INFO  com.leon.redis.RedisConfig 55 - Create JedisConnectionFactory successful
+2020-04-08 21:33:12,990 [restartedMain] INFO  org.eclipse.jetty.util.log 169 - Logging initialized @2850ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-04-08 21:33:13,077 [restartedMain] INFO  org.eclipse.jetty.server.Server 359 - jetty-9.4.26.v20200117; built: 2020-01-17T12:35:33.676Z; git: 7b38981d25d14afb4a12ff1f2596756144edf695; jvm 1.8.0_181-b13
+2020-04-08 21:33:13,098 [restartedMain] INFO  o.e.j.s.h.ContextHandler.application 2223 - Initializing Spring embedded WebApplicationContext
+2020-04-08 21:33:13,198 [restartedMain] INFO  org.eclipse.jetty.server.session 333 - DefaultSessionIdManager workerName=node0
+2020-04-08 21:33:13,199 [restartedMain] INFO  org.eclipse.jetty.server.session 338 - No SessionScavenger set, using defaults
+2020-04-08 21:33:13,200 [restartedMain] INFO  org.eclipse.jetty.server.session 140 - node0 Scavenging every 600000ms
+2020-04-08 21:33:13,213 [restartedMain] INFO  o.e.j.server.handler.ContextHandler 825 - Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@22d17d48{application,/,[file:///private/var/folders/7h/1dfzdnnx3g5fz51v_lmc0rww0000gn/T/jetty-docbase.3426188852174777098.8103/, jar:file:/Users/leon/Documents/maven/repository-a3/io/springfox/springfox-swagger-ui/2.7.0/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],AVAILABLE}
+2020-04-08 21:33:13,213 [restartedMain] INFO  org.eclipse.jetty.server.Server 399 - Started @3074ms
+2020-04-08 21:33:16,366 [restartedMain] INFO  c.alibaba.druid.pool.DruidDataSource 928 - {dataSource-1} inited
+2020-04-08 21:33:16,715 [restartedMain] INFO  com.leon.redis.RedisConfig 65 - JedisPool init successful，host -> [59.110.160.100]；port -> [6379]
+2020-04-08 21:33:16,733 [restartedMain] INFO  com.leon.redis.RedisConfiguration 68 - 初始化 -> [CacheManager RedisCacheManager Start]
+2020-04-08 21:33:16,747 [restartedMain] INFO  com.leon.redis.RedisConfiguration 99 - 初始化 -> [Redis CacheErrorHandler]
+2020-04-08 21:33:17,782 [restartedMain] INFO  o.e.j.s.h.ContextHandler.application 2223 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-08 21:33:17,852 [restartedMain] INFO  o.e.jetty.server.AbstractConnector 330 - Started ServerConnector@22897f05{HTTP/1.1,[http/1.1]}{0.0.0.0:8103}
+2020-04-08 21:33:17,857 [restartedMain] INFO  com.leon.WebManageApplication 61 - Started WebManageApplication in 6.919 seconds (JVM running for 7.718)
+2020-04-08 21:34:39,747 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource 1823 - {dataSource-1} closed
+2020-04-08 21:34:39,757 [SpringContextShutdownHook] INFO  o.e.jetty.server.AbstractConnector 380 - Stopped ServerConnector@22897f05{HTTP/1.1,[http/1.1]}{0.0.0.0:8103}
+2020-04-08 21:34:39,757 [SpringContextShutdownHook] INFO  org.eclipse.jetty.server.session 158 - node0 Stopped scavenging
+2020-04-08 21:34:39,759 [SpringContextShutdownHook] INFO  o.e.j.s.h.ContextHandler.application 2223 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2020-04-08 21:34:39,759 [SpringContextShutdownHook] INFO  o.e.j.server.handler.ContextHandler 1016 - Stopped o.s.b.w.e.j.JettyEmbeddedWebAppContext@22d17d48{application,/,[file:///private/var/folders/7h/1dfzdnnx3g5fz51v_lmc0rww0000gn/T/jetty-docbase.3426188852174777098.8103/, jar:file:/Users/leon/Documents/maven/repository-a3/io/springfox/springfox-swagger-ui/2.7.0/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],UNAVAILABLE}
+2020-04-08 21:34:43,152 [restartedMain] INFO  com.leon.WebManageApplication 55 - Starting WebManageApplication on Leon.local with PID 80840 (/Users/leon/Documents/workspace/a3-manage/a3-web/target/classes started by leon in /Users/leon/Documents/workspace/a3-manage)
+2020-04-08 21:34:43,156 [restartedMain] INFO  com.leon.WebManageApplication 655 - The following profiles are active: druid,common
+2020-04-08 21:34:44,382 [restartedMain] INFO  com.leon.redis.RedisConfig 55 - Create JedisConnectionFactory successful
+2020-04-08 21:34:44,688 [restartedMain] INFO  org.eclipse.jetty.util.log 169 - Logging initialized @2852ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-04-08 21:34:44,779 [restartedMain] INFO  org.eclipse.jetty.server.Server 359 - jetty-9.4.26.v20200117; built: 2020-01-17T12:35:33.676Z; git: 7b38981d25d14afb4a12ff1f2596756144edf695; jvm 1.8.0_181-b13
+2020-04-08 21:34:44,800 [restartedMain] INFO  o.e.j.s.h.ContextHandler.application 2223 - Initializing Spring embedded WebApplicationContext
+2020-04-08 21:34:44,902 [restartedMain] INFO  org.eclipse.jetty.server.session 333 - DefaultSessionIdManager workerName=node0
+2020-04-08 21:34:44,902 [restartedMain] INFO  org.eclipse.jetty.server.session 338 - No SessionScavenger set, using defaults
+2020-04-08 21:34:44,903 [restartedMain] INFO  org.eclipse.jetty.server.session 140 - node0 Scavenging every 600000ms
+2020-04-08 21:34:44,916 [restartedMain] INFO  o.e.j.server.handler.ContextHandler 825 - Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@73310466{application,/,[file:///private/var/folders/7h/1dfzdnnx3g5fz51v_lmc0rww0000gn/T/jetty-docbase.3357659258586832807.8103/, jar:file:/Users/leon/Documents/maven/repository-a3/io/springfox/springfox-swagger-ui/2.7.0/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],AVAILABLE}
+2020-04-08 21:34:44,916 [restartedMain] INFO  org.eclipse.jetty.server.Server 399 - Started @3081ms
+2020-04-08 21:34:47,482 [restartedMain] INFO  c.alibaba.druid.pool.DruidDataSource 928 - {dataSource-1} inited
+2020-04-08 21:34:47,915 [restartedMain] INFO  com.leon.redis.RedisConfig 65 - JedisPool init successful，host -> [59.110.160.100]；port -> [6379]
+2020-04-08 21:34:47,933 [restartedMain] INFO  com.leon.redis.RedisConfiguration 68 - 初始化 -> [CacheManager RedisCacheManager Start]
+2020-04-08 21:34:47,948 [restartedMain] INFO  com.leon.redis.RedisConfiguration 99 - 初始化 -> [Redis CacheErrorHandler]
+2020-04-08 21:34:48,999 [restartedMain] INFO  o.e.j.s.h.ContextHandler.application 2223 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-08 21:34:49,046 [restartedMain] INFO  o.e.jetty.server.AbstractConnector 330 - Started ServerConnector@788e60d1{HTTP/1.1,[http/1.1]}{0.0.0.0:8103}
+2020-04-08 21:34:49,052 [restartedMain] INFO  com.leon.WebManageApplication 61 - Started WebManageApplication in 6.595 seconds (JVM running for 7.216)
+2020-04-08 21:35:25,639 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource 1823 - {dataSource-1} closed
+2020-04-08 21:35:25,646 [SpringContextShutdownHook] INFO  o.e.jetty.server.AbstractConnector 380 - Stopped ServerConnector@788e60d1{HTTP/1.1,[http/1.1]}{0.0.0.0:8103}
+2020-04-08 21:35:25,647 [SpringContextShutdownHook] INFO  org.eclipse.jetty.server.session 158 - node0 Stopped scavenging
+2020-04-08 21:35:25,648 [SpringContextShutdownHook] INFO  o.e.j.s.h.ContextHandler.application 2223 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2020-04-08 21:35:25,648 [SpringContextShutdownHook] INFO  o.e.j.server.handler.ContextHandler 1016 - Stopped o.s.b.w.e.j.JettyEmbeddedWebAppContext@73310466{application,/,[file:///private/var/folders/7h/1dfzdnnx3g5fz51v_lmc0rww0000gn/T/jetty-docbase.3357659258586832807.8103/, jar:file:/Users/leon/Documents/maven/repository-a3/io/springfox/springfox-swagger-ui/2.7.0/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],UNAVAILABLE}
+2020-04-08 21:35:43,427 [restartedMain] INFO  com.leon.WebManageApplication 55 - Starting WebManageApplication on Leon.local with PID 80867 (/Users/leon/Documents/workspace/a3-manage/a3-web/target/classes started by leon in /Users/leon/Documents/workspace/a3-manage)
+2020-04-08 21:35:43,430 [restartedMain] INFO  com.leon.WebManageApplication 655 - The following profiles are active: druid,common
+2020-04-08 21:35:44,622 [restartedMain] INFO  com.leon.redis.RedisConfig 55 - Create JedisConnectionFactory successful
+2020-04-08 21:35:44,902 [restartedMain] INFO  org.eclipse.jetty.util.log 169 - Logging initialized @2889ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-04-08 21:35:44,990 [restartedMain] INFO  org.eclipse.jetty.server.Server 359 - jetty-9.4.26.v20200117; built: 2020-01-17T12:35:33.676Z; git: 7b38981d25d14afb4a12ff1f2596756144edf695; jvm 1.8.0_181-b13
+2020-04-08 21:35:45,010 [restartedMain] INFO  o.e.j.s.h.ContextHandler.application 2223 - Initializing Spring embedded WebApplicationContext
+2020-04-08 21:35:45,109 [restartedMain] INFO  org.eclipse.jetty.server.session 333 - DefaultSessionIdManager workerName=node0
+2020-04-08 21:35:45,109 [restartedMain] INFO  org.eclipse.jetty.server.session 338 - No SessionScavenger set, using defaults
+2020-04-08 21:35:45,110 [restartedMain] INFO  org.eclipse.jetty.server.session 140 - node0 Scavenging every 600000ms
+2020-04-08 21:35:45,122 [restartedMain] INFO  o.e.j.server.handler.ContextHandler 825 - Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@33ab6986{application,/,[file:///private/var/folders/7h/1dfzdnnx3g5fz51v_lmc0rww0000gn/T/jetty-docbase.2287736006071511579.8103/, jar:file:/Users/leon/Documents/maven/repository-a3/io/springfox/springfox-swagger-ui/2.7.0/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],AVAILABLE}
+2020-04-08 21:35:45,123 [restartedMain] INFO  org.eclipse.jetty.server.Server 399 - Started @3110ms
+2020-04-08 21:35:47,634 [restartedMain] INFO  c.alibaba.druid.pool.DruidDataSource 928 - {dataSource-1} inited
+2020-04-08 21:35:48,076 [restartedMain] INFO  com.leon.redis.RedisConfig 65 - JedisPool init successful，host -> [59.110.160.100]；port -> [6379]
+2020-04-08 21:35:48,094 [restartedMain] INFO  com.leon.redis.RedisConfiguration 68 - 初始化 -> [CacheManager RedisCacheManager Start]
+2020-04-08 21:35:48,107 [restartedMain] INFO  com.leon.redis.RedisConfiguration 99 - 初始化 -> [Redis CacheErrorHandler]
+2020-04-08 21:35:49,119 [restartedMain] INFO  o.e.j.s.h.ContextHandler.application 2223 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-08 21:35:49,164 [restartedMain] INFO  o.e.jetty.server.AbstractConnector 330 - Started ServerConnector@5387dcb0{HTTP/1.1,[http/1.1]}{0.0.0.0:8103}
+2020-04-08 21:35:49,169 [restartedMain] INFO  com.leon.WebManageApplication 61 - Started WebManageApplication in 6.44 seconds (JVM running for 7.157)
+2020-04-08 21:36:44,348 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource 1823 - {dataSource-1} closed
+2020-04-08 21:36:44,354 [SpringContextShutdownHook] INFO  o.e.jetty.server.AbstractConnector 380 - Stopped ServerConnector@5387dcb0{HTTP/1.1,[http/1.1]}{0.0.0.0:8103}
+2020-04-08 21:36:44,355 [SpringContextShutdownHook] INFO  org.eclipse.jetty.server.session 158 - node0 Stopped scavenging
+2020-04-08 21:36:44,356 [SpringContextShutdownHook] INFO  o.e.j.s.h.ContextHandler.application 2223 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2020-04-08 21:36:44,356 [SpringContextShutdownHook] INFO  o.e.j.server.handler.ContextHandler 1016 - Stopped o.s.b.w.e.j.JettyEmbeddedWebAppContext@33ab6986{application,/,[file:///private/var/folders/7h/1dfzdnnx3g5fz51v_lmc0rww0000gn/T/jetty-docbase.2287736006071511579.8103/, jar:file:/Users/leon/Documents/maven/repository-a3/io/springfox/springfox-swagger-ui/2.7.0/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],UNAVAILABLE}
+2020-04-08 21:36:48,682 [restartedMain] INFO  com.leon.WebManageApplication 55 - Starting WebManageApplication on Leon.local with PID 80893 (/Users/leon/Documents/workspace/a3-manage/a3-web/target/classes started by leon in /Users/leon/Documents/workspace/a3-manage)
+2020-04-08 21:36:48,685 [restartedMain] INFO  com.leon.WebManageApplication 655 - The following profiles are active: druid,common
+2020-04-08 21:36:49,845 [restartedMain] INFO  com.leon.redis.RedisConfig 55 - Create JedisConnectionFactory successful
+2020-04-08 21:36:50,122 [restartedMain] INFO  org.eclipse.jetty.util.log 169 - Logging initialized @2964ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-04-08 21:36:50,209 [restartedMain] INFO  org.eclipse.jetty.server.Server 359 - jetty-9.4.26.v20200117; built: 2020-01-17T12:35:33.676Z; git: 7b38981d25d14afb4a12ff1f2596756144edf695; jvm 1.8.0_181-b13
+2020-04-08 21:36:50,229 [restartedMain] INFO  o.e.j.s.h.ContextHandler.application 2223 - Initializing Spring embedded WebApplicationContext
+2020-04-08 21:36:50,330 [restartedMain] INFO  org.eclipse.jetty.server.session 333 - DefaultSessionIdManager workerName=node0
+2020-04-08 21:36:50,330 [restartedMain] INFO  org.eclipse.jetty.server.session 338 - No SessionScavenger set, using defaults
+2020-04-08 21:36:50,331 [restartedMain] INFO  org.eclipse.jetty.server.session 140 - node0 Scavenging every 600000ms
+2020-04-08 21:36:50,345 [restartedMain] INFO  o.e.j.server.handler.ContextHandler 825 - Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@190726b0{application,/,[file:///private/var/folders/7h/1dfzdnnx3g5fz51v_lmc0rww0000gn/T/jetty-docbase.8404768335098361959.8103/, jar:file:/Users/leon/Documents/maven/repository-a3/io/springfox/springfox-swagger-ui/2.7.0/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],AVAILABLE}
+2020-04-08 21:36:50,346 [restartedMain] INFO  org.eclipse.jetty.server.Server 399 - Started @3188ms
+2020-04-08 21:36:54,006 [restartedMain] INFO  c.alibaba.druid.pool.DruidDataSource 928 - {dataSource-1} inited
+2020-04-08 21:36:54,397 [restartedMain] INFO  com.leon.redis.RedisConfig 65 - JedisPool init successful，host -> [59.110.160.100]；port -> [6379]
+2020-04-08 21:36:54,414 [restartedMain] INFO  com.leon.redis.RedisConfiguration 68 - 初始化 -> [CacheManager RedisCacheManager Start]
+2020-04-08 21:36:54,427 [restartedMain] INFO  com.leon.redis.RedisConfiguration 99 - 初始化 -> [Redis CacheErrorHandler]
+2020-04-08 21:36:55,478 [restartedMain] INFO  o.e.j.s.h.ContextHandler.application 2223 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-08 21:36:55,524 [restartedMain] INFO  o.e.jetty.server.AbstractConnector 330 - Started ServerConnector@2389227{HTTP/1.1,[http/1.1]}{0.0.0.0:8103}
+2020-04-08 21:36:55,528 [restartedMain] INFO  com.leon.WebManageApplication 61 - Started WebManageApplication in 7.631 seconds (JVM running for 8.371)
+2020-04-08 21:54:57,440 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource 1823 - {dataSource-1} closed
+2020-04-08 21:54:57,449 [SpringContextShutdownHook] INFO  o.e.jetty.server.AbstractConnector 380 - Stopped ServerConnector@2389227{HTTP/1.1,[http/1.1]}{0.0.0.0:8103}
+2020-04-08 21:54:57,449 [SpringContextShutdownHook] INFO  org.eclipse.jetty.server.session 158 - node0 Stopped scavenging
+2020-04-08 21:54:57,452 [SpringContextShutdownHook] INFO  o.e.j.s.h.ContextHandler.application 2223 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2020-04-08 21:54:57,453 [SpringContextShutdownHook] INFO  o.e.j.server.handler.ContextHandler 1016 - Stopped o.s.b.w.e.j.JettyEmbeddedWebAppContext@190726b0{application,/,[file:///private/var/folders/7h/1dfzdnnx3g5fz51v_lmc0rww0000gn/T/jetty-docbase.8404768335098361959.8103/, jar:file:/Users/leon/Documents/maven/repository-a3/io/springfox/springfox-swagger-ui/2.7.0/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],UNAVAILABLE}
+2020-04-08 21:55:01,901 [restartedMain] INFO  com.leon.WebManageApplication 55 - Starting WebManageApplication on Leon.local with PID 81299 (/Users/leon/Documents/workspace/a3-manage/a3-web/target/classes started by leon in /Users/leon/Documents/workspace/a3-manage)
+2020-04-08 21:55:01,904 [restartedMain] INFO  com.leon.WebManageApplication 655 - The following profiles are active: druid,common
+2020-04-08 21:55:03,051 [restartedMain] INFO  com.leon.redis.RedisConfig 55 - Create JedisConnectionFactory successful
+2020-04-08 21:55:03,364 [restartedMain] INFO  org.eclipse.jetty.util.log 169 - Logging initialized @2869ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-04-08 21:55:03,448 [restartedMain] INFO  org.eclipse.jetty.server.Server 359 - jetty-9.4.26.v20200117; built: 2020-01-17T12:35:33.676Z; git: 7b38981d25d14afb4a12ff1f2596756144edf695; jvm 1.8.0_181-b13
+2020-04-08 21:55:03,468 [restartedMain] INFO  o.e.j.s.h.ContextHandler.application 2223 - Initializing Spring embedded WebApplicationContext
+2020-04-08 21:55:03,567 [restartedMain] INFO  org.eclipse.jetty.server.session 333 - DefaultSessionIdManager workerName=node0
+2020-04-08 21:55:03,567 [restartedMain] INFO  org.eclipse.jetty.server.session 338 - No SessionScavenger set, using defaults
+2020-04-08 21:55:03,568 [restartedMain] INFO  org.eclipse.jetty.server.session 140 - node0 Scavenging every 660000ms
+2020-04-08 21:55:03,581 [restartedMain] INFO  o.e.j.server.handler.ContextHandler 825 - Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@1e3fcf98{application,/,[file:///private/var/folders/7h/1dfzdnnx3g5fz51v_lmc0rww0000gn/T/jetty-docbase.9217083803666172026.8103/, jar:file:/Users/leon/Documents/maven/repository-a3/io/springfox/springfox-swagger-ui/2.7.0/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],AVAILABLE}
+2020-04-08 21:55:03,581 [restartedMain] INFO  org.eclipse.jetty.server.Server 399 - Started @3087ms
+2020-04-08 21:55:06,472 [restartedMain] INFO  c.alibaba.druid.pool.DruidDataSource 928 - {dataSource-1} inited
+2020-04-08 21:55:06,818 [restartedMain] INFO  com.leon.redis.RedisConfig 65 - JedisPool init successful，host -> [59.110.160.100]；port -> [6379]
+2020-04-08 21:55:06,832 [restartedMain] INFO  com.leon.redis.RedisConfiguration 68 - 初始化 -> [CacheManager RedisCacheManager Start]
+2020-04-08 21:55:06,842 [restartedMain] INFO  com.leon.redis.RedisConfiguration 99 - 初始化 -> [Redis CacheErrorHandler]
+2020-04-08 21:55:07,970 [restartedMain] INFO  o.e.j.s.h.ContextHandler.application 2223 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-08 21:55:08,016 [restartedMain] INFO  o.e.jetty.server.AbstractConnector 330 - Started ServerConnector@3e3bcc57{HTTP/1.1,[http/1.1]}{0.0.0.0:8103}
+2020-04-08 21:55:08,021 [restartedMain] INFO  com.leon.WebManageApplication 61 - Started WebManageApplication in 6.715 seconds (JVM running for 7.527)
+2020-04-08 21:57:11,125 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource 1823 - {dataSource-1} closed
+2020-04-08 21:57:11,131 [SpringContextShutdownHook] INFO  o.e.jetty.server.AbstractConnector 380 - Stopped ServerConnector@3e3bcc57{HTTP/1.1,[http/1.1]}{0.0.0.0:8103}
+2020-04-08 21:57:11,132 [SpringContextShutdownHook] INFO  org.eclipse.jetty.server.session 158 - node0 Stopped scavenging
+2020-04-08 21:57:11,133 [SpringContextShutdownHook] INFO  o.e.j.s.h.ContextHandler.application 2223 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2020-04-08 21:57:11,134 [SpringContextShutdownHook] INFO  o.e.j.server.handler.ContextHandler 1016 - Stopped o.s.b.w.e.j.JettyEmbeddedWebAppContext@1e3fcf98{application,/,[file:///private/var/folders/7h/1dfzdnnx3g5fz51v_lmc0rww0000gn/T/jetty-docbase.9217083803666172026.8103/, jar:file:/Users/leon/Documents/maven/repository-a3/io/springfox/springfox-swagger-ui/2.7.0/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],UNAVAILABLE}
+2020-04-08 21:57:14,784 [restartedMain] INFO  com.leon.WebManageApplication 55 - Starting WebManageApplication on Leon.local with PID 81347 (/Users/leon/Documents/workspace/a3-manage/a3-web/target/classes started by leon in /Users/leon/Documents/workspace/a3-manage)
+2020-04-08 21:57:14,788 [restartedMain] INFO  com.leon.WebManageApplication 655 - The following profiles are active: druid,common
+2020-04-08 21:57:15,949 [restartedMain] INFO  com.leon.redis.RedisConfig 55 - Create JedisConnectionFactory successful
+2020-04-08 21:57:16,235 [restartedMain] INFO  org.eclipse.jetty.util.log 169 - Logging initialized @2766ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-04-08 21:57:16,322 [restartedMain] INFO  org.eclipse.jetty.server.Server 359 - jetty-9.4.26.v20200117; built: 2020-01-17T12:35:33.676Z; git: 7b38981d25d14afb4a12ff1f2596756144edf695; jvm 1.8.0_181-b13
+2020-04-08 21:57:16,342 [restartedMain] INFO  o.e.j.s.h.ContextHandler.application 2223 - Initializing Spring embedded WebApplicationContext
+2020-04-08 21:57:16,443 [restartedMain] INFO  org.eclipse.jetty.server.session 333 - DefaultSessionIdManager workerName=node0
+2020-04-08 21:57:16,443 [restartedMain] INFO  org.eclipse.jetty.server.session 338 - No SessionScavenger set, using defaults
+2020-04-08 21:57:16,444 [restartedMain] INFO  org.eclipse.jetty.server.session 140 - node0 Scavenging every 660000ms
+2020-04-08 21:57:16,457 [restartedMain] INFO  o.e.j.server.handler.ContextHandler 825 - Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@226c07e7{application,/,[file:///private/var/folders/7h/1dfzdnnx3g5fz51v_lmc0rww0000gn/T/jetty-docbase.7108828645604996965.8103/, jar:file:/Users/leon/Documents/maven/repository-a3/io/springfox/springfox-swagger-ui/2.7.0/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],AVAILABLE}
+2020-04-08 21:57:16,457 [restartedMain] INFO  org.eclipse.jetty.server.Server 399 - Started @2989ms
+2020-04-08 21:57:18,841 [restartedMain] INFO  c.alibaba.druid.pool.DruidDataSource 928 - {dataSource-1} inited
+2020-04-08 21:57:19,252 [restartedMain] INFO  com.leon.redis.RedisConfig 65 - JedisPool init successful，host -> [59.110.160.100]；port -> [6379]
+2020-04-08 21:57:19,269 [restartedMain] INFO  com.leon.redis.RedisConfiguration 68 - 初始化 -> [CacheManager RedisCacheManager Start]
+2020-04-08 21:57:19,282 [restartedMain] INFO  com.leon.redis.RedisConfiguration 99 - 初始化 -> [Redis CacheErrorHandler]
+2020-04-08 21:57:20,320 [restartedMain] INFO  o.e.j.s.h.ContextHandler.application 2223 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-08 21:57:20,366 [restartedMain] INFO  o.e.jetty.server.AbstractConnector 330 - Started ServerConnector@3cc47636{HTTP/1.1,[http/1.1]}{0.0.0.0:8103}
+2020-04-08 21:57:20,371 [restartedMain] INFO  com.leon.WebManageApplication 61 - Started WebManageApplication in 6.177 seconds (JVM running for 6.904)
+2020-04-08 22:03:26,439 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource 1823 - {dataSource-1} closed
+2020-04-08 22:03:26,451 [SpringContextShutdownHook] INFO  o.e.jetty.server.AbstractConnector 380 - Stopped ServerConnector@3cc47636{HTTP/1.1,[http/1.1]}{0.0.0.0:8103}
+2020-04-08 22:03:26,452 [SpringContextShutdownHook] INFO  org.eclipse.jetty.server.session 158 - node0 Stopped scavenging
+2020-04-08 22:03:26,455 [SpringContextShutdownHook] INFO  o.e.j.s.h.ContextHandler.application 2223 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2020-04-08 22:03:26,455 [SpringContextShutdownHook] INFO  o.e.j.server.handler.ContextHandler 1016 - Stopped o.s.b.w.e.j.JettyEmbeddedWebAppContext@226c07e7{application,/,[file:///private/var/folders/7h/1dfzdnnx3g5fz51v_lmc0rww0000gn/T/jetty-docbase.7108828645604996965.8103/, jar:file:/Users/leon/Documents/maven/repository-a3/io/springfox/springfox-swagger-ui/2.7.0/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],UNAVAILABLE}
+2020-04-08 22:05:02,225 [restartedMain] INFO  com.leon.WebManageApplication 55 - Starting WebManageApplication on Leon.local with PID 81518 (/Users/leon/Documents/workspace/a3-manage/a3-web/target/classes started by leon in /Users/leon/Documents/workspace/a3-manage)
+2020-04-08 22:05:02,229 [restartedMain] INFO  com.leon.WebManageApplication 655 - The following profiles are active: druid,common
+2020-04-08 22:05:03,414 [restartedMain] INFO  com.leon.redis.RedisConfig 55 - Create JedisConnectionFactory successful
+2020-04-08 22:05:03,692 [restartedMain] INFO  org.eclipse.jetty.util.log 169 - Logging initialized @2973ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-04-08 22:05:03,779 [restartedMain] INFO  org.eclipse.jetty.server.Server 359 - jetty-9.4.26.v20200117; built: 2020-01-17T12:35:33.676Z; git: 7b38981d25d14afb4a12ff1f2596756144edf695; jvm 1.8.0_181-b13
+2020-04-08 22:05:03,800 [restartedMain] INFO  o.e.j.s.h.ContextHandler.application 2223 - Initializing Spring embedded WebApplicationContext
+2020-04-08 22:05:03,897 [restartedMain] INFO  org.eclipse.jetty.server.session 333 - DefaultSessionIdManager workerName=node0
+2020-04-08 22:05:03,898 [restartedMain] INFO  org.eclipse.jetty.server.session 338 - No SessionScavenger set, using defaults
+2020-04-08 22:05:03,899 [restartedMain] INFO  org.eclipse.jetty.server.session 140 - node0 Scavenging every 660000ms
+2020-04-08 22:05:03,911 [restartedMain] INFO  o.e.j.server.handler.ContextHandler 825 - Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@15060ae2{application,/,[file:///private/var/folders/7h/1dfzdnnx3g5fz51v_lmc0rww0000gn/T/jetty-docbase.6080959680750453022.8103/, jar:file:/Users/leon/Documents/maven/repository-a3/io/springfox/springfox-swagger-ui/2.7.0/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],AVAILABLE}
+2020-04-08 22:05:03,912 [restartedMain] INFO  org.eclipse.jetty.server.Server 399 - Started @3193ms
+2020-04-08 22:05:06,380 [restartedMain] INFO  c.alibaba.druid.pool.DruidDataSource 928 - {dataSource-1} inited
+2020-04-08 22:05:06,742 [restartedMain] INFO  com.leon.redis.RedisConfig 65 - JedisPool init successful，host -> [59.110.160.100]；port -> [6379]
+2020-04-08 22:05:06,761 [restartedMain] INFO  com.leon.redis.RedisConfiguration 68 - 初始化 -> [CacheManager RedisCacheManager Start]
+2020-04-08 22:05:06,774 [restartedMain] INFO  com.leon.redis.RedisConfiguration 99 - 初始化 -> [Redis CacheErrorHandler]
+2020-04-08 22:05:07,798 [restartedMain] INFO  o.e.j.s.h.ContextHandler.application 2223 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-08 22:05:07,858 [restartedMain] INFO  o.e.jetty.server.AbstractConnector 330 - Started ServerConnector@6a3f2ae0{HTTP/1.1,[http/1.1]}{0.0.0.0:8103}
+2020-04-08 22:05:07,871 [restartedMain] INFO  com.leon.WebManageApplication 61 - Started WebManageApplication in 6.292 seconds (JVM running for 7.152)
+2020-04-08 22:09:23,840 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource 1823 - {dataSource-1} closed
+2020-04-08 22:09:23,848 [SpringContextShutdownHook] INFO  o.e.jetty.server.AbstractConnector 380 - Stopped ServerConnector@6a3f2ae0{HTTP/1.1,[http/1.1]}{0.0.0.0:8103}
+2020-04-08 22:09:23,848 [SpringContextShutdownHook] INFO  org.eclipse.jetty.server.session 158 - node0 Stopped scavenging
+2020-04-08 22:09:23,850 [SpringContextShutdownHook] INFO  o.e.j.s.h.ContextHandler.application 2223 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2020-04-08 22:09:23,850 [SpringContextShutdownHook] INFO  o.e.j.server.handler.ContextHandler 1016 - Stopped o.s.b.w.e.j.JettyEmbeddedWebAppContext@15060ae2{application,/,[file:///private/var/folders/7h/1dfzdnnx3g5fz51v_lmc0rww0000gn/T/jetty-docbase.6080959680750453022.8103/, jar:file:/Users/leon/Documents/maven/repository-a3/io/springfox/springfox-swagger-ui/2.7.0/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],UNAVAILABLE}
+2020-04-08 22:09:28,431 [restartedMain] INFO  com.leon.WebManageApplication 55 - Starting WebManageApplication on Leon.local with PID 81611 (/Users/leon/Documents/workspace/a3-manage/a3-web/target/classes started by leon in /Users/leon/Documents/workspace/a3-manage)
+2020-04-08 22:09:28,435 [restartedMain] INFO  com.leon.WebManageApplication 655 - The following profiles are active: druid,common
+2020-04-08 22:09:29,611 [restartedMain] INFO  com.leon.redis.RedisConfig 55 - Create JedisConnectionFactory successful
+2020-04-08 22:09:29,894 [restartedMain] INFO  org.eclipse.jetty.util.log 169 - Logging initialized @2703ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-04-08 22:09:29,979 [restartedMain] INFO  org.eclipse.jetty.server.Server 359 - jetty-9.4.26.v20200117; built: 2020-01-17T12:35:33.676Z; git: 7b38981d25d14afb4a12ff1f2596756144edf695; jvm 1.8.0_181-b13
+2020-04-08 22:09:29,999 [restartedMain] INFO  o.e.j.s.h.ContextHandler.application 2223 - Initializing Spring embedded WebApplicationContext
+2020-04-08 22:09:30,095 [restartedMain] INFO  org.eclipse.jetty.server.session 333 - DefaultSessionIdManager workerName=node0
+2020-04-08 22:09:30,096 [restartedMain] INFO  org.eclipse.jetty.server.session 338 - No SessionScavenger set, using defaults
+2020-04-08 22:09:30,097 [restartedMain] INFO  org.eclipse.jetty.server.session 140 - node0 Scavenging every 600000ms
+2020-04-08 22:09:30,111 [restartedMain] INFO  o.e.j.server.handler.ContextHandler 825 - Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@53b43284{application,/,[file:///private/var/folders/7h/1dfzdnnx3g5fz51v_lmc0rww0000gn/T/jetty-docbase.5095064192325183262.8103/, jar:file:/Users/leon/Documents/maven/repository-a3/io/springfox/springfox-swagger-ui/2.7.0/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],AVAILABLE}
+2020-04-08 22:09:30,111 [restartedMain] INFO  org.eclipse.jetty.server.Server 399 - Started @2922ms
+2020-04-08 22:09:33,858 [restartedMain] INFO  c.alibaba.druid.pool.DruidDataSource 928 - {dataSource-1} inited
+2020-04-08 22:09:34,284 [restartedMain] INFO  com.leon.redis.RedisConfig 65 - JedisPool init successful，host -> [59.110.160.100]；port -> [6379]
+2020-04-08 22:09:34,303 [restartedMain] INFO  com.leon.redis.RedisConfiguration 68 - 初始化 -> [CacheManager RedisCacheManager Start]
+2020-04-08 22:09:34,317 [restartedMain] INFO  com.leon.redis.RedisConfiguration 99 - 初始化 -> [Redis CacheErrorHandler]
+2020-04-08 22:09:35,334 [restartedMain] INFO  o.e.j.s.h.ContextHandler.application 2223 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-08 22:09:35,380 [restartedMain] INFO  o.e.jetty.server.AbstractConnector 330 - Started ServerConnector@7464ec5c{HTTP/1.1,[http/1.1]}{0.0.0.0:8103}
+2020-04-08 22:09:35,385 [restartedMain] INFO  com.leon.WebManageApplication 61 - Started WebManageApplication in 7.578 seconds (JVM running for 8.195)
+2020-04-08 22:11:18,139 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource 1823 - {dataSource-1} closed
+2020-04-08 22:11:18,148 [SpringContextShutdownHook] INFO  o.e.jetty.server.AbstractConnector 380 - Stopped ServerConnector@7464ec5c{HTTP/1.1,[http/1.1]}{0.0.0.0:8103}
+2020-04-08 22:11:18,148 [SpringContextShutdownHook] INFO  org.eclipse.jetty.server.session 158 - node0 Stopped scavenging
+2020-04-08 22:11:18,149 [SpringContextShutdownHook] INFO  o.e.j.s.h.ContextHandler.application 2223 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2020-04-08 22:11:18,150 [SpringContextShutdownHook] INFO  o.e.j.server.handler.ContextHandler 1016 - Stopped o.s.b.w.e.j.JettyEmbeddedWebAppContext@53b43284{application,/,[file:///private/var/folders/7h/1dfzdnnx3g5fz51v_lmc0rww0000gn/T/jetty-docbase.5095064192325183262.8103/, jar:file:/Users/leon/Documents/maven/repository-a3/io/springfox/springfox-swagger-ui/2.7.0/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],UNAVAILABLE}
+2020-04-08 22:11:22,353 [restartedMain] INFO  com.leon.WebManageApplication 55 - Starting WebManageApplication on Leon.local with PID 81653 (/Users/leon/Documents/workspace/a3-manage/a3-web/target/classes started by leon in /Users/leon/Documents/workspace/a3-manage)
+2020-04-08 22:11:22,356 [restartedMain] INFO  com.leon.WebManageApplication 655 - The following profiles are active: druid,common
+2020-04-08 22:11:23,533 [restartedMain] INFO  com.leon.redis.RedisConfig 55 - Create JedisConnectionFactory successful
+2020-04-08 22:11:23,810 [restartedMain] INFO  org.eclipse.jetty.util.log 169 - Logging initialized @2830ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-04-08 22:11:23,895 [restartedMain] INFO  org.eclipse.jetty.server.Server 359 - jetty-9.4.26.v20200117; built: 2020-01-17T12:35:33.676Z; git: 7b38981d25d14afb4a12ff1f2596756144edf695; jvm 1.8.0_181-b13
+2020-04-08 22:11:23,915 [restartedMain] INFO  o.e.j.s.h.ContextHandler.application 2223 - Initializing Spring embedded WebApplicationContext
+2020-04-08 22:11:24,014 [restartedMain] INFO  org.eclipse.jetty.server.session 333 - DefaultSessionIdManager workerName=node0
+2020-04-08 22:11:24,014 [restartedMain] INFO  org.eclipse.jetty.server.session 338 - No SessionScavenger set, using defaults
+2020-04-08 22:11:24,015 [restartedMain] INFO  org.eclipse.jetty.server.session 140 - node0 Scavenging every 600000ms
+2020-04-08 22:11:24,029 [restartedMain] INFO  o.e.j.server.handler.ContextHandler 825 - Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@60a5a0d8{application,/,[file:///private/var/folders/7h/1dfzdnnx3g5fz51v_lmc0rww0000gn/T/jetty-docbase.1110819639303690628.8103/, jar:file:/Users/leon/Documents/maven/repository-a3/io/springfox/springfox-swagger-ui/2.7.0/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],AVAILABLE}
+2020-04-08 22:11:24,030 [restartedMain] INFO  org.eclipse.jetty.server.Server 399 - Started @3051ms
+2020-04-08 22:11:27,064 [restartedMain] INFO  c.alibaba.druid.pool.DruidDataSource 928 - {dataSource-1} inited
+2020-04-08 22:11:27,472 [restartedMain] INFO  com.leon.redis.RedisConfig 65 - JedisPool init successful，host -> [59.110.160.100]；port -> [6379]
+2020-04-08 22:11:27,489 [restartedMain] INFO  com.leon.redis.RedisConfiguration 68 - 初始化 -> [CacheManager RedisCacheManager Start]
+2020-04-08 22:11:27,502 [restartedMain] INFO  com.leon.redis.RedisConfiguration 99 - 初始化 -> [Redis CacheErrorHandler]
+2020-04-08 22:11:28,517 [restartedMain] INFO  o.e.j.s.h.ContextHandler.application 2223 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-08 22:11:28,565 [restartedMain] INFO  o.e.jetty.server.AbstractConnector 330 - Started ServerConnector@2d4a936a{HTTP/1.1,[http/1.1]}{0.0.0.0:8103}
+2020-04-08 22:11:28,570 [restartedMain] INFO  com.leon.WebManageApplication 61 - Started WebManageApplication in 6.919 seconds (JVM running for 7.59)
+2020-04-08 22:12:24,346 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource 1823 - {dataSource-1} closed
+2020-04-08 22:12:24,352 [SpringContextShutdownHook] INFO  o.e.jetty.server.AbstractConnector 380 - Stopped ServerConnector@2d4a936a{HTTP/1.1,[http/1.1]}{0.0.0.0:8103}
+2020-04-08 22:12:24,353 [SpringContextShutdownHook] INFO  org.eclipse.jetty.server.session 158 - node0 Stopped scavenging
+2020-04-08 22:12:24,354 [SpringContextShutdownHook] INFO  o.e.j.s.h.ContextHandler.application 2223 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2020-04-08 22:12:24,355 [SpringContextShutdownHook] INFO  o.e.j.server.handler.ContextHandler 1016 - Stopped o.s.b.w.e.j.JettyEmbeddedWebAppContext@60a5a0d8{application,/,[file:///private/var/folders/7h/1dfzdnnx3g5fz51v_lmc0rww0000gn/T/jetty-docbase.1110819639303690628.8103/, jar:file:/Users/leon/Documents/maven/repository-a3/io/springfox/springfox-swagger-ui/2.7.0/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],UNAVAILABLE}
+2020-04-08 22:12:28,403 [restartedMain] INFO  com.leon.WebManageApplication 55 - Starting WebManageApplication on Leon.local with PID 81680 (/Users/leon/Documents/workspace/a3-manage/a3-web/target/classes started by leon in /Users/leon/Documents/workspace/a3-manage)
+2020-04-08 22:12:28,406 [restartedMain] INFO  com.leon.WebManageApplication 655 - The following profiles are active: druid,common
+2020-04-08 22:12:29,611 [restartedMain] INFO  com.leon.redis.RedisConfig 55 - Create JedisConnectionFactory successful
+2020-04-08 22:12:29,888 [restartedMain] INFO  org.eclipse.jetty.util.log 169 - Logging initialized @2872ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-04-08 22:12:29,975 [restartedMain] INFO  org.eclipse.jetty.server.Server 359 - jetty-9.4.26.v20200117; built: 2020-01-17T12:35:33.676Z; git: 7b38981d25d14afb4a12ff1f2596756144edf695; jvm 1.8.0_181-b13
+2020-04-08 22:12:29,996 [restartedMain] INFO  o.e.j.s.h.ContextHandler.application 2223 - Initializing Spring embedded WebApplicationContext
+2020-04-08 22:12:30,095 [restartedMain] INFO  org.eclipse.jetty.server.session 333 - DefaultSessionIdManager workerName=node0
+2020-04-08 22:12:30,096 [restartedMain] INFO  org.eclipse.jetty.server.session 338 - No SessionScavenger set, using defaults
+2020-04-08 22:12:30,097 [restartedMain] INFO  org.eclipse.jetty.server.session 140 - node0 Scavenging every 660000ms
+2020-04-08 22:12:30,109 [restartedMain] INFO  o.e.j.server.handler.ContextHandler 825 - Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@7b2e62f3{application,/,[file:///private/var/folders/7h/1dfzdnnx3g5fz51v_lmc0rww0000gn/T/jetty-docbase.7035537585308472308.8103/, jar:file:/Users/leon/Documents/maven/repository-a3/io/springfox/springfox-swagger-ui/2.7.0/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],AVAILABLE}
+2020-04-08 22:12:30,110 [restartedMain] INFO  org.eclipse.jetty.server.Server 399 - Started @3094ms
+2020-04-08 22:12:33,840 [restartedMain] INFO  c.alibaba.druid.pool.DruidDataSource 928 - {dataSource-1} inited
+2020-04-08 22:12:34,260 [restartedMain] INFO  com.leon.redis.RedisConfig 65 - JedisPool init successful，host -> [59.110.160.100]；port -> [6379]
+2020-04-08 22:12:34,278 [restartedMain] INFO  com.leon.redis.RedisConfiguration 68 - 初始化 -> [CacheManager RedisCacheManager Start]
+2020-04-08 22:12:34,290 [restartedMain] INFO  com.leon.redis.RedisConfiguration 99 - 初始化 -> [Redis CacheErrorHandler]
+2020-04-08 22:12:35,330 [restartedMain] INFO  o.e.j.s.h.ContextHandler.application 2223 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-08 22:12:35,377 [restartedMain] INFO  o.e.jetty.server.AbstractConnector 330 - Started ServerConnector@6fceae56{HTTP/1.1,[http/1.1]}{0.0.0.0:8103}
+2020-04-08 22:12:35,383 [restartedMain] INFO  com.leon.WebManageApplication 61 - Started WebManageApplication in 7.68 seconds (JVM running for 8.367)
+2020-04-08 22:17:26,747 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource 1823 - {dataSource-1} closed
+2020-04-08 22:17:26,755 [SpringContextShutdownHook] INFO  o.e.jetty.server.AbstractConnector 380 - Stopped ServerConnector@6fceae56{HTTP/1.1,[http/1.1]}{0.0.0.0:8103}
+2020-04-08 22:17:26,755 [SpringContextShutdownHook] INFO  org.eclipse.jetty.server.session 158 - node0 Stopped scavenging
+2020-04-08 22:17:26,757 [SpringContextShutdownHook] INFO  o.e.j.s.h.ContextHandler.application 2223 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2020-04-08 22:17:26,758 [SpringContextShutdownHook] INFO  o.e.j.server.handler.ContextHandler 1016 - Stopped o.s.b.w.e.j.JettyEmbeddedWebAppContext@7b2e62f3{application,/,[file:///private/var/folders/7h/1dfzdnnx3g5fz51v_lmc0rww0000gn/T/jetty-docbase.7035537585308472308.8103/, jar:file:/Users/leon/Documents/maven/repository-a3/io/springfox/springfox-swagger-ui/2.7.0/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],UNAVAILABLE}
+2020-04-08 22:17:30,186 [restartedMain] INFO  com.leon.WebManageApplication 55 - Starting WebManageApplication on Leon.local with PID 81802 (/Users/leon/Documents/workspace/a3-manage/a3-web/target/classes started by leon in /Users/leon/Documents/workspace/a3-manage)
+2020-04-08 22:17:30,189 [restartedMain] INFO  com.leon.WebManageApplication 655 - The following profiles are active: druid,common
+2020-04-08 22:17:31,377 [restartedMain] INFO  com.leon.redis.RedisConfig 55 - Create JedisConnectionFactory successful
+2020-04-08 22:17:31,657 [restartedMain] INFO  org.eclipse.jetty.util.log 169 - Logging initialized @2701ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-04-08 22:17:31,742 [restartedMain] INFO  org.eclipse.jetty.server.Server 359 - jetty-9.4.26.v20200117; built: 2020-01-17T12:35:33.676Z; git: 7b38981d25d14afb4a12ff1f2596756144edf695; jvm 1.8.0_181-b13
+2020-04-08 22:17:31,762 [restartedMain] INFO  o.e.j.s.h.ContextHandler.application 2223 - Initializing Spring embedded WebApplicationContext
+2020-04-08 22:17:31,859 [restartedMain] INFO  org.eclipse.jetty.server.session 333 - DefaultSessionIdManager workerName=node0
+2020-04-08 22:17:31,860 [restartedMain] INFO  org.eclipse.jetty.server.session 338 - No SessionScavenger set, using defaults
+2020-04-08 22:17:31,861 [restartedMain] INFO  org.eclipse.jetty.server.session 140 - node0 Scavenging every 660000ms
+2020-04-08 22:17:31,873 [restartedMain] INFO  o.e.j.server.handler.ContextHandler 825 - Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@60b1b75a{application,/,[file:///private/var/folders/7h/1dfzdnnx3g5fz51v_lmc0rww0000gn/T/jetty-docbase.4757004954302010145.8103/, jar:file:/Users/leon/Documents/maven/repository-a3/io/springfox/springfox-swagger-ui/2.7.0/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],AVAILABLE}
+2020-04-08 22:17:31,874 [restartedMain] INFO  org.eclipse.jetty.server.Server 399 - Started @2918ms
+2020-04-08 22:17:34,394 [restartedMain] INFO  c.alibaba.druid.pool.DruidDataSource 928 - {dataSource-1} inited
+2020-04-08 22:17:34,814 [restartedMain] INFO  com.leon.redis.RedisConfig 65 - JedisPool init successful，host -> [59.110.160.100]；port -> [6379]
+2020-04-08 22:17:34,831 [restartedMain] INFO  com.leon.redis.RedisConfiguration 68 - 初始化 -> [CacheManager RedisCacheManager Start]
+2020-04-08 22:17:34,845 [restartedMain] INFO  com.leon.redis.RedisConfiguration 99 - 初始化 -> [Redis CacheErrorHandler]
+2020-04-08 22:17:35,848 [restartedMain] INFO  o.e.j.s.h.ContextHandler.application 2223 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-08 22:17:35,893 [restartedMain] INFO  o.e.jetty.server.AbstractConnector 330 - Started ServerConnector@38eb7b44{HTTP/1.1,[http/1.1]}{0.0.0.0:8103}
+2020-04-08 22:17:35,898 [restartedMain] INFO  com.leon.WebManageApplication 61 - Started WebManageApplication in 6.348 seconds (JVM running for 6.942)
+2020-04-08 22:20:02,863 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource 1823 - {dataSource-1} closed
+2020-04-08 22:20:02,871 [SpringContextShutdownHook] INFO  o.e.jetty.server.AbstractConnector 380 - Stopped ServerConnector@38eb7b44{HTTP/1.1,[http/1.1]}{0.0.0.0:8103}
+2020-04-08 22:20:02,872 [SpringContextShutdownHook] INFO  org.eclipse.jetty.server.session 158 - node0 Stopped scavenging
+2020-04-08 22:20:02,874 [SpringContextShutdownHook] INFO  o.e.j.s.h.ContextHandler.application 2223 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2020-04-08 22:20:02,874 [SpringContextShutdownHook] INFO  o.e.j.server.handler.ContextHandler 1016 - Stopped o.s.b.w.e.j.JettyEmbeddedWebAppContext@60b1b75a{application,/,[file:///private/var/folders/7h/1dfzdnnx3g5fz51v_lmc0rww0000gn/T/jetty-docbase.4757004954302010145.8103/, jar:file:/Users/leon/Documents/maven/repository-a3/io/springfox/springfox-swagger-ui/2.7.0/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],UNAVAILABLE}
+2020-04-08 22:20:07,438 [restartedMain] INFO  com.leon.WebManageApplication 55 - Starting WebManageApplication on Leon.local with PID 81858 (/Users/leon/Documents/workspace/a3-manage/a3-web/target/classes started by leon in /Users/leon/Documents/workspace/a3-manage)
+2020-04-08 22:20:07,441 [restartedMain] INFO  com.leon.WebManageApplication 655 - The following profiles are active: druid,common
+2020-04-08 22:20:08,618 [restartedMain] INFO  com.leon.redis.RedisConfig 55 - Create JedisConnectionFactory successful
+2020-04-08 22:20:08,918 [restartedMain] INFO  org.eclipse.jetty.util.log 169 - Logging initialized @2833ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-04-08 22:20:09,007 [restartedMain] INFO  org.eclipse.jetty.server.Server 359 - jetty-9.4.26.v20200117; built: 2020-01-17T12:35:33.676Z; git: 7b38981d25d14afb4a12ff1f2596756144edf695; jvm 1.8.0_181-b13
+2020-04-08 22:20:09,027 [restartedMain] INFO  o.e.j.s.h.ContextHandler.application 2223 - Initializing Spring embedded WebApplicationContext
+2020-04-08 22:20:09,126 [restartedMain] INFO  org.eclipse.jetty.server.session 333 - DefaultSessionIdManager workerName=node0
+2020-04-08 22:20:09,126 [restartedMain] INFO  org.eclipse.jetty.server.session 338 - No SessionScavenger set, using defaults
+2020-04-08 22:20:09,127 [restartedMain] INFO  org.eclipse.jetty.server.session 140 - node0 Scavenging every 600000ms
+2020-04-08 22:20:09,140 [restartedMain] INFO  o.e.j.server.handler.ContextHandler 825 - Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@670c35d5{application,/,[file:///private/var/folders/7h/1dfzdnnx3g5fz51v_lmc0rww0000gn/T/jetty-docbase.2063365907890013690.8103/, jar:file:/Users/leon/Documents/maven/repository-a3/io/springfox/springfox-swagger-ui/2.7.0/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],AVAILABLE}
+2020-04-08 22:20:09,141 [restartedMain] INFO  org.eclipse.jetty.server.Server 399 - Started @3057ms
+2020-04-08 22:20:11,626 [restartedMain] INFO  c.alibaba.druid.pool.DruidDataSource 928 - {dataSource-1} inited
+2020-04-08 22:20:12,039 [restartedMain] INFO  com.leon.redis.RedisConfig 65 - JedisPool init successful，host -> [59.110.160.100]；port -> [6379]
+2020-04-08 22:20:12,057 [restartedMain] INFO  com.leon.redis.RedisConfiguration 68 - 初始化 -> [CacheManager RedisCacheManager Start]
+2020-04-08 22:20:12,070 [restartedMain] INFO  com.leon.redis.RedisConfiguration 99 - 初始化 -> [Redis CacheErrorHandler]
+2020-04-08 22:20:13,090 [restartedMain] INFO  o.e.j.s.h.ContextHandler.application 2223 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-08 22:20:13,135 [restartedMain] INFO  o.e.jetty.server.AbstractConnector 330 - Started ServerConnector@10fa04fb{HTTP/1.1,[http/1.1]}{0.0.0.0:8103}
+2020-04-08 22:20:13,140 [restartedMain] INFO  com.leon.WebManageApplication 61 - Started WebManageApplication in 6.375 seconds (JVM running for 7.056)
+2020-04-08 22:42:19,408 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource 1823 - {dataSource-1} closed
+2020-04-08 22:42:19,417 [SpringContextShutdownHook] INFO  o.e.jetty.server.AbstractConnector 380 - Stopped ServerConnector@10fa04fb{HTTP/1.1,[http/1.1]}{0.0.0.0:8103}
+2020-04-08 22:42:19,418 [SpringContextShutdownHook] INFO  org.eclipse.jetty.server.session 158 - node0 Stopped scavenging
+2020-04-08 22:42:19,420 [SpringContextShutdownHook] INFO  o.e.j.s.h.ContextHandler.application 2223 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2020-04-08 22:42:19,420 [SpringContextShutdownHook] INFO  o.e.j.server.handler.ContextHandler 1016 - Stopped o.s.b.w.e.j.JettyEmbeddedWebAppContext@670c35d5{application,/,[file:///private/var/folders/7h/1dfzdnnx3g5fz51v_lmc0rww0000gn/T/jetty-docbase.2063365907890013690.8103/, jar:file:/Users/leon/Documents/maven/repository-a3/io/springfox/springfox-swagger-ui/2.7.0/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],UNAVAILABLE}
+2020-04-08 22:42:23,833 [restartedMain] INFO  com.leon.WebManageApplication 55 - Starting WebManageApplication on Leon.local with PID 83094 (/Users/leon/Documents/workspace/a3-manage/a3-web/target/classes started by leon in /Users/leon/Documents/workspace/a3-manage)
+2020-04-08 22:42:23,836 [restartedMain] INFO  com.leon.WebManageApplication 655 - The following profiles are active: druid,common
+2020-04-08 22:42:25,018 [restartedMain] INFO  com.leon.redis.RedisConfig 55 - Create JedisConnectionFactory successful
+2020-04-08 22:42:25,299 [restartedMain] INFO  org.eclipse.jetty.util.log 169 - Logging initialized @2743ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-04-08 22:42:25,385 [restartedMain] INFO  org.eclipse.jetty.server.Server 359 - jetty-9.4.26.v20200117; built: 2020-01-17T12:35:33.676Z; git: 7b38981d25d14afb4a12ff1f2596756144edf695; jvm 1.8.0_181-b13
+2020-04-08 22:42:25,405 [restartedMain] INFO  o.e.j.s.h.ContextHandler.application 2223 - Initializing Spring embedded WebApplicationContext
+2020-04-08 22:42:25,508 [restartedMain] INFO  org.eclipse.jetty.server.session 333 - DefaultSessionIdManager workerName=node0
+2020-04-08 22:42:25,508 [restartedMain] INFO  org.eclipse.jetty.server.session 338 - No SessionScavenger set, using defaults
+2020-04-08 22:42:25,509 [restartedMain] INFO  org.eclipse.jetty.server.session 140 - node0 Scavenging every 660000ms
+2020-04-08 22:42:25,522 [restartedMain] INFO  o.e.j.server.handler.ContextHandler 825 - Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@4a5937ab{application,/,[file:///private/var/folders/7h/1dfzdnnx3g5fz51v_lmc0rww0000gn/T/jetty-docbase.7422617365165369067.8103/, jar:file:/Users/leon/Documents/maven/repository-a3/io/springfox/springfox-swagger-ui/2.7.0/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],AVAILABLE}
+2020-04-08 22:42:25,523 [restartedMain] INFO  org.eclipse.jetty.server.Server 399 - Started @2967ms
+2020-04-08 22:42:29,142 [restartedMain] INFO  c.alibaba.druid.pool.DruidDataSource 928 - {dataSource-1} inited
+2020-04-08 22:42:29,561 [restartedMain] INFO  com.leon.redis.RedisConfig 65 - JedisPool init successful，host -> [59.110.160.100]；port -> [6379]
+2020-04-08 22:42:29,580 [restartedMain] INFO  com.leon.redis.RedisConfiguration 68 - 初始化 -> [CacheManager RedisCacheManager Start]
+2020-04-08 22:42:29,593 [restartedMain] INFO  com.leon.redis.RedisConfiguration 99 - 初始化 -> [Redis CacheErrorHandler]
+2020-04-08 22:42:30,611 [restartedMain] INFO  o.e.j.s.h.ContextHandler.application 2223 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-08 22:42:30,656 [restartedMain] INFO  o.e.jetty.server.AbstractConnector 330 - Started ServerConnector@dd36295{HTTP/1.1,[http/1.1]}{0.0.0.0:8103}
+2020-04-08 22:42:30,661 [restartedMain] INFO  com.leon.WebManageApplication 61 - Started WebManageApplication in 7.45 seconds (JVM running for 8.106)
+2020-04-08 23:36:43,056 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource 1823 - {dataSource-1} closed
+2020-04-08 23:36:43,076 [SpringContextShutdownHook] INFO  o.e.jetty.server.AbstractConnector 380 - Stopped ServerConnector@dd36295{HTTP/1.1,[http/1.1]}{0.0.0.0:8103}
+2020-04-08 23:36:43,076 [SpringContextShutdownHook] INFO  org.eclipse.jetty.server.session 158 - node0 Stopped scavenging
+2020-04-08 23:36:43,081 [SpringContextShutdownHook] INFO  o.e.j.s.h.ContextHandler.application 2223 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2020-04-08 23:36:43,082 [SpringContextShutdownHook] INFO  o.e.j.server.handler.ContextHandler 1016 - Stopped o.s.b.w.e.j.JettyEmbeddedWebAppContext@4a5937ab{application,/,[file:///private/var/folders/7h/1dfzdnnx3g5fz51v_lmc0rww0000gn/T/jetty-docbase.7422617365165369067.8103/, jar:file:/Users/leon/Documents/maven/repository-a3/io/springfox/springfox-swagger-ui/2.7.0/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],UNAVAILABLE}
+2020-04-08 23:36:46,898 [restartedMain] INFO  com.leon.WebManageApplication 55 - Starting WebManageApplication on Leon.local with PID 84570 (/Users/leon/Documents/workspace/a3-manage/a3-web/target/classes started by leon in /Users/leon/Documents/workspace/a3-manage)
+2020-04-08 23:36:46,902 [restartedMain] INFO  com.leon.WebManageApplication 655 - The following profiles are active: druid,common
+2020-04-08 23:36:48,139 [restartedMain] INFO  com.leon.redis.RedisConfig 55 - Create JedisConnectionFactory successful
+2020-04-08 23:36:48,422 [restartedMain] INFO  org.eclipse.jetty.util.log 169 - Logging initialized @2815ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-04-08 23:36:48,512 [restartedMain] INFO  org.eclipse.jetty.server.Server 359 - jetty-9.4.26.v20200117; built: 2020-01-17T12:35:33.676Z; git: 7b38981d25d14afb4a12ff1f2596756144edf695; jvm 1.8.0_181-b13
+2020-04-08 23:36:48,532 [restartedMain] INFO  o.e.j.s.h.ContextHandler.application 2223 - Initializing Spring embedded WebApplicationContext
+2020-04-08 23:36:48,638 [restartedMain] INFO  org.eclipse.jetty.server.session 333 - DefaultSessionIdManager workerName=node0
+2020-04-08 23:36:48,638 [restartedMain] INFO  org.eclipse.jetty.server.session 338 - No SessionScavenger set, using defaults
+2020-04-08 23:36:48,639 [restartedMain] INFO  org.eclipse.jetty.server.session 140 - node0 Scavenging every 600000ms
+2020-04-08 23:36:48,652 [restartedMain] INFO  o.e.j.server.handler.ContextHandler 825 - Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@2e95bd7e{application,/,[file:///private/var/folders/7h/1dfzdnnx3g5fz51v_lmc0rww0000gn/T/jetty-docbase.3176419913305988401.8103/, jar:file:/Users/leon/Documents/maven/repository-a3/io/springfox/springfox-swagger-ui/2.7.0/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],AVAILABLE}
+2020-04-08 23:36:48,653 [restartedMain] INFO  org.eclipse.jetty.server.Server 399 - Started @3046ms
+2020-04-08 23:36:52,067 [restartedMain] INFO  c.alibaba.druid.pool.DruidDataSource 928 - {dataSource-1} inited
+2020-04-08 23:36:52,501 [restartedMain] INFO  com.leon.redis.RedisConfig 65 - JedisPool init successful，host -> [59.110.160.100]；port -> [6379]
+2020-04-08 23:36:52,521 [restartedMain] INFO  com.leon.redis.RedisConfiguration 68 - 初始化 -> [CacheManager RedisCacheManager Start]
+2020-04-08 23:36:52,534 [restartedMain] INFO  com.leon.redis.RedisConfiguration 99 - 初始化 -> [Redis CacheErrorHandler]
+2020-04-08 23:36:53,565 [restartedMain] INFO  o.e.j.s.h.ContextHandler.application 2223 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-08 23:36:53,610 [restartedMain] INFO  o.e.jetty.server.AbstractConnector 330 - Started ServerConnector@6d629a7{HTTP/1.1,[http/1.1]}{0.0.0.0:8103}
+2020-04-08 23:36:53,616 [restartedMain] INFO  com.leon.WebManageApplication 61 - Started WebManageApplication in 7.354 seconds (JVM running for 8.009)
+2020-04-08 23:42:12,075 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource 1823 - {dataSource-1} closed
+2020-04-08 23:42:12,083 [SpringContextShutdownHook] INFO  o.e.jetty.server.AbstractConnector 380 - Stopped ServerConnector@6d629a7{HTTP/1.1,[http/1.1]}{0.0.0.0:8103}
+2020-04-08 23:42:12,083 [SpringContextShutdownHook] INFO  org.eclipse.jetty.server.session 158 - node0 Stopped scavenging
+2020-04-08 23:42:12,085 [SpringContextShutdownHook] INFO  o.e.j.s.h.ContextHandler.application 2223 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2020-04-08 23:42:12,086 [SpringContextShutdownHook] INFO  o.e.j.server.handler.ContextHandler 1016 - Stopped o.s.b.w.e.j.JettyEmbeddedWebAppContext@2e95bd7e{application,/,[file:///private/var/folders/7h/1dfzdnnx3g5fz51v_lmc0rww0000gn/T/jetty-docbase.3176419913305988401.8103/, jar:file:/Users/leon/Documents/maven/repository-a3/io/springfox/springfox-swagger-ui/2.7.0/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],UNAVAILABLE}
+2020-04-08 23:42:18,441 [restartedMain] INFO  com.leon.WebManageApplication 55 - Starting WebManageApplication on Leon.local with PID 84687 (/Users/leon/Documents/workspace/a3-manage/a3-web/target/classes started by leon in /Users/leon/Documents/workspace/a3-manage)
+2020-04-08 23:42:18,445 [restartedMain] INFO  com.leon.WebManageApplication 655 - The following profiles are active: druid,common
+2020-04-08 23:42:19,663 [restartedMain] INFO  com.leon.redis.RedisConfig 55 - Create JedisConnectionFactory successful
+2020-04-08 23:42:19,961 [restartedMain] INFO  org.eclipse.jetty.util.log 169 - Logging initialized @2823ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-04-08 23:42:20,046 [restartedMain] INFO  org.eclipse.jetty.server.Server 359 - jetty-9.4.26.v20200117; built: 2020-01-17T12:35:33.676Z; git: 7b38981d25d14afb4a12ff1f2596756144edf695; jvm 1.8.0_181-b13
+2020-04-08 23:42:20,067 [restartedMain] INFO  o.e.j.s.h.ContextHandler.application 2223 - Initializing Spring embedded WebApplicationContext
+2020-04-08 23:42:20,165 [restartedMain] INFO  org.eclipse.jetty.server.session 333 - DefaultSessionIdManager workerName=node0
+2020-04-08 23:42:20,166 [restartedMain] INFO  org.eclipse.jetty.server.session 338 - No SessionScavenger set, using defaults
+2020-04-08 23:42:20,167 [restartedMain] INFO  org.eclipse.jetty.server.session 140 - node0 Scavenging every 660000ms
+2020-04-08 23:42:20,179 [restartedMain] INFO  o.e.j.server.handler.ContextHandler 825 - Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@4c209794{application,/,[file:///private/var/folders/7h/1dfzdnnx3g5fz51v_lmc0rww0000gn/T/jetty-docbase.7608669780498618283.8103/, jar:file:/Users/leon/Documents/maven/repository-a3/io/springfox/springfox-swagger-ui/2.7.0/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],AVAILABLE}
+2020-04-08 23:42:20,180 [restartedMain] INFO  org.eclipse.jetty.server.Server 399 - Started @3042ms
+2020-04-08 23:42:23,014 [restartedMain] INFO  c.alibaba.druid.pool.DruidDataSource 928 - {dataSource-1} inited
+2020-04-08 23:42:23,431 [restartedMain] INFO  com.leon.redis.RedisConfig 65 - JedisPool init successful，host -> [59.110.160.100]；port -> [6379]
+2020-04-08 23:42:23,449 [restartedMain] INFO  com.leon.redis.RedisConfiguration 68 - 初始化 -> [CacheManager RedisCacheManager Start]
+2020-04-08 23:42:23,462 [restartedMain] INFO  com.leon.redis.RedisConfiguration 99 - 初始化 -> [Redis CacheErrorHandler]
+2020-04-08 23:42:24,484 [restartedMain] INFO  o.e.j.s.h.ContextHandler.application 2223 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-08 23:42:24,529 [restartedMain] INFO  o.e.jetty.server.AbstractConnector 330 - Started ServerConnector@2fa2736f{HTTP/1.1,[http/1.1]}{0.0.0.0:8103}
+2020-04-08 23:42:24,534 [restartedMain] INFO  com.leon.WebManageApplication 61 - Started WebManageApplication in 6.77 seconds (JVM running for 7.396)
+2020-04-08 23:42:44,831 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource 1823 - {dataSource-1} closed
+2020-04-08 23:42:44,840 [SpringContextShutdownHook] INFO  o.e.jetty.server.AbstractConnector 380 - Stopped ServerConnector@2fa2736f{HTTP/1.1,[http/1.1]}{0.0.0.0:8103}
+2020-04-08 23:42:44,841 [SpringContextShutdownHook] INFO  org.eclipse.jetty.server.session 158 - node0 Stopped scavenging
+2020-04-08 23:42:44,842 [SpringContextShutdownHook] INFO  o.e.j.s.h.ContextHandler.application 2223 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2020-04-08 23:42:44,843 [SpringContextShutdownHook] INFO  o.e.j.server.handler.ContextHandler 1016 - Stopped o.s.b.w.e.j.JettyEmbeddedWebAppContext@4c209794{application,/,[file:///private/var/folders/7h/1dfzdnnx3g5fz51v_lmc0rww0000gn/T/jetty-docbase.7608669780498618283.8103/, jar:file:/Users/leon/Documents/maven/repository-a3/io/springfox/springfox-swagger-ui/2.7.0/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],UNAVAILABLE}
+2020-04-08 23:42:48,316 [restartedMain] INFO  com.leon.WebManageApplication 55 - Starting WebManageApplication on Leon.local with PID 84701 (/Users/leon/Documents/workspace/a3-manage/a3-web/target/classes started by leon in /Users/leon/Documents/workspace/a3-manage)
+2020-04-08 23:42:48,319 [restartedMain] INFO  com.leon.WebManageApplication 655 - The following profiles are active: druid,common
+2020-04-08 23:42:49,525 [restartedMain] INFO  com.leon.redis.RedisConfig 55 - Create JedisConnectionFactory successful
+2020-04-08 23:42:49,815 [restartedMain] INFO  org.eclipse.jetty.util.log 169 - Logging initialized @2847ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-04-08 23:42:49,902 [restartedMain] INFO  org.eclipse.jetty.server.Server 359 - jetty-9.4.26.v20200117; built: 2020-01-17T12:35:33.676Z; git: 7b38981d25d14afb4a12ff1f2596756144edf695; jvm 1.8.0_181-b13
+2020-04-08 23:42:49,923 [restartedMain] INFO  o.e.j.s.h.ContextHandler.application 2223 - Initializing Spring embedded WebApplicationContext
+2020-04-08 23:42:50,025 [restartedMain] INFO  org.eclipse.jetty.server.session 333 - DefaultSessionIdManager workerName=node0
+2020-04-08 23:42:50,025 [restartedMain] INFO  org.eclipse.jetty.server.session 338 - No SessionScavenger set, using defaults
+2020-04-08 23:42:50,026 [restartedMain] INFO  org.eclipse.jetty.server.session 140 - node0 Scavenging every 660000ms
+2020-04-08 23:42:50,038 [restartedMain] INFO  o.e.j.server.handler.ContextHandler 825 - Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@296df402{application,/,[file:///private/var/folders/7h/1dfzdnnx3g5fz51v_lmc0rww0000gn/T/jetty-docbase.8086073168062022626.8103/, jar:file:/Users/leon/Documents/maven/repository-a3/io/springfox/springfox-swagger-ui/2.7.0/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],AVAILABLE}
+2020-04-08 23:42:50,039 [restartedMain] INFO  org.eclipse.jetty.server.Server 399 - Started @3071ms
+2020-04-08 23:42:57,854 [restartedMain] INFO  c.alibaba.druid.pool.DruidDataSource 928 - {dataSource-1} inited
+2020-04-08 23:42:58,288 [restartedMain] INFO  com.leon.redis.RedisConfig 65 - JedisPool init successful，host -> [59.110.160.100]；port -> [6379]
+2020-04-08 23:42:58,306 [restartedMain] INFO  com.leon.redis.RedisConfiguration 68 - 初始化 -> [CacheManager RedisCacheManager Start]
+2020-04-08 23:42:58,319 [restartedMain] INFO  com.leon.redis.RedisConfiguration 99 - 初始化 -> [Redis CacheErrorHandler]
+2020-04-08 23:42:59,387 [restartedMain] INFO  o.e.j.s.h.ContextHandler.application 2223 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-08 23:42:59,434 [restartedMain] INFO  o.e.jetty.server.AbstractConnector 330 - Started ServerConnector@499d02d4{HTTP/1.1,[http/1.1]}{0.0.0.0:8103}
+2020-04-08 23:42:59,440 [restartedMain] INFO  com.leon.WebManageApplication 61 - Started WebManageApplication in 11.78 seconds (JVM running for 12.472)
+2020-04-08 23:48:05,292 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource 1823 - {dataSource-1} closed
+2020-04-08 23:48:05,301 [SpringContextShutdownHook] INFO  o.e.jetty.server.AbstractConnector 380 - Stopped ServerConnector@499d02d4{HTTP/1.1,[http/1.1]}{0.0.0.0:8103}
+2020-04-08 23:48:05,302 [SpringContextShutdownHook] INFO  org.eclipse.jetty.server.session 158 - node0 Stopped scavenging
+2020-04-08 23:48:05,303 [SpringContextShutdownHook] INFO  o.e.j.s.h.ContextHandler.application 2223 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2020-04-08 23:48:05,303 [SpringContextShutdownHook] INFO  o.e.j.server.handler.ContextHandler 1016 - Stopped o.s.b.w.e.j.JettyEmbeddedWebAppContext@296df402{application,/,[file:///private/var/folders/7h/1dfzdnnx3g5fz51v_lmc0rww0000gn/T/jetty-docbase.8086073168062022626.8103/, jar:file:/Users/leon/Documents/maven/repository-a3/io/springfox/springfox-swagger-ui/2.7.0/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],UNAVAILABLE}
+2020-04-08 23:48:08,957 [restartedMain] INFO  com.leon.WebManageApplication 55 - Starting WebManageApplication on Leon.local with PID 84812 (/Users/leon/Documents/workspace/a3-manage/a3-web/target/classes started by leon in /Users/leon/Documents/workspace/a3-manage)
+2020-04-08 23:48:08,960 [restartedMain] INFO  com.leon.WebManageApplication 655 - The following profiles are active: druid,common
+2020-04-08 23:48:10,159 [restartedMain] INFO  com.leon.redis.RedisConfig 55 - Create JedisConnectionFactory successful
+2020-04-08 23:48:10,444 [restartedMain] INFO  org.eclipse.jetty.util.log 169 - Logging initialized @2742ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-04-08 23:48:10,531 [restartedMain] INFO  org.eclipse.jetty.server.Server 359 - jetty-9.4.26.v20200117; built: 2020-01-17T12:35:33.676Z; git: 7b38981d25d14afb4a12ff1f2596756144edf695; jvm 1.8.0_181-b13
+2020-04-08 23:48:10,552 [restartedMain] INFO  o.e.j.s.h.ContextHandler.application 2223 - Initializing Spring embedded WebApplicationContext
+2020-04-08 23:48:10,651 [restartedMain] INFO  org.eclipse.jetty.server.session 333 - DefaultSessionIdManager workerName=node0
+2020-04-08 23:48:10,652 [restartedMain] INFO  org.eclipse.jetty.server.session 338 - No SessionScavenger set, using defaults
+2020-04-08 23:48:10,653 [restartedMain] INFO  org.eclipse.jetty.server.session 140 - node0 Scavenging every 660000ms
+2020-04-08 23:48:10,665 [restartedMain] INFO  o.e.j.server.handler.ContextHandler 825 - Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@2c8b7ba2{application,/,[file:///private/var/folders/7h/1dfzdnnx3g5fz51v_lmc0rww0000gn/T/jetty-docbase.4191307535294233763.8103/, jar:file:/Users/leon/Documents/maven/repository-a3/io/springfox/springfox-swagger-ui/2.7.0/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],AVAILABLE}
+2020-04-08 23:48:10,666 [restartedMain] INFO  org.eclipse.jetty.server.Server 399 - Started @2964ms
+2020-04-08 23:48:13,593 [restartedMain] INFO  c.alibaba.druid.pool.DruidDataSource 928 - {dataSource-1} inited
+2020-04-08 23:48:14,016 [restartedMain] INFO  com.leon.redis.RedisConfig 65 - JedisPool init successful，host -> [59.110.160.100]；port -> [6379]
+2020-04-08 23:48:14,034 [restartedMain] INFO  com.leon.redis.RedisConfiguration 68 - 初始化 -> [CacheManager RedisCacheManager Start]
+2020-04-08 23:48:14,048 [restartedMain] INFO  com.leon.redis.RedisConfiguration 99 - 初始化 -> [Redis CacheErrorHandler]
+2020-04-08 23:48:15,058 [restartedMain] INFO  o.e.j.s.h.ContextHandler.application 2223 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-08 23:48:15,103 [restartedMain] INFO  o.e.jetty.server.AbstractConnector 330 - Started ServerConnector@985daf3{HTTP/1.1,[http/1.1]}{0.0.0.0:8103}
+2020-04-08 23:48:15,108 [restartedMain] INFO  com.leon.WebManageApplication 61 - Started WebManageApplication in 6.814 seconds (JVM running for 7.407)
+2020-04-08 23:52:20,234 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource 1823 - {dataSource-1} closed
+2020-04-08 23:52:20,246 [SpringContextShutdownHook] INFO  o.e.jetty.server.AbstractConnector 380 - Stopped ServerConnector@985daf3{HTTP/1.1,[http/1.1]}{0.0.0.0:8103}
+2020-04-08 23:52:20,246 [SpringContextShutdownHook] INFO  org.eclipse.jetty.server.session 158 - node0 Stopped scavenging
+2020-04-08 23:52:20,248 [SpringContextShutdownHook] INFO  o.e.j.s.h.ContextHandler.application 2223 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2020-04-08 23:52:20,248 [SpringContextShutdownHook] INFO  o.e.j.server.handler.ContextHandler 1016 - Stopped o.s.b.w.e.j.JettyEmbeddedWebAppContext@2c8b7ba2{application,/,[file:///private/var/folders/7h/1dfzdnnx3g5fz51v_lmc0rww0000gn/T/jetty-docbase.4191307535294233763.8103/, jar:file:/Users/leon/Documents/maven/repository-a3/io/springfox/springfox-swagger-ui/2.7.0/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],UNAVAILABLE}
+2020-04-08 23:52:24,011 [restartedMain] INFO  com.leon.WebManageApplication 55 - Starting WebManageApplication on Leon.local with PID 84908 (/Users/leon/Documents/workspace/a3-manage/a3-web/target/classes started by leon in /Users/leon/Documents/workspace/a3-manage)
+2020-04-08 23:52:24,014 [restartedMain] INFO  com.leon.WebManageApplication 655 - The following profiles are active: druid,common
+2020-04-08 23:52:25,193 [restartedMain] INFO  com.leon.redis.RedisConfig 55 - Create JedisConnectionFactory successful
+2020-04-08 23:52:25,472 [restartedMain] INFO  org.eclipse.jetty.util.log 169 - Logging initialized @2729ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-04-08 23:52:25,556 [restartedMain] INFO  org.eclipse.jetty.server.Server 359 - jetty-9.4.26.v20200117; built: 2020-01-17T12:35:33.676Z; git: 7b38981d25d14afb4a12ff1f2596756144edf695; jvm 1.8.0_181-b13
+2020-04-08 23:52:25,576 [restartedMain] INFO  o.e.j.s.h.ContextHandler.application 2223 - Initializing Spring embedded WebApplicationContext
+2020-04-08 23:52:25,673 [restartedMain] INFO  org.eclipse.jetty.server.session 333 - DefaultSessionIdManager workerName=node0
+2020-04-08 23:52:25,673 [restartedMain] INFO  org.eclipse.jetty.server.session 338 - No SessionScavenger set, using defaults
+2020-04-08 23:52:25,674 [restartedMain] INFO  org.eclipse.jetty.server.session 140 - node0 Scavenging every 660000ms
+2020-04-08 23:52:25,687 [restartedMain] INFO  o.e.j.server.handler.ContextHandler 825 - Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@8f24164{application,/,[file:///private/var/folders/7h/1dfzdnnx3g5fz51v_lmc0rww0000gn/T/jetty-docbase.3803031214581166907.8103/, jar:file:/Users/leon/Documents/maven/repository-a3/io/springfox/springfox-swagger-ui/2.7.0/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],AVAILABLE}
+2020-04-08 23:52:25,688 [restartedMain] INFO  org.eclipse.jetty.server.Server 399 - Started @2945ms
+2020-04-08 23:52:29,321 [restartedMain] INFO  c.alibaba.druid.pool.DruidDataSource 928 - {dataSource-1} inited
+2020-04-08 23:52:29,736 [restartedMain] INFO  com.leon.redis.RedisConfig 65 - JedisPool init successful，host -> [59.110.160.100]；port -> [6379]
+2020-04-08 23:52:29,754 [restartedMain] INFO  com.leon.redis.RedisConfiguration 68 - 初始化 -> [CacheManager RedisCacheManager Start]
+2020-04-08 23:52:29,768 [restartedMain] INFO  com.leon.redis.RedisConfiguration 99 - 初始化 -> [Redis CacheErrorHandler]
+2020-04-08 23:52:30,790 [restartedMain] INFO  o.e.j.s.h.ContextHandler.application 2223 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-08 23:52:30,836 [restartedMain] INFO  o.e.jetty.server.AbstractConnector 330 - Started ServerConnector@14b0a86e{HTTP/1.1,[http/1.1]}{0.0.0.0:8103}
+2020-04-08 23:52:30,841 [restartedMain] INFO  com.leon.WebManageApplication 61 - Started WebManageApplication in 7.464 seconds (JVM running for 8.099)
+2020-04-08 23:54:02,223 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource 1823 - {dataSource-1} closed
+2020-04-08 23:54:02,235 [SpringContextShutdownHook] INFO  o.e.jetty.server.AbstractConnector 380 - Stopped ServerConnector@14b0a86e{HTTP/1.1,[http/1.1]}{0.0.0.0:8103}
+2020-04-08 23:54:02,235 [SpringContextShutdownHook] INFO  org.eclipse.jetty.server.session 158 - node0 Stopped scavenging
+2020-04-08 23:54:02,238 [SpringContextShutdownHook] INFO  o.e.j.s.h.ContextHandler.application 2223 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2020-04-08 23:54:02,238 [SpringContextShutdownHook] INFO  o.e.j.server.handler.ContextHandler 1016 - Stopped o.s.b.w.e.j.JettyEmbeddedWebAppContext@8f24164{application,/,[file:///private/var/folders/7h/1dfzdnnx3g5fz51v_lmc0rww0000gn/T/jetty-docbase.3803031214581166907.8103/, jar:file:/Users/leon/Documents/maven/repository-a3/io/springfox/springfox-swagger-ui/2.7.0/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],UNAVAILABLE}
+2020-04-08 23:54:05,773 [restartedMain] INFO  com.leon.WebManageApplication 55 - Starting WebManageApplication on Leon.local with PID 84951 (/Users/leon/Documents/workspace/a3-manage/a3-web/target/classes started by leon in /Users/leon/Documents/workspace/a3-manage)
+2020-04-08 23:54:05,776 [restartedMain] INFO  com.leon.WebManageApplication 655 - The following profiles are active: druid,common
+2020-04-08 23:54:06,965 [restartedMain] INFO  com.leon.redis.RedisConfig 55 - Create JedisConnectionFactory successful
+2020-04-08 23:54:07,243 [restartedMain] INFO  org.eclipse.jetty.util.log 169 - Logging initialized @2743ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-04-08 23:54:07,328 [restartedMain] INFO  org.eclipse.jetty.server.Server 359 - jetty-9.4.26.v20200117; built: 2020-01-17T12:35:33.676Z; git: 7b38981d25d14afb4a12ff1f2596756144edf695; jvm 1.8.0_181-b13
+2020-04-08 23:54:07,348 [restartedMain] INFO  o.e.j.s.h.ContextHandler.application 2223 - Initializing Spring embedded WebApplicationContext
+2020-04-08 23:54:07,446 [restartedMain] INFO  org.eclipse.jetty.server.session 333 - DefaultSessionIdManager workerName=node0
+2020-04-08 23:54:07,446 [restartedMain] INFO  org.eclipse.jetty.server.session 338 - No SessionScavenger set, using defaults
+2020-04-08 23:54:07,447 [restartedMain] INFO  org.eclipse.jetty.server.session 140 - node0 Scavenging every 600000ms
+2020-04-08 23:54:07,460 [restartedMain] INFO  o.e.j.server.handler.ContextHandler 825 - Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@6df91d49{application,/,[file:///private/var/folders/7h/1dfzdnnx3g5fz51v_lmc0rww0000gn/T/jetty-docbase.357299851466732688.8103/, jar:file:/Users/leon/Documents/maven/repository-a3/io/springfox/springfox-swagger-ui/2.7.0/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],AVAILABLE}
+2020-04-08 23:54:07,460 [restartedMain] INFO  org.eclipse.jetty.server.Server 399 - Started @2962ms
+2020-04-08 23:54:10,671 [restartedMain] INFO  c.alibaba.druid.pool.DruidDataSource 928 - {dataSource-1} inited
+2020-04-08 23:54:11,079 [restartedMain] INFO  com.leon.redis.RedisConfig 65 - JedisPool init successful，host -> [59.110.160.100]；port -> [6379]
+2020-04-08 23:54:11,096 [restartedMain] INFO  com.leon.redis.RedisConfiguration 68 - 初始化 -> [CacheManager RedisCacheManager Start]
+2020-04-08 23:54:11,109 [restartedMain] INFO  com.leon.redis.RedisConfiguration 99 - 初始化 -> [Redis CacheErrorHandler]
+2020-04-08 23:54:12,118 [restartedMain] INFO  o.e.j.s.h.ContextHandler.application 2223 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-08 23:54:12,166 [restartedMain] INFO  o.e.jetty.server.AbstractConnector 330 - Started ServerConnector@4ba4c361{HTTP/1.1,[http/1.1]}{0.0.0.0:8103}
+2020-04-08 23:54:12,172 [restartedMain] INFO  com.leon.WebManageApplication 61 - Started WebManageApplication in 7.069 seconds (JVM running for 7.673)
+2020-04-08 23:56:09,393 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource 1823 - {dataSource-1} closed
+2020-04-08 23:56:09,399 [SpringContextShutdownHook] INFO  o.e.jetty.server.AbstractConnector 380 - Stopped ServerConnector@4ba4c361{HTTP/1.1,[http/1.1]}{0.0.0.0:8103}
+2020-04-08 23:56:09,399 [SpringContextShutdownHook] INFO  org.eclipse.jetty.server.session 158 - node0 Stopped scavenging
+2020-04-08 23:56:09,401 [SpringContextShutdownHook] INFO  o.e.j.s.h.ContextHandler.application 2223 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2020-04-08 23:56:09,401 [SpringContextShutdownHook] INFO  o.e.j.server.handler.ContextHandler 1016 - Stopped o.s.b.w.e.j.JettyEmbeddedWebAppContext@6df91d49{application,/,[file:///private/var/folders/7h/1dfzdnnx3g5fz51v_lmc0rww0000gn/T/jetty-docbase.357299851466732688.8103/, jar:file:/Users/leon/Documents/maven/repository-a3/io/springfox/springfox-swagger-ui/2.7.0/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],UNAVAILABLE}
+2020-04-08 23:56:13,244 [restartedMain] INFO  com.leon.WebManageApplication 55 - Starting WebManageApplication on Leon.local with PID 85000 (/Users/leon/Documents/workspace/a3-manage/a3-web/target/classes started by leon in /Users/leon/Documents/workspace/a3-manage)
+2020-04-08 23:56:13,248 [restartedMain] INFO  com.leon.WebManageApplication 655 - The following profiles are active: druid,common
+2020-04-08 23:56:14,425 [restartedMain] INFO  com.leon.redis.RedisConfig 55 - Create JedisConnectionFactory successful
+2020-04-08 23:56:14,723 [restartedMain] INFO  org.eclipse.jetty.util.log 169 - Logging initialized @2706ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-04-08 23:56:14,808 [restartedMain] INFO  org.eclipse.jetty.server.Server 359 - jetty-9.4.26.v20200117; built: 2020-01-17T12:35:33.676Z; git: 7b38981d25d14afb4a12ff1f2596756144edf695; jvm 1.8.0_181-b13
+2020-04-08 23:56:14,828 [restartedMain] INFO  o.e.j.s.h.ContextHandler.application 2223 - Initializing Spring embedded WebApplicationContext
+2020-04-08 23:56:14,925 [restartedMain] INFO  org.eclipse.jetty.server.session 333 - DefaultSessionIdManager workerName=node0
+2020-04-08 23:56:14,926 [restartedMain] INFO  org.eclipse.jetty.server.session 338 - No SessionScavenger set, using defaults
+2020-04-08 23:56:14,927 [restartedMain] INFO  org.eclipse.jetty.server.session 140 - node0 Scavenging every 660000ms
+2020-04-08 23:56:14,940 [restartedMain] INFO  o.e.j.server.handler.ContextHandler 825 - Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@2fb29fc5{application,/,[file:///private/var/folders/7h/1dfzdnnx3g5fz51v_lmc0rww0000gn/T/jetty-docbase.332137740824854120.8103/, jar:file:/Users/leon/Documents/maven/repository-a3/io/springfox/springfox-swagger-ui/2.7.0/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],AVAILABLE}
+2020-04-08 23:56:14,941 [restartedMain] INFO  org.eclipse.jetty.server.Server 399 - Started @2925ms
+2020-04-08 23:56:19,140 [restartedMain] INFO  c.alibaba.druid.pool.DruidDataSource 928 - {dataSource-1} inited
+2020-04-08 23:56:19,565 [restartedMain] INFO  com.leon.redis.RedisConfig 65 - JedisPool init successful，host -> [59.110.160.100]；port -> [6379]
+2020-04-08 23:56:19,583 [restartedMain] INFO  com.leon.redis.RedisConfiguration 68 - 初始化 -> [CacheManager RedisCacheManager Start]
+2020-04-08 23:56:19,596 [restartedMain] INFO  com.leon.redis.RedisConfiguration 99 - 初始化 -> [Redis CacheErrorHandler]
+2020-04-08 23:56:20,618 [restartedMain] INFO  o.e.j.s.h.ContextHandler.application 2223 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-08 23:56:20,667 [restartedMain] INFO  o.e.jetty.server.AbstractConnector 330 - Started ServerConnector@458d9f47{HTTP/1.1,[http/1.1]}{0.0.0.0:8103}
+2020-04-08 23:56:20,672 [restartedMain] INFO  com.leon.WebManageApplication 61 - Started WebManageApplication in 8.05 seconds (JVM running for 8.656)
+2020-04-08 23:59:41,065 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource 1823 - {dataSource-1} closed
+2020-04-08 23:59:41,071 [SpringContextShutdownHook] INFO  o.e.jetty.server.AbstractConnector 380 - Stopped ServerConnector@458d9f47{HTTP/1.1,[http/1.1]}{0.0.0.0:8103}
+2020-04-08 23:59:41,072 [SpringContextShutdownHook] INFO  org.eclipse.jetty.server.session 158 - node0 Stopped scavenging
+2020-04-08 23:59:41,073 [SpringContextShutdownHook] INFO  o.e.j.s.h.ContextHandler.application 2223 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2020-04-08 23:59:41,073 [SpringContextShutdownHook] INFO  o.e.j.server.handler.ContextHandler 1016 - Stopped o.s.b.w.e.j.JettyEmbeddedWebAppContext@2fb29fc5{application,/,[file:///private/var/folders/7h/1dfzdnnx3g5fz51v_lmc0rww0000gn/T/jetty-docbase.332137740824854120.8103/, jar:file:/Users/leon/Documents/maven/repository-a3/io/springfox/springfox-swagger-ui/2.7.0/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],UNAVAILABLE}
+2020-04-08 23:59:44,736 [restartedMain] INFO  com.leon.WebManageApplication 55 - Starting WebManageApplication on Leon.local with PID 85080 (/Users/leon/Documents/workspace/a3-manage/a3-web/target/classes started by leon in /Users/leon/Documents/workspace/a3-manage)
+2020-04-08 23:59:44,739 [restartedMain] INFO  com.leon.WebManageApplication 655 - The following profiles are active: druid,common
+2020-04-08 23:59:45,881 [restartedMain] INFO  com.leon.redis.RedisConfig 55 - Create JedisConnectionFactory successful
+2020-04-08 23:59:46,170 [restartedMain] INFO  org.eclipse.jetty.util.log 169 - Logging initialized @2617ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-04-08 23:59:46,256 [restartedMain] INFO  org.eclipse.jetty.server.Server 359 - jetty-9.4.26.v20200117; built: 2020-01-17T12:35:33.676Z; git: 7b38981d25d14afb4a12ff1f2596756144edf695; jvm 1.8.0_181-b13
+2020-04-08 23:59:46,277 [restartedMain] INFO  o.e.j.s.h.ContextHandler.application 2223 - Initializing Spring embedded WebApplicationContext
+2020-04-08 23:59:46,378 [restartedMain] INFO  org.eclipse.jetty.server.session 333 - DefaultSessionIdManager workerName=node0
+2020-04-08 23:59:46,379 [restartedMain] INFO  org.eclipse.jetty.server.session 338 - No SessionScavenger set, using defaults
+2020-04-08 23:59:46,380 [restartedMain] INFO  org.eclipse.jetty.server.session 140 - node0 Scavenging every 600000ms
+2020-04-08 23:59:46,394 [restartedMain] INFO  o.e.j.server.handler.ContextHandler 825 - Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@2649a6c1{application,/,[file:///private/var/folders/7h/1dfzdnnx3g5fz51v_lmc0rww0000gn/T/jetty-docbase.8791921666636244009.8103/, jar:file:/Users/leon/Documents/maven/repository-a3/io/springfox/springfox-swagger-ui/2.7.0/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],AVAILABLE}
+2020-04-08 23:59:46,395 [restartedMain] INFO  org.eclipse.jetty.server.Server 399 - Started @2843ms
+2020-04-08 23:59:54,758 [restartedMain] INFO  c.alibaba.druid.pool.DruidDataSource 928 - {dataSource-1} inited
+2020-04-08 23:59:55,287 [restartedMain] INFO  com.leon.redis.RedisConfig 65 - JedisPool init successful，host -> [59.110.160.100]；port -> [6379]
+2020-04-08 23:59:55,305 [restartedMain] INFO  com.leon.redis.RedisConfiguration 68 - 初始化 -> [CacheManager RedisCacheManager Start]
+2020-04-08 23:59:55,318 [restartedMain] INFO  com.leon.redis.RedisConfiguration 99 - 初始化 -> [Redis CacheErrorHandler]
+2020-04-08 23:59:56,369 [restartedMain] INFO  o.e.j.s.h.ContextHandler.application 2223 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-08 23:59:56,416 [restartedMain] INFO  o.e.jetty.server.AbstractConnector 330 - Started ServerConnector@4530579a{HTTP/1.1,[http/1.1]}{0.0.0.0:8103}
+2020-04-08 23:59:56,422 [restartedMain] INFO  com.leon.WebManageApplication 61 - Started WebManageApplication in 12.273 seconds (JVM running for 12.87)

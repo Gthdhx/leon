@@ -1,0 +1,406 @@
+2020-04-15 08:38:06,161 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource 1823 - {dataSource-1} closed
+2020-04-15 08:38:06,200 [SpringContextShutdownHook] INFO  o.e.jetty.server.AbstractConnector 380 - Stopped ServerConnector@2614d0e2{HTTP/1.1,[http/1.1]}{0.0.0.0:8103}
+2020-04-15 08:38:06,201 [SpringContextShutdownHook] INFO  org.eclipse.jetty.server.session 158 - node0 Stopped scavenging
+2020-04-15 08:38:06,210 [SpringContextShutdownHook] INFO  o.e.j.s.h.ContextHandler.application 2223 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2020-04-15 08:38:06,211 [SpringContextShutdownHook] INFO  o.e.j.server.handler.ContextHandler 1016 - Stopped o.s.b.w.e.j.JettyEmbeddedWebAppContext@29fec10c{application,/,[file:///private/var/folders/7h/1dfzdnnx3g5fz51v_lmc0rww0000gn/T/jetty-docbase.6623868801260621989.8103/, jar:file:/Users/leon/Documents/maven/repository-a3/io/springfox/springfox-swagger-ui/2.7.0/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],UNAVAILABLE}
+2020-04-15 17:13:32,238 [restartedMain] INFO  com.leon.WebManageApplication 55 - Starting WebManageApplication on Leon.local with PID 2331 (/Users/leon/Documents/workspace/a3-manage/a3-web/target/classes started by leon in /Users/leon/Documents/workspace/a3-manage)
+2020-04-15 17:13:32,242 [restartedMain] INFO  com.leon.WebManageApplication 655 - The following profiles are active: druid,common
+2020-04-15 17:14:52,581 [restartedMain] INFO  com.leon.WebManageApplication 55 - Starting WebManageApplication on Leon.local with PID 2336 (/Users/leon/Documents/workspace/a3-manage/a3-web/target/classes started by leon in /Users/leon/Documents/workspace/a3-manage)
+2020-04-15 17:14:52,585 [restartedMain] INFO  com.leon.WebManageApplication 655 - The following profiles are active: druid,common
+2020-04-15 17:14:54,200 [restartedMain] INFO  com.leon.redis.RedisConfig 55 - Create JedisConnectionFactory successful
+2020-04-15 17:14:54,568 [restartedMain] INFO  org.eclipse.jetty.util.log 169 - Logging initialized @4468ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-04-15 17:14:54,681 [restartedMain] INFO  org.eclipse.jetty.server.Server 359 - jetty-9.4.26.v20200117; built: 2020-01-17T12:35:33.676Z; git: 7b38981d25d14afb4a12ff1f2596756144edf695; jvm 1.8.0_181-b13
+2020-04-15 17:14:54,706 [restartedMain] INFO  o.e.j.s.h.ContextHandler.application 2223 - Initializing Spring embedded WebApplicationContext
+2020-04-15 17:14:54,847 [restartedMain] INFO  org.eclipse.jetty.server.session 333 - DefaultSessionIdManager workerName=node0
+2020-04-15 17:14:54,847 [restartedMain] INFO  org.eclipse.jetty.server.session 338 - No SessionScavenger set, using defaults
+2020-04-15 17:14:54,849 [restartedMain] INFO  org.eclipse.jetty.server.session 140 - node0 Scavenging every 600000ms
+2020-04-15 17:14:54,865 [restartedMain] INFO  o.e.j.server.handler.ContextHandler 825 - Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@2638cda7{application,/,[file:///private/var/folders/7h/1dfzdnnx3g5fz51v_lmc0rww0000gn/T/jetty-docbase.6258628833917293084.8103/, jar:file:/Users/leon/Documents/maven/repository-a3/io/springfox/springfox-swagger-ui/2.7.0/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],AVAILABLE}
+2020-04-15 17:14:54,866 [restartedMain] INFO  org.eclipse.jetty.server.Server 399 - Started @4767ms
+2020-04-15 17:14:58,011 [restartedMain] INFO  c.alibaba.druid.pool.DruidDataSource 928 - {dataSource-1} inited
+2020-04-15 17:14:58,318 [restartedMain] INFO  com.leon.redis.RedisConfig 65 - JedisPool init successful，host -> [59.110.160.100]；port -> [6379]
+2020-04-15 17:14:58,336 [restartedMain] INFO  com.leon.redis.RedisConfiguration 68 - 初始化 -> [CacheManager RedisCacheManager Start]
+2020-04-15 17:14:58,351 [restartedMain] INFO  com.leon.redis.RedisConfiguration 99 - 初始化 -> [Redis CacheErrorHandler]
+2020-04-15 17:14:59,486 [restartedMain] INFO  o.e.j.s.h.ContextHandler.application 2223 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-15 17:14:59,534 [restartedMain] INFO  o.e.jetty.server.AbstractConnector 330 - Started ServerConnector@714a0c11{HTTP/1.1,[http/1.1]}{0.0.0.0:8103}
+2020-04-15 17:14:59,540 [restartedMain] INFO  com.leon.WebManageApplication 61 - Started WebManageApplication in 7.755 seconds (JVM running for 9.441)
+2020-04-15 17:15:04,904 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource 1823 - {dataSource-1} closed
+2020-04-15 17:15:04,920 [SpringContextShutdownHook] INFO  o.e.jetty.server.AbstractConnector 380 - Stopped ServerConnector@714a0c11{HTTP/1.1,[http/1.1]}{0.0.0.0:8103}
+2020-04-15 17:15:04,920 [SpringContextShutdownHook] INFO  org.eclipse.jetty.server.session 158 - node0 Stopped scavenging
+2020-04-15 17:15:04,922 [SpringContextShutdownHook] INFO  o.e.j.s.h.ContextHandler.application 2223 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2020-04-15 17:15:04,922 [SpringContextShutdownHook] INFO  o.e.j.server.handler.ContextHandler 1016 - Stopped o.s.b.w.e.j.JettyEmbeddedWebAppContext@2638cda7{application,/,[file:///private/var/folders/7h/1dfzdnnx3g5fz51v_lmc0rww0000gn/T/jetty-docbase.6258628833917293084.8103/, jar:file:/Users/leon/Documents/maven/repository-a3/io/springfox/springfox-swagger-ui/2.7.0/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],UNAVAILABLE}
+2020-04-15 17:15:24,529 [restartedMain] INFO  com.leon.WebManageApplication 55 - Starting WebManageApplication on Leon.local with PID 2348 (/Users/leon/Documents/workspace/a3-manage/a3-web/target/classes started by leon in /Users/leon/Documents/workspace/a3-manage)
+2020-04-15 17:15:24,532 [restartedMain] INFO  com.leon.WebManageApplication 655 - The following profiles are active: druid,common
+2020-04-15 17:15:25,645 [restartedMain] INFO  com.leon.redis.RedisConfig 55 - Create JedisConnectionFactory successful
+2020-04-15 17:15:25,936 [restartedMain] INFO  org.eclipse.jetty.util.log 169 - Logging initialized @3029ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-04-15 17:15:26,022 [restartedMain] INFO  org.eclipse.jetty.server.Server 359 - jetty-9.4.26.v20200117; built: 2020-01-17T12:35:33.676Z; git: 7b38981d25d14afb4a12ff1f2596756144edf695; jvm 1.8.0_181-b13
+2020-04-15 17:15:26,042 [restartedMain] INFO  o.e.j.s.h.ContextHandler.application 2223 - Initializing Spring embedded WebApplicationContext
+2020-04-15 17:15:26,224 [restartedMain] INFO  org.eclipse.jetty.server.session 333 - DefaultSessionIdManager workerName=node0
+2020-04-15 17:15:26,233 [restartedMain] INFO  org.eclipse.jetty.server.session 338 - No SessionScavenger set, using defaults
+2020-04-15 17:15:26,234 [restartedMain] INFO  org.eclipse.jetty.server.session 140 - node0 Scavenging every 660000ms
+2020-04-15 17:15:26,247 [restartedMain] INFO  o.e.j.server.handler.ContextHandler 825 - Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@78fc25b2{application,/,[file:///private/var/folders/7h/1dfzdnnx3g5fz51v_lmc0rww0000gn/T/jetty-docbase.4520527717273840183.8103/, jar:file:/Users/leon/Documents/maven/repository-a3/io/springfox/springfox-swagger-ui/2.7.0/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],AVAILABLE}
+2020-04-15 17:15:26,247 [restartedMain] INFO  org.eclipse.jetty.server.Server 399 - Started @3341ms
+2020-04-15 17:15:29,264 [restartedMain] INFO  c.alibaba.druid.pool.DruidDataSource 928 - {dataSource-1} inited
+2020-04-15 17:15:29,697 [restartedMain] INFO  com.leon.redis.RedisConfig 65 - JedisPool init successful，host -> [59.110.160.100]；port -> [6379]
+2020-04-15 17:15:29,717 [restartedMain] INFO  com.leon.redis.RedisConfiguration 68 - 初始化 -> [CacheManager RedisCacheManager Start]
+2020-04-15 17:15:29,731 [restartedMain] INFO  com.leon.redis.RedisConfiguration 99 - 初始化 -> [Redis CacheErrorHandler]
+2020-04-15 17:15:30,889 [restartedMain] INFO  o.e.j.s.h.ContextHandler.application 2223 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-15 17:15:30,934 [restartedMain] INFO  o.e.jetty.server.AbstractConnector 330 - Started ServerConnector@131079c7{HTTP/1.1,[http/1.1]}{0.0.0.0:8103}
+2020-04-15 17:15:30,940 [restartedMain] INFO  com.leon.WebManageApplication 61 - Started WebManageApplication in 7.077 seconds (JVM running for 8.033)
+2020-04-15 17:15:43,672 [qtp895564961-63] INFO  c.leon.druid.config.DataSourceAspect 24 - 选择数据源---get
+2020-04-15 17:15:45,618 [qtp895564961-63] INFO  c.alibaba.druid.pool.DruidDataSource 928 - {dataSource-2} inited
+2020-04-15 17:15:45,661 [qtp895564961-63] INFO  com.leon.filter.LogFilter 45 - ===================== request start =====================
+2020-04-15 17:15:45,662 [qtp895564961-63] INFO  com.leon.filter.LogFilter 46 - URL:[ http://127.0.0.1:8103/system/getMenuList ]
+2020-04-15 17:15:45,662 [qtp895564961-63] INFO  com.leon.filter.LogFilter 49 - ===================== request end =====================
+
+2020-04-15 17:15:45,844 [qtp895564961-63] INFO  com.leon.filter.LogFilter 59 - ===================== return start =====================
+2020-04-15 17:15:45,846 [qtp895564961-63] INFO  com.leon.filter.LogFilter 64 - 计时结束：05:15:45.844  耗时：0:0:0.183  URI: /system/getMenuList  最大内存: 3641m  已分配内存: 540m  已分配内存中的剩余空间: 343m  最大可用内存: 3444m
+2020-04-15 17:15:45,846 [qtp895564961-63] INFO  com.leon.filter.LogFilter 69 - ===================== return end =====================
+
+2020-04-15 17:15:48,243 [qtp895564961-29] INFO  c.leon.druid.config.DataSourceAspect 24 - 选择数据源---post
+2020-04-15 17:15:48,280 [qtp895564961-29] INFO  com.leon.filter.LogFilter 45 - ===================== request start =====================
+2020-04-15 17:15:48,281 [qtp895564961-29] INFO  com.leon.filter.LogFilter 46 - URL:[ http://127.0.0.1:8103/menu/getMenuList ]
+2020-04-15 17:15:48,286 [qtp895564961-29] INFO  com.leon.filter.LogFilter 95 - Request Params:
+  limit = ["10"]
+  page = ["1"]
+2020-04-15 17:15:48,287 [qtp895564961-29] INFO  com.leon.filter.LogFilter 49 - ===================== request end =====================
+
+2020-04-15 17:15:48,487 [qtp895564961-29] INFO  com.leon.filter.LogFilter 59 - ===================== return start =====================
+2020-04-15 17:15:48,487 [qtp895564961-29] INFO  com.leon.filter.LogFilter 64 - 计时结束：05:15:48.487  耗时：0:0:0.207  URI: /menu/getMenuList  最大内存: 3641m  已分配内存: 620m  已分配内存中的剩余空间: 578m  最大可用内存: 3599m
+2020-04-15 17:15:48,488 [qtp895564961-29] INFO  com.leon.filter.LogFilter 69 - ===================== return end =====================
+
+2020-04-15 17:15:50,327 [qtp895564961-65] INFO  c.leon.druid.config.DataSourceAspect 24 - 选择数据源---get
+2020-04-15 17:15:50,359 [qtp895564961-65] INFO  com.leon.filter.LogFilter 45 - ===================== request start =====================
+2020-04-15 17:15:50,360 [qtp895564961-65] INFO  com.leon.filter.LogFilter 46 - URL:[ http://127.0.0.1:8103/menu/getSysMenuTreeList ]
+2020-04-15 17:15:50,360 [qtp895564961-65] INFO  com.leon.filter.LogFilter 49 - ===================== request end =====================
+
+2020-04-15 17:15:50,395 [qtp895564961-65] INFO  com.leon.filter.LogFilter 59 - ===================== return start =====================
+2020-04-15 17:15:50,396 [qtp895564961-65] INFO  com.leon.filter.LogFilter 64 - 计时结束：05:15:50.395  耗时：0:0:0.36  URI: /menu/getSysMenuTreeList  最大内存: 3641m  已分配内存: 620m  已分配内存中的剩余空间: 560m  最大可用内存: 3581m
+2020-04-15 17:15:50,396 [qtp895564961-65] INFO  com.leon.filter.LogFilter 69 - ===================== return end =====================
+
+2020-04-15 17:15:50,396 [qtp895564961-65] INFO  com.leon.filter.LogFilter 45 - ===================== request start =====================
+2020-04-15 17:15:50,397 [qtp895564961-65] INFO  com.leon.filter.LogFilter 46 - URL:[ http://127.0.0.1:8103/menu/getSysMenuTreeList ]
+2020-04-15 17:15:50,397 [qtp895564961-65] INFO  com.leon.filter.LogFilter 49 - ===================== request end =====================
+
+2020-04-15 17:15:50,433 [qtp895564961-65] INFO  com.leon.filter.LogFilter 59 - ===================== return start =====================
+2020-04-15 17:15:50,434 [qtp895564961-65] INFO  com.leon.filter.LogFilter 64 - 计时结束：05:15:50.433  耗时：0:0:0.37  URI: /menu/getSysMenuTreeList  最大内存: 3641m  已分配内存: 620m  已分配内存中的剩余空间: 559m  最大可用内存: 3580m
+2020-04-15 17:15:50,434 [qtp895564961-65] INFO  com.leon.filter.LogFilter 69 - ===================== return end =====================
+
+2020-04-15 17:16:01,078 [qtp895564961-65] INFO  c.leon.druid.config.DataSourceAspect 24 - 选择数据源---post
+2020-04-15 17:16:01,144 [qtp895564961-65] INFO  com.leon.filter.LogFilter 45 - ===================== request start =====================
+2020-04-15 17:16:01,144 [qtp895564961-65] INFO  com.leon.filter.LogFilter 46 - URL:[ http://127.0.0.1:8103/menu/insertMenu ]
+2020-04-15 17:16:01,144 [qtp895564961-65] INFO  com.leon.filter.LogFilter 49 - ===================== request end =====================
+
+2020-04-15 17:16:03,187 [qtp895564961-33] INFO  c.leon.druid.config.DataSourceAspect 24 - 选择数据源---post
+2020-04-15 17:16:03,220 [qtp895564961-33] INFO  com.leon.filter.LogFilter 45 - ===================== request start =====================
+2020-04-15 17:16:03,220 [qtp895564961-33] INFO  com.leon.filter.LogFilter 46 - URL:[ http://127.0.0.1:8103/menu/insertMenu ]
+2020-04-15 17:16:03,221 [qtp895564961-33] INFO  com.leon.filter.LogFilter 49 - ===================== request end =====================
+
+2020-04-15 17:16:05,662 [qtp895564961-66] INFO  c.leon.druid.config.DataSourceAspect 24 - 选择数据源---post
+2020-04-15 17:16:05,694 [qtp895564961-66] INFO  com.leon.filter.LogFilter 45 - ===================== request start =====================
+2020-04-15 17:16:05,694 [qtp895564961-66] INFO  com.leon.filter.LogFilter 46 - URL:[ http://127.0.0.1:8103/menu/insertMenu ]
+2020-04-15 17:16:05,695 [qtp895564961-66] INFO  com.leon.filter.LogFilter 49 - ===================== request end =====================
+
+2020-04-15 17:16:05,863 [qtp895564961-63] INFO  c.leon.druid.config.DataSourceAspect 24 - 选择数据源---post
+2020-04-15 17:16:05,895 [qtp895564961-63] INFO  com.leon.filter.LogFilter 45 - ===================== request start =====================
+2020-04-15 17:16:05,896 [qtp895564961-63] INFO  com.leon.filter.LogFilter 46 - URL:[ http://127.0.0.1:8103/menu/insertMenu ]
+2020-04-15 17:16:05,897 [qtp895564961-63] INFO  com.leon.filter.LogFilter 49 - ===================== request end =====================
+
+2020-04-15 17:16:06,018 [qtp895564961-31] INFO  c.leon.druid.config.DataSourceAspect 24 - 选择数据源---post
+2020-04-15 17:16:06,048 [qtp895564961-31] INFO  com.leon.filter.LogFilter 45 - ===================== request start =====================
+2020-04-15 17:16:06,049 [qtp895564961-31] INFO  com.leon.filter.LogFilter 46 - URL:[ http://127.0.0.1:8103/menu/insertMenu ]
+2020-04-15 17:16:06,049 [qtp895564961-31] INFO  com.leon.filter.LogFilter 49 - ===================== request end =====================
+
+2020-04-15 17:16:06,205 [qtp895564961-30] INFO  c.leon.druid.config.DataSourceAspect 24 - 选择数据源---post
+2020-04-15 17:16:06,237 [qtp895564961-30] INFO  com.leon.filter.LogFilter 45 - ===================== request start =====================
+2020-04-15 17:16:06,238 [qtp895564961-30] INFO  com.leon.filter.LogFilter 46 - URL:[ http://127.0.0.1:8103/menu/insertMenu ]
+2020-04-15 17:16:06,238 [qtp895564961-30] INFO  com.leon.filter.LogFilter 49 - ===================== request end =====================
+
+2020-04-15 17:16:06,398 [qtp895564961-30] INFO  c.leon.druid.config.DataSourceAspect 24 - 选择数据源---post
+2020-04-15 17:16:06,429 [qtp895564961-30] INFO  com.leon.filter.LogFilter 45 - ===================== request start =====================
+2020-04-15 17:16:06,430 [qtp895564961-30] INFO  com.leon.filter.LogFilter 46 - URL:[ http://127.0.0.1:8103/menu/insertMenu ]
+2020-04-15 17:16:06,430 [qtp895564961-30] INFO  com.leon.filter.LogFilter 49 - ===================== request end =====================
+
+2020-04-15 17:16:12,425 [qtp895564961-63] INFO  c.leon.druid.config.DataSourceAspect 24 - 选择数据源---post
+2020-04-15 17:16:12,456 [qtp895564961-63] INFO  com.leon.filter.LogFilter 45 - ===================== request start =====================
+2020-04-15 17:16:12,457 [qtp895564961-63] INFO  com.leon.filter.LogFilter 46 - URL:[ http://127.0.0.1:8103/menu/insertMenu ]
+2020-04-15 17:16:12,457 [qtp895564961-63] INFO  com.leon.filter.LogFilter 49 - ===================== request end =====================
+
+2020-04-15 17:16:39,053 [qtp895564961-33] INFO  c.leon.druid.config.DataSourceAspect 24 - 选择数据源---post
+2020-04-15 17:16:39,090 [qtp895564961-33] INFO  com.leon.filter.LogFilter 45 - ===================== request start =====================
+2020-04-15 17:16:39,090 [qtp895564961-33] INFO  com.leon.filter.LogFilter 46 - URL:[ http://127.0.0.1:8103/menu/insertMenu ]
+2020-04-15 17:16:39,091 [qtp895564961-33] INFO  com.leon.filter.LogFilter 49 - ===================== request end =====================
+
+2020-04-15 17:39:03,117 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource 1823 - {dataSource-2} closed
+2020-04-15 17:39:03,125 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource 1823 - {dataSource-1} closed
+2020-04-15 17:39:03,148 [SpringContextShutdownHook] INFO  o.e.jetty.server.AbstractConnector 380 - Stopped ServerConnector@131079c7{HTTP/1.1,[http/1.1]}{0.0.0.0:8103}
+2020-04-15 17:39:03,148 [SpringContextShutdownHook] INFO  org.eclipse.jetty.server.session 158 - node0 Stopped scavenging
+2020-04-15 17:39:03,151 [SpringContextShutdownHook] INFO  o.e.j.s.h.ContextHandler.application 2223 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2020-04-15 17:39:03,152 [SpringContextShutdownHook] INFO  o.e.j.server.handler.ContextHandler 1016 - Stopped o.s.b.w.e.j.JettyEmbeddedWebAppContext@78fc25b2{application,/,[file:///private/var/folders/7h/1dfzdnnx3g5fz51v_lmc0rww0000gn/T/jetty-docbase.4520527717273840183.8103/, jar:file:/Users/leon/Documents/maven/repository-a3/io/springfox/springfox-swagger-ui/2.7.0/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],UNAVAILABLE}
+2020-04-15 17:39:08,765 [restartedMain] INFO  com.leon.WebManageApplication 55 - Starting WebManageApplication on Leon.local with PID 2515 (/Users/leon/Documents/workspace/a3-manage/a3-web/target/classes started by leon in /Users/leon/Documents/workspace/a3-manage)
+2020-04-15 17:39:08,768 [restartedMain] INFO  com.leon.WebManageApplication 655 - The following profiles are active: druid,common
+2020-04-15 17:39:09,991 [restartedMain] INFO  com.leon.redis.RedisConfig 55 - Create JedisConnectionFactory successful
+2020-04-15 17:39:10,276 [restartedMain] INFO  org.eclipse.jetty.util.log 169 - Logging initialized @2952ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-04-15 17:39:10,366 [restartedMain] INFO  org.eclipse.jetty.server.Server 359 - jetty-9.4.26.v20200117; built: 2020-01-17T12:35:33.676Z; git: 7b38981d25d14afb4a12ff1f2596756144edf695; jvm 1.8.0_181-b13
+2020-04-15 17:39:10,386 [restartedMain] INFO  o.e.j.s.h.ContextHandler.application 2223 - Initializing Spring embedded WebApplicationContext
+2020-04-15 17:39:10,511 [restartedMain] INFO  org.eclipse.jetty.server.session 333 - DefaultSessionIdManager workerName=node0
+2020-04-15 17:39:10,511 [restartedMain] INFO  org.eclipse.jetty.server.session 338 - No SessionScavenger set, using defaults
+2020-04-15 17:39:10,512 [restartedMain] INFO  org.eclipse.jetty.server.session 140 - node0 Scavenging every 660000ms
+2020-04-15 17:39:10,524 [restartedMain] INFO  o.e.j.server.handler.ContextHandler 825 - Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@136f9d9a{application,/,[file:///private/var/folders/7h/1dfzdnnx3g5fz51v_lmc0rww0000gn/T/jetty-docbase.1569318295426777697.8103/, jar:file:/Users/leon/Documents/maven/repository-a3/io/springfox/springfox-swagger-ui/2.7.0/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],AVAILABLE}
+2020-04-15 17:39:10,525 [restartedMain] INFO  org.eclipse.jetty.server.Server 399 - Started @3202ms
+2020-04-15 17:39:13,396 [restartedMain] INFO  c.alibaba.druid.pool.DruidDataSource 928 - {dataSource-1} inited
+2020-04-15 17:39:13,733 [restartedMain] INFO  com.leon.redis.RedisConfig 65 - JedisPool init successful，host -> [59.110.160.100]；port -> [6379]
+2020-04-15 17:39:13,752 [restartedMain] INFO  com.leon.redis.RedisConfiguration 68 - 初始化 -> [CacheManager RedisCacheManager Start]
+2020-04-15 17:39:13,766 [restartedMain] INFO  com.leon.redis.RedisConfiguration 99 - 初始化 -> [Redis CacheErrorHandler]
+2020-04-15 17:39:14,840 [restartedMain] INFO  o.e.j.s.h.ContextHandler.application 2223 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-15 17:39:14,892 [restartedMain] INFO  o.e.jetty.server.AbstractConnector 330 - Started ServerConnector@85a3f1a{HTTP/1.1,[http/1.1]}{0.0.0.0:8103}
+2020-04-15 17:39:14,897 [restartedMain] INFO  com.leon.WebManageApplication 61 - Started WebManageApplication in 6.826 seconds (JVM running for 7.574)
+2020-04-15 17:39:29,613 [qtp1269366729-63] INFO  c.leon.druid.config.DataSourceAspect 24 - 选择数据源---post
+2020-04-15 17:39:29,664 [qtp1269366729-63] INFO  com.leon.filter.LogFilter 45 - ===================== request start =====================
+2020-04-15 17:39:29,664 [qtp1269366729-63] INFO  com.leon.filter.LogFilter 46 - URL:[ http://127.0.0.1:8103/menu/insertMenu ]
+2020-04-15 17:39:29,665 [qtp1269366729-63] INFO  com.leon.filter.LogFilter 49 - ===================== request end =====================
+
+2020-04-15 17:41:31,090 [qtp1269366729-67] INFO  c.leon.druid.config.DataSourceAspect 24 - 选择数据源---post
+2020-04-15 17:41:31,156 [qtp1269366729-67] INFO  com.leon.filter.LogFilter 45 - ===================== request start =====================
+2020-04-15 17:41:31,157 [qtp1269366729-67] INFO  com.leon.filter.LogFilter 46 - URL:[ http://127.0.0.1:8103/menu/insertMenu ]
+2020-04-15 17:41:31,157 [qtp1269366729-67] INFO  com.leon.filter.LogFilter 49 - ===================== request end =====================
+
+2020-04-15 17:42:34,506 [qtp1269366729-30] INFO  c.leon.druid.config.DataSourceAspect 24 - 选择数据源---post
+2020-04-15 17:42:34,574 [qtp1269366729-30] INFO  com.leon.filter.LogFilter 45 - ===================== request start =====================
+2020-04-15 17:42:34,574 [qtp1269366729-30] INFO  com.leon.filter.LogFilter 46 - URL:[ http://127.0.0.1:8103/menu/insertMenu ]
+2020-04-15 17:42:34,575 [qtp1269366729-30] INFO  com.leon.filter.LogFilter 49 - ===================== request end =====================
+
+2020-04-15 17:42:34,626 [qtp1269366729-30] INFO  com.leon.filter.LogFilter 59 - ===================== return start =====================
+2020-04-15 17:42:34,629 [qtp1269366729-30] INFO  com.leon.filter.LogFilter 64 - 计时结束：05:42:34.626  耗时：0:0:0.52  URI: /menu/insertMenu  最大内存: 3641m  已分配内存: 885m  已分配内存中的剩余空间: 578m  最大可用内存: 3333m
+2020-04-15 17:42:34,629 [qtp1269366729-30] INFO  com.leon.filter.LogFilter 69 - ===================== return end =====================
+
+2020-04-15 17:42:34,639 [qtp1269366729-30] INFO  com.leon.filter.LogFilter 45 - ===================== request start =====================
+2020-04-15 17:42:34,639 [qtp1269366729-30] INFO  com.leon.filter.LogFilter 46 - URL:[ http://127.0.0.1:8103/menu/insertMenu ]
+2020-04-15 17:42:34,639 [qtp1269366729-30] INFO  com.leon.filter.LogFilter 49 - ===================== request end =====================
+
+2020-04-15 17:42:34,721 [qtp1269366729-30] INFO  com.leon.filter.LogFilter 59 - ===================== return start =====================
+2020-04-15 17:42:34,722 [qtp1269366729-30] INFO  com.leon.filter.LogFilter 64 - 计时结束：05:42:34.721  耗时：0:0:0.82  URI: /menu/insertMenu  最大内存: 3641m  已分配内存: 885m  已分配内存中的剩余空间: 574m  最大可用内存: 3329m
+2020-04-15 17:42:34,722 [qtp1269366729-30] INFO  com.leon.filter.LogFilter 69 - ===================== return end =====================
+
+2020-04-15 17:42:42,626 [qtp1269366729-30] INFO  com.leon.filter.LogFilter 45 - ===================== request start =====================
+2020-04-15 17:42:42,627 [qtp1269366729-30] INFO  com.leon.filter.LogFilter 46 - URL:[ http://127.0.0.1:8103/menu/insertMenu ]
+2020-04-15 17:42:42,627 [qtp1269366729-30] INFO  com.leon.filter.LogFilter 49 - ===================== request end =====================
+
+2020-04-15 17:42:42,685 [qtp1269366729-30] INFO  com.leon.filter.LogFilter 59 - ===================== return start =====================
+2020-04-15 17:42:42,686 [qtp1269366729-30] INFO  com.leon.filter.LogFilter 64 - 计时结束：05:42:42.685  耗时：0:0:0.59  URI: /menu/insertMenu  最大内存: 3641m  已分配内存: 885m  已分配内存中的剩余空间: 570m  最大可用内存: 3325m
+2020-04-15 17:42:42,686 [qtp1269366729-30] INFO  com.leon.filter.LogFilter 69 - ===================== return end =====================
+
+2020-04-15 17:43:06,821 [qtp1269366729-32] INFO  c.leon.druid.config.DataSourceAspect 24 - 选择数据源---post
+2020-04-15 17:43:06,852 [qtp1269366729-32] INFO  com.leon.filter.LogFilter 45 - ===================== request start =====================
+2020-04-15 17:43:06,852 [qtp1269366729-32] INFO  com.leon.filter.LogFilter 46 - URL:[ http://127.0.0.1:8103/menu/insertMenu ]
+2020-04-15 17:43:06,853 [qtp1269366729-32] INFO  com.leon.filter.LogFilter 49 - ===================== request end =====================
+
+2020-04-15 17:43:06,886 [qtp1269366729-32] INFO  com.leon.filter.LogFilter 59 - ===================== return start =====================
+2020-04-15 17:43:06,887 [qtp1269366729-32] INFO  com.leon.filter.LogFilter 64 - 计时结束：05:43:06.886  耗时：0:0:0.34  URI: /menu/insertMenu  最大内存: 3641m  已分配内存: 885m  已分配内存中的剩余空间: 537m  最大可用内存: 3292m
+2020-04-15 17:43:06,887 [qtp1269366729-32] INFO  com.leon.filter.LogFilter 69 - ===================== return end =====================
+
+2020-04-15 17:43:06,887 [qtp1269366729-32] INFO  com.leon.filter.LogFilter 45 - ===================== request start =====================
+2020-04-15 17:43:06,888 [qtp1269366729-32] INFO  com.leon.filter.LogFilter 46 - URL:[ http://127.0.0.1:8103/menu/insertMenu ]
+2020-04-15 17:43:06,888 [qtp1269366729-32] INFO  com.leon.filter.LogFilter 49 - ===================== request end =====================
+
+2020-04-15 17:43:06,951 [qtp1269366729-32] INFO  com.leon.filter.LogFilter 59 - ===================== return start =====================
+2020-04-15 17:43:06,951 [qtp1269366729-32] INFO  com.leon.filter.LogFilter 64 - 计时结束：05:43:06.951  耗时：0:0:0.64  URI: /menu/insertMenu  最大内存: 3641m  已分配内存: 885m  已分配内存中的剩余空间: 537m  最大可用内存: 3292m
+2020-04-15 17:43:06,952 [qtp1269366729-32] INFO  com.leon.filter.LogFilter 69 - ===================== return end =====================
+
+2020-04-15 17:43:10,686 [qtp1269366729-32] INFO  com.leon.filter.LogFilter 45 - ===================== request start =====================
+2020-04-15 17:43:10,687 [qtp1269366729-32] INFO  com.leon.filter.LogFilter 46 - URL:[ http://127.0.0.1:8103/menu/insertMenu ]
+2020-04-15 17:43:10,689 [qtp1269366729-32] INFO  com.leon.filter.LogFilter 49 - ===================== request end =====================
+
+2020-04-15 17:43:10,735 [qtp1269366729-32] INFO  com.leon.filter.LogFilter 59 - ===================== return start =====================
+2020-04-15 17:43:10,738 [qtp1269366729-32] INFO  com.leon.filter.LogFilter 64 - 计时结束：05:43:10.735  耗时：0:0:0.49  URI: /menu/insertMenu  最大内存: 3641m  已分配内存: 885m  已分配内存中的剩余空间: 537m  最大可用内存: 3292m
+2020-04-15 17:43:10,739 [qtp1269366729-32] INFO  com.leon.filter.LogFilter 69 - ===================== return end =====================
+
+2020-04-15 17:44:31,715 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource 1823 - {dataSource-1} closed
+2020-04-15 17:44:31,725 [SpringContextShutdownHook] INFO  o.e.jetty.server.AbstractConnector 380 - Stopped ServerConnector@85a3f1a{HTTP/1.1,[http/1.1]}{0.0.0.0:8103}
+2020-04-15 17:44:31,725 [SpringContextShutdownHook] INFO  org.eclipse.jetty.server.session 158 - node0 Stopped scavenging
+2020-04-15 17:44:31,728 [SpringContextShutdownHook] INFO  o.e.j.s.h.ContextHandler.application 2223 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2020-04-15 17:44:31,729 [SpringContextShutdownHook] INFO  o.e.j.server.handler.ContextHandler 1016 - Stopped o.s.b.w.e.j.JettyEmbeddedWebAppContext@136f9d9a{application,/,[file:///private/var/folders/7h/1dfzdnnx3g5fz51v_lmc0rww0000gn/T/jetty-docbase.1569318295426777697.8103/, jar:file:/Users/leon/Documents/maven/repository-a3/io/springfox/springfox-swagger-ui/2.7.0/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],UNAVAILABLE}
+2020-04-15 17:44:37,712 [restartedMain] INFO  com.leon.WebManageApplication 55 - Starting WebManageApplication on Leon.local with PID 2522 (/Users/leon/Documents/workspace/a3-manage/a3-web/target/classes started by leon in /Users/leon/Documents/workspace/a3-manage)
+2020-04-15 17:44:37,716 [restartedMain] INFO  com.leon.WebManageApplication 655 - The following profiles are active: druid,common
+2020-04-15 17:44:39,161 [restartedMain] INFO  com.leon.redis.RedisConfig 55 - Create JedisConnectionFactory successful
+2020-04-15 17:44:39,558 [restartedMain] INFO  org.eclipse.jetty.util.log 169 - Logging initialized @3919ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-04-15 17:44:39,647 [restartedMain] INFO  org.eclipse.jetty.server.Server 359 - jetty-9.4.26.v20200117; built: 2020-01-17T12:35:33.676Z; git: 7b38981d25d14afb4a12ff1f2596756144edf695; jvm 1.8.0_181-b13
+2020-04-15 17:44:39,671 [restartedMain] INFO  o.e.j.s.h.ContextHandler.application 2223 - Initializing Spring embedded WebApplicationContext
+2020-04-15 17:44:39,777 [restartedMain] INFO  org.eclipse.jetty.server.session 333 - DefaultSessionIdManager workerName=node0
+2020-04-15 17:44:39,777 [restartedMain] INFO  org.eclipse.jetty.server.session 338 - No SessionScavenger set, using defaults
+2020-04-15 17:44:39,778 [restartedMain] INFO  org.eclipse.jetty.server.session 140 - node0 Scavenging every 660000ms
+2020-04-15 17:44:39,791 [restartedMain] INFO  o.e.j.server.handler.ContextHandler 825 - Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@263693f1{application,/,[file:///private/var/folders/7h/1dfzdnnx3g5fz51v_lmc0rww0000gn/T/jetty-docbase.3058957575470236103.8103/, jar:file:/Users/leon/Documents/maven/repository-a3/io/springfox/springfox-swagger-ui/2.7.0/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],AVAILABLE}
+2020-04-15 17:44:39,792 [restartedMain] INFO  org.eclipse.jetty.server.Server 399 - Started @4154ms
+2020-04-15 17:44:42,632 [restartedMain] INFO  c.alibaba.druid.pool.DruidDataSource 928 - {dataSource-1} inited
+2020-04-15 17:44:42,971 [restartedMain] INFO  com.leon.redis.RedisConfig 65 - JedisPool init successful，host -> [59.110.160.100]；port -> [6379]
+2020-04-15 17:44:42,990 [restartedMain] INFO  com.leon.redis.RedisConfiguration 68 - 初始化 -> [CacheManager RedisCacheManager Start]
+2020-04-15 17:44:43,004 [restartedMain] INFO  com.leon.redis.RedisConfiguration 99 - 初始化 -> [Redis CacheErrorHandler]
+2020-04-15 17:44:44,280 [restartedMain] INFO  o.e.j.s.h.ContextHandler.application 2223 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-15 17:44:44,329 [restartedMain] INFO  o.e.jetty.server.AbstractConnector 330 - Started ServerConnector@629ee095{HTTP/1.1,[http/1.1]}{0.0.0.0:8103}
+2020-04-15 17:44:44,334 [restartedMain] INFO  com.leon.WebManageApplication 61 - Started WebManageApplication in 7.538 seconds (JVM running for 8.696)
+2020-04-15 17:48:00,315 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource 1823 - {dataSource-1} closed
+2020-04-15 17:48:00,330 [SpringContextShutdownHook] INFO  o.e.jetty.server.AbstractConnector 380 - Stopped ServerConnector@629ee095{HTTP/1.1,[http/1.1]}{0.0.0.0:8103}
+2020-04-15 17:48:00,330 [SpringContextShutdownHook] INFO  org.eclipse.jetty.server.session 158 - node0 Stopped scavenging
+2020-04-15 17:48:00,332 [SpringContextShutdownHook] INFO  o.e.j.s.h.ContextHandler.application 2223 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2020-04-15 17:48:00,333 [SpringContextShutdownHook] INFO  o.e.j.server.handler.ContextHandler 1016 - Stopped o.s.b.w.e.j.JettyEmbeddedWebAppContext@263693f1{application,/,[file:///private/var/folders/7h/1dfzdnnx3g5fz51v_lmc0rww0000gn/T/jetty-docbase.3058957575470236103.8103/, jar:file:/Users/leon/Documents/maven/repository-a3/io/springfox/springfox-swagger-ui/2.7.0/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],UNAVAILABLE}
+2020-04-15 17:48:06,049 [restartedMain] INFO  com.leon.WebManageApplication 55 - Starting WebManageApplication on Leon.local with PID 2527 (/Users/leon/Documents/workspace/a3-manage/a3-web/target/classes started by leon in /Users/leon/Documents/workspace/a3-manage)
+2020-04-15 17:48:06,053 [restartedMain] INFO  com.leon.WebManageApplication 655 - The following profiles are active: druid,common
+2020-04-15 17:48:07,226 [restartedMain] INFO  com.leon.redis.RedisConfig 55 - Create JedisConnectionFactory successful
+2020-04-15 17:48:07,622 [restartedMain] INFO  org.eclipse.jetty.util.log 169 - Logging initialized @3201ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-04-15 17:48:07,709 [restartedMain] INFO  org.eclipse.jetty.server.Server 359 - jetty-9.4.26.v20200117; built: 2020-01-17T12:35:33.676Z; git: 7b38981d25d14afb4a12ff1f2596756144edf695; jvm 1.8.0_181-b13
+2020-04-15 17:48:07,729 [restartedMain] INFO  o.e.j.s.h.ContextHandler.application 2223 - Initializing Spring embedded WebApplicationContext
+2020-04-15 17:48:07,893 [restartedMain] INFO  org.eclipse.jetty.server.session 333 - DefaultSessionIdManager workerName=node0
+2020-04-15 17:48:07,894 [restartedMain] INFO  org.eclipse.jetty.server.session 338 - No SessionScavenger set, using defaults
+2020-04-15 17:48:07,895 [restartedMain] INFO  org.eclipse.jetty.server.session 140 - node0 Scavenging every 660000ms
+2020-04-15 17:48:07,916 [restartedMain] INFO  o.e.j.server.handler.ContextHandler 825 - Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@411e2c25{application,/,[file:///private/var/folders/7h/1dfzdnnx3g5fz51v_lmc0rww0000gn/T/jetty-docbase.4225942928282844407.8103/, jar:file:/Users/leon/Documents/maven/repository-a3/io/springfox/springfox-swagger-ui/2.7.0/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],AVAILABLE}
+2020-04-15 17:48:07,917 [restartedMain] INFO  org.eclipse.jetty.server.Server 399 - Started @3497ms
+2020-04-15 17:48:10,662 [restartedMain] INFO  c.alibaba.druid.pool.DruidDataSource 928 - {dataSource-1} inited
+2020-04-15 17:48:10,986 [restartedMain] INFO  com.leon.redis.RedisConfig 65 - JedisPool init successful，host -> [59.110.160.100]；port -> [6379]
+2020-04-15 17:48:11,005 [restartedMain] INFO  com.leon.redis.RedisConfiguration 68 - 初始化 -> [CacheManager RedisCacheManager Start]
+2020-04-15 17:48:11,019 [restartedMain] INFO  com.leon.redis.RedisConfiguration 99 - 初始化 -> [Redis CacheErrorHandler]
+2020-04-15 17:48:12,176 [restartedMain] INFO  o.e.j.s.h.ContextHandler.application 2223 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-15 17:48:12,244 [restartedMain] INFO  o.e.jetty.server.AbstractConnector 330 - Started ServerConnector@6cf58507{HTTP/1.1,[http/1.1]}{0.0.0.0:8103}
+2020-04-15 17:48:12,249 [restartedMain] INFO  com.leon.WebManageApplication 61 - Started WebManageApplication in 6.846 seconds (JVM running for 7.831)
+2020-04-15 17:49:06,959 [qtp940580577-64] INFO  c.leon.druid.config.DataSourceAspect 24 - 选择数据源---post
+2020-04-15 17:49:07,004 [qtp940580577-64] INFO  com.leon.filter.LogFilter 45 - ===================== request start =====================
+2020-04-15 17:49:07,004 [qtp940580577-64] INFO  com.leon.filter.LogFilter 46 - URL:[ http://127.0.0.1:8103/menu/insertMenu ]
+2020-04-15 17:49:07,005 [qtp940580577-64] INFO  com.leon.filter.LogFilter 49 - ===================== request end =====================
+
+2020-04-15 17:49:07,159 [qtp940580577-64] INFO  com.leon.filter.LogFilter 59 - ===================== return start =====================
+2020-04-15 17:49:07,161 [qtp940580577-64] INFO  com.leon.filter.LogFilter 64 - 计时结束：05:49:07.159  耗时：0:0:0.155  URI: /menu/insertMenu  最大内存: 3641m  已分配内存: 507m  已分配内存中的剩余空间: 296m  最大可用内存: 3430m
+2020-04-15 17:49:07,162 [qtp940580577-64] INFO  com.leon.filter.LogFilter 69 - ===================== return end =====================
+
+2020-04-15 17:49:07,164 [qtp940580577-64] INFO  com.leon.filter.LogFilter 45 - ===================== request start =====================
+2020-04-15 17:49:07,164 [qtp940580577-64] INFO  com.leon.filter.LogFilter 46 - URL:[ http://127.0.0.1:8103/menu/insertMenu ]
+2020-04-15 17:49:07,165 [qtp940580577-64] INFO  com.leon.filter.LogFilter 49 - ===================== request end =====================
+
+2020-04-15 17:49:07,233 [qtp940580577-64] INFO  com.leon.filter.LogFilter 59 - ===================== return start =====================
+2020-04-15 17:49:07,234 [qtp940580577-64] INFO  com.leon.filter.LogFilter 64 - 计时结束：05:49:07.233  耗时：0:0:0.69  URI: /menu/insertMenu  最大内存: 3641m  已分配内存: 507m  已分配内存中的剩余空间: 294m  最大可用内存: 3428m
+2020-04-15 17:49:07,235 [qtp940580577-64] INFO  com.leon.filter.LogFilter 69 - ===================== return end =====================
+
+2020-04-15 17:49:07,253 [qtp940580577-64] INFO  com.leon.filter.LogFilter 45 - ===================== request start =====================
+2020-04-15 17:49:07,255 [qtp940580577-64] INFO  com.leon.filter.LogFilter 46 - URL:[ http://127.0.0.1:8103/menu/insertMenu ]
+2020-04-15 17:49:07,256 [qtp940580577-64] INFO  com.leon.filter.LogFilter 49 - ===================== request end =====================
+
+2020-04-15 17:49:12,799 [qtp940580577-31] INFO  c.leon.druid.config.DataSourceAspect 24 - 选择数据源---post
+2020-04-15 17:49:12,828 [qtp940580577-31] INFO  com.leon.filter.LogFilter 45 - ===================== request start =====================
+2020-04-15 17:49:12,828 [qtp940580577-31] INFO  com.leon.filter.LogFilter 46 - URL:[ http://127.0.0.1:8103/menu/insertMenu ]
+2020-04-15 17:49:12,829 [qtp940580577-31] INFO  com.leon.filter.LogFilter 49 - ===================== request end =====================
+
+2020-04-15 17:49:12,859 [qtp940580577-31] INFO  com.leon.filter.LogFilter 59 - ===================== return start =====================
+2020-04-15 17:49:12,860 [qtp940580577-31] INFO  com.leon.filter.LogFilter 64 - 计时结束：05:49:12.859  耗时：0:0:0.31  URI: /menu/insertMenu  最大内存: 3641m  已分配内存: 507m  已分配内存中的剩余空间: 271m  最大可用内存: 3404m
+2020-04-15 17:49:12,860 [qtp940580577-31] INFO  com.leon.filter.LogFilter 69 - ===================== return end =====================
+
+2020-04-15 17:49:12,861 [qtp940580577-31] INFO  com.leon.filter.LogFilter 45 - ===================== request start =====================
+2020-04-15 17:49:12,861 [qtp940580577-31] INFO  com.leon.filter.LogFilter 46 - URL:[ http://127.0.0.1:8103/menu/insertMenu ]
+2020-04-15 17:49:12,861 [qtp940580577-31] INFO  com.leon.filter.LogFilter 49 - ===================== request end =====================
+
+2020-04-15 17:49:12,921 [qtp940580577-31] INFO  com.leon.filter.LogFilter 59 - ===================== return start =====================
+2020-04-15 17:49:12,922 [qtp940580577-31] INFO  com.leon.filter.LogFilter 64 - 计时结束：05:49:12.921  耗时：0:0:0.60  URI: /menu/insertMenu  最大内存: 3641m  已分配内存: 507m  已分配内存中的剩余空间: 271m  最大可用内存: 3404m
+2020-04-15 17:49:12,922 [qtp940580577-31] INFO  com.leon.filter.LogFilter 69 - ===================== return end =====================
+
+2020-04-15 17:49:12,923 [qtp940580577-31] INFO  com.leon.filter.LogFilter 45 - ===================== request start =====================
+2020-04-15 17:49:12,923 [qtp940580577-31] INFO  com.leon.filter.LogFilter 46 - URL:[ http://127.0.0.1:8103/menu/insertMenu ]
+2020-04-15 17:49:12,923 [qtp940580577-31] INFO  com.leon.filter.LogFilter 49 - ===================== request end =====================
+
+2020-04-15 17:50:04,210 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource 1823 - {dataSource-1} closed
+2020-04-15 17:50:04,218 [SpringContextShutdownHook] INFO  o.e.jetty.server.AbstractConnector 380 - Stopped ServerConnector@6cf58507{HTTP/1.1,[http/1.1]}{0.0.0.0:8103}
+2020-04-15 17:50:04,218 [SpringContextShutdownHook] INFO  org.eclipse.jetty.server.session 158 - node0 Stopped scavenging
+2020-04-15 17:50:04,220 [SpringContextShutdownHook] INFO  o.e.j.s.h.ContextHandler.application 2223 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2020-04-15 17:50:04,220 [SpringContextShutdownHook] INFO  o.e.j.server.handler.ContextHandler 1016 - Stopped o.s.b.w.e.j.JettyEmbeddedWebAppContext@411e2c25{application,/,[file:///private/var/folders/7h/1dfzdnnx3g5fz51v_lmc0rww0000gn/T/jetty-docbase.4225942928282844407.8103/, jar:file:/Users/leon/Documents/maven/repository-a3/io/springfox/springfox-swagger-ui/2.7.0/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],UNAVAILABLE}
+2020-04-15 17:50:09,827 [restartedMain] INFO  com.leon.WebManageApplication 55 - Starting WebManageApplication on Leon.local with PID 2531 (/Users/leon/Documents/workspace/a3-manage/a3-web/target/classes started by leon in /Users/leon/Documents/workspace/a3-manage)
+2020-04-15 17:50:09,830 [restartedMain] INFO  com.leon.WebManageApplication 655 - The following profiles are active: druid,common
+2020-04-15 17:50:11,014 [restartedMain] INFO  com.leon.redis.RedisConfig 55 - Create JedisConnectionFactory successful
+2020-04-15 17:50:11,344 [restartedMain] INFO  org.eclipse.jetty.util.log 169 - Logging initialized @3084ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-04-15 17:50:11,429 [restartedMain] INFO  org.eclipse.jetty.server.Server 359 - jetty-9.4.26.v20200117; built: 2020-01-17T12:35:33.676Z; git: 7b38981d25d14afb4a12ff1f2596756144edf695; jvm 1.8.0_181-b13
+2020-04-15 17:50:11,449 [restartedMain] INFO  o.e.j.s.h.ContextHandler.application 2223 - Initializing Spring embedded WebApplicationContext
+2020-04-15 17:50:11,549 [restartedMain] INFO  org.eclipse.jetty.server.session 333 - DefaultSessionIdManager workerName=node0
+2020-04-15 17:50:11,549 [restartedMain] INFO  org.eclipse.jetty.server.session 338 - No SessionScavenger set, using defaults
+2020-04-15 17:50:11,551 [restartedMain] INFO  org.eclipse.jetty.server.session 140 - node0 Scavenging every 660000ms
+2020-04-15 17:50:11,567 [restartedMain] INFO  o.e.j.server.handler.ContextHandler 825 - Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@2cc30741{application,/,[file:///private/var/folders/7h/1dfzdnnx3g5fz51v_lmc0rww0000gn/T/jetty-docbase.7503709293278421094.8103/, jar:file:/Users/leon/Documents/maven/repository-a3/io/springfox/springfox-swagger-ui/2.7.0/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],AVAILABLE}
+2020-04-15 17:50:11,568 [restartedMain] INFO  org.eclipse.jetty.server.Server 399 - Started @3308ms
+2020-04-15 17:50:14,365 [restartedMain] INFO  c.alibaba.druid.pool.DruidDataSource 928 - {dataSource-1} inited
+2020-04-15 17:50:14,638 [restartedMain] INFO  com.leon.redis.RedisConfig 65 - JedisPool init successful，host -> [59.110.160.100]；port -> [6379]
+2020-04-15 17:50:14,653 [restartedMain] INFO  com.leon.redis.RedisConfiguration 68 - 初始化 -> [CacheManager RedisCacheManager Start]
+2020-04-15 17:50:14,664 [restartedMain] INFO  com.leon.redis.RedisConfiguration 99 - 初始化 -> [Redis CacheErrorHandler]
+2020-04-15 17:50:15,857 [restartedMain] INFO  o.e.j.s.h.ContextHandler.application 2223 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-15 17:50:15,908 [restartedMain] INFO  o.e.jetty.server.AbstractConnector 330 - Started ServerConnector@7c1b3df4{HTTP/1.1,[http/1.1]}{0.0.0.0:8103}
+2020-04-15 17:50:15,914 [restartedMain] INFO  com.leon.WebManageApplication 61 - Started WebManageApplication in 6.656 seconds (JVM running for 7.654)
+2020-04-15 17:51:57,637 [qtp14670894-63] INFO  c.leon.druid.config.DataSourceAspect 24 - 选择数据源---post
+2020-04-15 17:51:57,727 [qtp14670894-63] INFO  com.leon.filter.LogFilter 45 - ===================== request start =====================
+2020-04-15 17:51:57,727 [qtp14670894-63] INFO  com.leon.filter.LogFilter 46 - URL:[ http://127.0.0.1:8103/menu/insertMenu ]
+2020-04-15 17:51:57,728 [qtp14670894-63] INFO  com.leon.filter.LogFilter 49 - ===================== request end =====================
+
+2020-04-15 17:51:57,880 [qtp14670894-63] INFO  com.leon.filter.LogFilter 59 - ===================== return start =====================
+2020-04-15 17:51:57,883 [qtp14670894-63] INFO  com.leon.filter.LogFilter 64 - 计时结束：05:51:57.880  耗时：0:0:0.153  URI: /menu/insertMenu  最大内存: 3641m  已分配内存: 561m  已分配内存中的剩余空间: 169m  最大可用内存: 3248m
+2020-04-15 17:51:57,885 [qtp14670894-63] INFO  com.leon.filter.LogFilter 69 - ===================== return end =====================
+
+2020-04-15 17:51:57,890 [qtp14670894-63] INFO  com.leon.filter.LogFilter 45 - ===================== request start =====================
+2020-04-15 17:51:57,891 [qtp14670894-63] INFO  com.leon.filter.LogFilter 46 - URL:[ http://127.0.0.1:8103/menu/insertMenu ]
+2020-04-15 17:51:57,891 [qtp14670894-63] INFO  com.leon.filter.LogFilter 49 - ===================== request end =====================
+
+2020-04-15 17:51:57,967 [qtp14670894-63] INFO  com.leon.filter.LogFilter 59 - ===================== return start =====================
+2020-04-15 17:51:57,968 [qtp14670894-63] INFO  com.leon.filter.LogFilter 64 - 计时结束：05:51:57.967  耗时：0:0:0.77  URI: /menu/insertMenu  最大内存: 3641m  已分配内存: 561m  已分配内存中的剩余空间: 167m  最大可用内存: 3246m
+2020-04-15 17:51:57,968 [qtp14670894-63] INFO  com.leon.filter.LogFilter 69 - ===================== return end =====================
+
+2020-04-15 17:51:57,974 [qtp14670894-63] INFO  com.leon.filter.LogFilter 45 - ===================== request start =====================
+2020-04-15 17:51:57,974 [qtp14670894-63] INFO  com.leon.filter.LogFilter 46 - URL:[ http://127.0.0.1:8103/menu/insertMenu ]
+2020-04-15 17:51:57,974 [qtp14670894-63] INFO  com.leon.filter.LogFilter 49 - ===================== request end =====================
+
+2020-04-15 17:51:58,008 [qtp14670894-63] INFO  com.leon.filter.LogFilter 59 - ===================== return start =====================
+2020-04-15 17:51:58,009 [qtp14670894-63] INFO  com.leon.filter.LogFilter 64 - 计时结束：05:51:58.008  耗时：0:0:0.34  URI: /menu/insertMenu  最大内存: 3641m  已分配内存: 561m  已分配内存中的剩余空间: 165m  最大可用内存: 3244m
+2020-04-15 17:51:58,009 [qtp14670894-63] INFO  com.leon.filter.LogFilter 69 - ===================== return end =====================
+
+2020-04-15 17:51:58,010 [qtp14670894-63] INFO  com.leon.filter.LogFilter 45 - ===================== request start =====================
+2020-04-15 17:51:58,011 [qtp14670894-63] INFO  com.leon.filter.LogFilter 46 - URL:[ http://127.0.0.1:8103/menu/insertMenu ]
+2020-04-15 17:51:58,011 [qtp14670894-63] INFO  com.leon.filter.LogFilter 49 - ===================== request end =====================
+
+2020-04-15 17:51:58,087 [qtp14670894-63] INFO  com.leon.filter.LogFilter 59 - ===================== return start =====================
+2020-04-15 17:51:58,088 [qtp14670894-63] INFO  com.leon.filter.LogFilter 64 - 计时结束：05:51:58.087  耗时：0:0:0.77  URI: /menu/insertMenu  最大内存: 3641m  已分配内存: 561m  已分配内存中的剩余空间: 165m  最大可用内存: 3244m
+2020-04-15 17:51:58,088 [qtp14670894-63] INFO  com.leon.filter.LogFilter 69 - ===================== return end =====================
+
+2020-04-15 17:51:59,969 [qtp14670894-64] INFO  c.leon.druid.config.DataSourceAspect 24 - 选择数据源---post
+2020-04-15 17:52:00,001 [qtp14670894-64] INFO  com.leon.filter.LogFilter 45 - ===================== request start =====================
+2020-04-15 17:52:00,001 [qtp14670894-64] INFO  com.leon.filter.LogFilter 46 - URL:[ http://127.0.0.1:8103/menu/getMenuList ]
+2020-04-15 17:52:00,007 [qtp14670894-64] INFO  com.leon.filter.LogFilter 95 - Request Params:
+  limit = ["10"]
+  page = ["1"]
+2020-04-15 17:52:00,007 [qtp14670894-64] INFO  com.leon.filter.LogFilter 49 - ===================== request end =====================
+
+2020-04-15 17:52:00,044 [qtp14670894-64] INFO  com.leon.filter.LogFilter 59 - ===================== return start =====================
+2020-04-15 17:52:00,044 [qtp14670894-64] INFO  com.leon.filter.LogFilter 64 - 计时结束：05:52:00.044  耗时：0:0:0.43  URI: /menu/getMenuList  最大内存: 3641m  已分配内存: 748m  已分配内存中的剩余空间: 668m  最大可用内存: 3561m
+2020-04-15 17:52:00,044 [qtp14670894-64] INFO  com.leon.filter.LogFilter 69 - ===================== return end =====================
+
+2020-04-15 17:52:03,384 [qtp14670894-65] INFO  c.leon.druid.config.DataSourceAspect 24 - 选择数据源---get
+2020-04-15 17:52:05,175 [qtp14670894-65] INFO  c.alibaba.druid.pool.DruidDataSource 928 - {dataSource-2} inited
+2020-04-15 17:52:05,210 [qtp14670894-65] INFO  com.leon.filter.LogFilter 45 - ===================== request start =====================
+2020-04-15 17:52:05,210 [qtp14670894-65] INFO  com.leon.filter.LogFilter 46 - URL:[ http://127.0.0.1:8103/system/getMenuList ]
+2020-04-15 17:52:05,211 [qtp14670894-65] INFO  com.leon.filter.LogFilter 49 - ===================== request end =====================
+
+2020-04-15 17:52:05,254 [qtp14670894-65] INFO  com.leon.filter.LogFilter 59 - ===================== return start =====================
+2020-04-15 17:52:05,255 [qtp14670894-65] INFO  com.leon.filter.LogFilter 64 - 计时结束：05:52:05.254  耗时：0:0:0.44  URI: /system/getMenuList  最大内存: 3641m  已分配内存: 748m  已分配内存中的剩余空间: 657m  最大可用内存: 3550m
+2020-04-15 17:52:05,255 [qtp14670894-65] INFO  com.leon.filter.LogFilter 69 - ===================== return end =====================
+
+2020-04-15 17:53:28,834 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource 1823 - {dataSource-2} closed
+2020-04-15 17:53:28,835 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource 1823 - {dataSource-1} closed
+2020-04-15 17:53:28,846 [SpringContextShutdownHook] INFO  o.e.jetty.server.AbstractConnector 380 - Stopped ServerConnector@7c1b3df4{HTTP/1.1,[http/1.1]}{0.0.0.0:8103}
+2020-04-15 17:53:28,846 [SpringContextShutdownHook] INFO  org.eclipse.jetty.server.session 158 - node0 Stopped scavenging
+2020-04-15 17:53:28,849 [SpringContextShutdownHook] INFO  o.e.j.s.h.ContextHandler.application 2223 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2020-04-15 17:53:28,850 [SpringContextShutdownHook] INFO  o.e.j.server.handler.ContextHandler 1016 - Stopped o.s.b.w.e.j.JettyEmbeddedWebAppContext@2cc30741{application,/,[file:///private/var/folders/7h/1dfzdnnx3g5fz51v_lmc0rww0000gn/T/jetty-docbase.7503709293278421094.8103/, jar:file:/Users/leon/Documents/maven/repository-a3/io/springfox/springfox-swagger-ui/2.7.0/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],UNAVAILABLE}
+2020-04-15 17:53:34,947 [restartedMain] INFO  com.leon.WebManageApplication 55 - Starting WebManageApplication on Leon.local with PID 2536 (/Users/leon/Documents/workspace/a3-manage/a3-web/target/classes started by leon in /Users/leon/Documents/workspace/a3-manage)
+2020-04-15 17:53:34,951 [restartedMain] INFO  com.leon.WebManageApplication 655 - The following profiles are active: druid,common
+2020-04-15 17:53:36,200 [restartedMain] INFO  com.leon.redis.RedisConfig 55 - Create JedisConnectionFactory successful
+2020-04-15 17:53:36,493 [restartedMain] INFO  org.eclipse.jetty.util.log 169 - Logging initialized @3551ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-04-15 17:53:36,579 [restartedMain] INFO  org.eclipse.jetty.server.Server 359 - jetty-9.4.26.v20200117; built: 2020-01-17T12:35:33.676Z; git: 7b38981d25d14afb4a12ff1f2596756144edf695; jvm 1.8.0_181-b13
+2020-04-15 17:53:36,599 [restartedMain] INFO  o.e.j.s.h.ContextHandler.application 2223 - Initializing Spring embedded WebApplicationContext
+2020-04-15 17:53:36,700 [restartedMain] INFO  org.eclipse.jetty.server.session 333 - DefaultSessionIdManager workerName=node0
+2020-04-15 17:53:36,700 [restartedMain] INFO  org.eclipse.jetty.server.session 338 - No SessionScavenger set, using defaults
+2020-04-15 17:53:36,702 [restartedMain] INFO  org.eclipse.jetty.server.session 140 - node0 Scavenging every 600000ms
+2020-04-15 17:53:36,717 [restartedMain] INFO  o.e.j.server.handler.ContextHandler 825 - Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@1826a631{application,/,[file:///private/var/folders/7h/1dfzdnnx3g5fz51v_lmc0rww0000gn/T/jetty-docbase.6126861097381728862.8103/, jar:file:/Users/leon/Documents/maven/repository-a3/io/springfox/springfox-swagger-ui/2.7.0/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],AVAILABLE}
+2020-04-15 17:53:36,718 [restartedMain] INFO  org.eclipse.jetty.server.Server 399 - Started @3776ms
+2020-04-15 17:53:39,325 [restartedMain] INFO  c.alibaba.druid.pool.DruidDataSource 928 - {dataSource-1} inited
+2020-04-15 17:53:39,642 [restartedMain] INFO  com.leon.redis.RedisConfig 65 - JedisPool init successful，host -> [59.110.160.100]；port -> [6379]
+2020-04-15 17:53:39,657 [restartedMain] INFO  com.leon.redis.RedisConfiguration 68 - 初始化 -> [CacheManager RedisCacheManager Start]
+2020-04-15 17:53:39,669 [restartedMain] INFO  com.leon.redis.RedisConfiguration 99 - 初始化 -> [Redis CacheErrorHandler]
+2020-04-15 17:53:40,795 [restartedMain] INFO  o.e.j.s.h.ContextHandler.application 2223 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-15 17:53:40,840 [restartedMain] INFO  o.e.jetty.server.AbstractConnector 330 - Started ServerConnector@38186d7{HTTP/1.1,[http/1.1]}{0.0.0.0:8103}
+2020-04-15 17:53:40,844 [restartedMain] INFO  com.leon.WebManageApplication 61 - Started WebManageApplication in 6.923 seconds (JVM running for 7.903)

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head th:fragment = "">
+    <!--需要用到文件上传预览等操作时，请引入此模版页-->
+    <link th:href="@{/static/jquery/fancybox/jquery.fancybox.min.css}" rel="stylesheet">
+    <link th:href="@{/static/jquery/webuploader/webuploader.css}" rel="stylesheet">
+    <link th:href="@{/static/jquery/webuploader/cropper/style.css}" rel="stylesheet" />
+    <!--字体库-->
+    <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+    <script th:src="@{/static/jquery/fancybox/jquery.fancybox.min.js}" charset="utf-8"></script>
+    <script th:src="@{/static/jquery/webuploader/webuploader.js}" charset="utf-8"></script>
+    <style>
+        .webuploader-pick{
+            /*background-color: #AED0EA!important ;*/
+            /*padding: 7px 10px;*/
+            /*border-radius:5px;*/
+            padding: 7px 10px;
+            color:rgb(39, 121, 170);
+            border-width: 1px;
+            border-style: solid;
+            border-color: rgb(174, 208, 234)!important ;
+            border-image: initial;
+            background: linear-gradient(rgb(242, 245, 247) 0px, rgb(215, 235, 249) 100%) repeat-x;
+            background-repeat: repeat-x;
+            border-radius: 5px;
+            display: inline-block;
+        }
+        .fa-close{
+            color:black;
+            font-size:1.2em;
+            display:inline-block;
+            vertical-align:top;
+            cursor: pointer;
+        }
+    </style>
+    <script>
+        (function( factory ) {
+            if ( !window.jQuery ) {
+                alert('jQuery is required.')
+            }
+
+            jQuery(function() {
+                factory.call( null, jQuery );
+            });
+        })(function( $ ) {
+// -----------------------------------------------------
+// ------------ START ----------------------------------
+// -----------------------------------------------------
+
+// ---------------------------------
+// ---------  Uploader -------------
+// ---------------------------------
+            var Uploader = (function() {
+                // -------setting-------
+                // 如果使用原始大小，超大的图片可能会出现 Croper UI 卡顿，所以这里建议先缩小后再crop.
+                var FRAME_WIDTH = 1600;
+
+                var _ = WebUploader;
+                var Uploader = _.Uploader;
+                var uploaderContainer = $('.uploader-container');
+                var uploader, file;
+                if ( !Uploader.support() ) {
+                    alert( 'Web Uploader 不支持您的浏览器！');
+                    throw new Error( 'WebUploader does not support the browser you are using.' );
+                }
+                return {
+                    init: function( selectCb ) {
+                        uploader = new Uploader({
+                            pick: {
+                                id: '#filePicker',
+                                multiple: uploadUtil.multiple
+                            },
+                            accept:uploadUtil.accept,
+                            runtimeOrder: 'html5',
+                            // 设置用什么方式去生成缩略图。
+                            // 禁掉分块传输，默认是开起的。
+                            chunked: false,
+                            // 禁掉上传前压缩功能，因为会手动裁剪。
+                            compress: false,
+                            // fileSingleSizeLimit: 2 * 1024 * 1024,
+                            //文件上传地址：
+                            server: uploadUtil.server,
+                            swf: '../Uploader.swf',
+                            //fileNumLimit: 1,
+                            duplicate:true,
+                            onError: function() {
+                                var args = [].slice.call(arguments, 0);
+                                console.log(args);
+                                alert(args.join('\n')+"上传失败");
+                            }
+                        });
+                        // 文件上传过程中创建进度条实时显示。
+                        uploader.on( 'uploadProgress', function( file, percentage ) {
+                            $.messager.progress({
+                                title: '提示',
+                                msg: '文件上传中，请稍候……',
+                                text: Math.floor(percentage*100)+'%'
+                            });
+                            $.messager.progress('bar').progressbar({
+                                value:Math.floor(percentage*100)
+                            });
+                        });
+                        uploader.on("uploadBeforeSend",function (object,data,headers){
+                            data['folder']=uploadUtil.parentDirectory;
+                        });
+                        uploader.on('fileQueued', function( _file ) {
+                            file = _file;
+                            this.upload();//加入队列后立即触发上传事件
+                        });
+                        // 上传成功事件
+                        uploader.on('uploadSuccess',function (file,response) {
+                            uploadUtil.afterUpload(response);
+                        });
+                        uploader.on('uploadComplete',function (file,response) {
+                            //不管成功或失败,先删除进度条
+                            $.messager.progress("close");
+                        });
+                    },
+                    upload: function() {
+                        uploader.upload();
+                    }
+                }
+            })();
+
+// ------------------------------
+// -----------logic--------------
+// ------------------------------
+            var container = $('.uploader-container');
+
+            Uploader.init(function(src) {
+                // 隐藏选择按钮。
+                // container.addClass('webuploader-element-invisible');
+                Uploader.upload();
+                // 当用户选择上传的时候，开始上传。
+            });
+
+
+
+// -----------------------------------------------------
+// ------------ END ------------------------------------
+// -----------------------------------------------------
+        });
+
+    </script>
+</head>
+
+</html>

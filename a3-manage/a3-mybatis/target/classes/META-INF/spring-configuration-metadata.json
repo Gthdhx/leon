@@ -1,0 +1,18 @@
+{
+  "groups": [
+    {
+      "name": "spring.datasource.druid.get",
+      "type": "javax.sql.DataSource",
+      "sourceType": "com.leon.druid.config.MyBatiesPlusConfiguration",
+      "sourceMethod": "get()"
+    },
+    {
+      "name": "spring.datasource.druid.post",
+      "type": "javax.sql.DataSource",
+      "sourceType": "com.leon.druid.config.MyBatiesPlusConfiguration",
+      "sourceMethod": "post()"
+    }
+  ],
+  "properties": [],
+  "hints": []
+}

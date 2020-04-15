@@ -1,0 +1,110 @@
+2020-04-12 12:11:17,372 [SpringContextShutdownHook] WARN  o.e.jetty.server.AbstractConnector 372 - 
+java.io.IOException: No such file or directory
+	at sun.nio.ch.NativeThread.signal(Native Method)
+	at sun.nio.ch.ServerSocketChannelImpl.implCloseSelectableChannel(ServerSocketChannelImpl.java:292)
+	at java.nio.channels.spi.AbstractSelectableChannel.implCloseChannel(AbstractSelectableChannel.java:234)
+	at java.nio.channels.spi.AbstractInterruptibleChannel.close(AbstractInterruptibleChannel.java:115)
+	at org.eclipse.jetty.server.ServerConnector.close(ServerConnector.java:368)
+	at org.eclipse.jetty.server.AbstractNetworkConnector.shutdown(AbstractNetworkConnector.java:104)
+	at org.eclipse.jetty.server.Server.doStop(Server.java:428)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:93)
+	at org.springframework.boot.web.embedded.jetty.JettyWebServer.stop(JettyWebServer.java:243)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.stopAndReleaseWebServer(ServletWebServerApplicationContext.java:306)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onClose(ServletWebServerApplicationContext.java:172)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1035)
+	at org.springframework.context.support.AbstractApplicationContext$1.run(AbstractApplicationContext.java:948)
+2020-04-12 14:08:21,433 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext 558 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'commonController': Lookup method resolution failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.leon.controller.CommonController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@777b16cb]
+2020-04-12 17:20:01,309 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext 558 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.leon.WebManageApplication]; nested exception is org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'sysPermissionService' for bean class [com.leon.service.system.SysPermissionServiceImpl] conflicts with existing, non-compatible bean definition of same name and class [com.leon.service.system.SysMenuServiceImpl]
+2020-04-12 17:22:18,342 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext 558 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'menuController': Unsatisfied dependency expressed through field 'sysMenuService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sysMenuServiceImpl': Unsatisfied dependency expressed through field 'sysMenuMapper'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sysMenuMapper' defined in file [/Users/leon/Documents/workspace/a3-manage/a3-mybatis/target/classes/com/leon/mapper/SysMenuMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [com/leon/druid/config/MyBatiesPlusConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [/Users/leon/Documents/workspace/a3-manage/a3-mybatis/target/classes/mapper/SysMenuMapper.xml]'; nested exception is java.lang.NullPointerException
+2020-04-12 17:25:38,507 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext 558 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'menuController': Unsatisfied dependency expressed through field 'sysMenuService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sysMenuService': Unsatisfied dependency expressed through field 'sysMenuMapper'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sysMenuMapper' defined in file [/Users/leon/Documents/workspace/a3-manage/a3-mybatis/target/classes/com/leon/mapper/SysMenuMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [com/leon/druid/config/MyBatiesPlusConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [/Users/leon/Documents/workspace/a3-manage/a3-mybatis/target/classes/mapper/SysMenuMapper.xml]'; nested exception is java.lang.NullPointerException
+2020-04-12 17:26:56,964 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext 558 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'menuController': Unsatisfied dependency expressed through field 'sysMenuService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sysMenuService': Unsatisfied dependency expressed through field 'sysMenuMapper'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sysMenuMapper' defined in file [/Users/leon/Documents/workspace/a3-manage/a3-mybatis/target/classes/com/leon/mapper/SysMenuMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [com/leon/druid/config/MyBatiesPlusConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [/Users/leon/Documents/workspace/a3-manage/a3-mybatis/target/classes/mapper/SysMenuMapper.xml]'; nested exception is java.lang.NullPointerException
+2020-04-12 18:50:25,473 [SpringContextShutdownHook] WARN  o.e.jetty.server.AbstractConnector 372 - 
+java.io.IOException: No such file or directory
+	at sun.nio.ch.NativeThread.signal(Native Method)
+	at sun.nio.ch.ServerSocketChannelImpl.implCloseSelectableChannel(ServerSocketChannelImpl.java:292)
+	at java.nio.channels.spi.AbstractSelectableChannel.implCloseChannel(AbstractSelectableChannel.java:234)
+	at java.nio.channels.spi.AbstractInterruptibleChannel.close(AbstractInterruptibleChannel.java:115)
+	at org.eclipse.jetty.server.ServerConnector.close(ServerConnector.java:368)
+	at org.eclipse.jetty.server.AbstractNetworkConnector.shutdown(AbstractNetworkConnector.java:104)
+	at org.eclipse.jetty.server.Server.doStop(Server.java:428)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:93)
+	at org.springframework.boot.web.embedded.jetty.JettyWebServer.stop(JettyWebServer.java:243)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.stopAndReleaseWebServer(ServletWebServerApplicationContext.java:306)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onClose(ServletWebServerApplicationContext.java:172)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1035)
+	at org.springframework.context.support.AbstractApplicationContext$1.run(AbstractApplicationContext.java:948)
+2020-04-12 19:58:47,551 [qtp1490674844-68] WARN  org.eclipse.jetty.server.HttpChannel 591 - /menu/gotoMenuUpdatePage
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: Error resolving template [menu/menuUpdate], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:645)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:750)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:755)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1617)
+	at org.eclipse.jetty.websocket.server.WebSocketUpgradeFilter.doFilter(WebSocketUpgradeFilter.java:226)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1604)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1604)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1604)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1604)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1604)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:545)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:590)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:235)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1607)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1297)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:188)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:485)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1577)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:186)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1212)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:500)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:383)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:547)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:375)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:270)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:336)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:313)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:171)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:129)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:388)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:806)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:938)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.thymeleaf.exceptions.TemplateInputException: Error resolving template [menu/menuUpdate], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1373)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1118)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	... 50 common frames omitted
+2020-04-12 20:07:27,117 [qtp988706403-60] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver 199 - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.web.servlet.ModelAndView com.leon.controller.menuController.menuController.gotoMenuUpdatePage(org.springframework.web.servlet.ModelAndView,java.util.Map<java.lang.String, java.lang.String>)]
+2020-04-12 20:13:28,319 [qtp1065772130-66] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver 199 - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.web.servlet.ModelAndView com.leon.controller.menuController.menuController.gotoMenuUpdatePage(org.springframework.web.servlet.ModelAndView,java.util.Map<java.lang.String, java.lang.String>)]
+2020-04-12 20:13:34,735 [qtp1065772130-34] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver 199 - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.web.servlet.ModelAndView com.leon.controller.menuController.menuController.gotoMenuUpdatePage(org.springframework.web.servlet.ModelAndView,java.util.Map<java.lang.String, java.lang.String>)]
+2020-04-12 20:15:46,863 [qtp1110205326-62] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver 199 - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.web.servlet.ModelAndView com.leon.controller.menuController.menuController.gotoMenuUpdatePage(java.util.Map<java.lang.String, java.lang.String>)]
+2020-04-12 20:15:48,215 [qtp1110205326-31] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver 199 - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.web.servlet.ModelAndView com.leon.controller.menuController.menuController.gotoMenuUpdatePage(java.util.Map<java.lang.String, java.lang.String>)]
+2020-04-12 20:21:04,347 [qtp1772015576-62] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver 199 - Resolved [org.springframework.web.bind.MissingPathVariableException: Missing URI template variable 'id' for method parameter of type String]
+2020-04-12 20:21:12,428 [qtp1772015576-68] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver 199 - Resolved [org.springframework.web.bind.MissingPathVariableException: Missing URI template variable 'id' for method parameter of type String]
+2020-04-12 20:29:08,556 [qtp2113425862-35] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver 199 - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'id' is not present]
+2020-04-12 20:32:08,563 [qtp1136250884-31] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver 199 - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'id' is not present]
